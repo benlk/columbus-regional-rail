@@ -1,0 +1,48 @@
+---
+layout: default
+---
+
+{% assign geojson = '' | split: ',' %}
+
+{% for json_file in site.data.geojson %}
+    {% if json_file[0] == page.geojson %}
+    {% assign geojson = json_file[1] %}
+    {% break %}
+
+    {% endif %}
+{% endfor %}
+
+<script>
+    window.line_geojson = [];
+    window.line_geojson.push( {{ geojson | jsonify }} );
+</script>
+
+{% include map.html %}
+
+{{ page.content }}
+
+{% assign stops = geojson.features | where: "properties.type", "stop" %}
+    
+<h3>Stops</h3>
+<ol>
+    {% for stop in stops %}
+    <LI>
+        <b>{{stop.properties.name}}</b>
+        {{stop.properties.type}} - 
+        {{stop.properties.description}}
+    </LI>
+    {% endfor %}
+</ol>
+
+{% assign update_size = page.updates | size %}
+{% if update_size >= 1 %}
+    <aside class="author-note">
+        <h3 id="Updates">Updates</h3>
+        <dl>
+            {% for update in page.updates %}
+                <dt><time datetime="{{ update.date | date: '%f' }}">{{ update.date | date_to_long_string }}</time></dt>
+                <dd>{{update.description}}</dd>
+            {% endfor %}
+        </dl>
+    </aside>
+{% endif %}

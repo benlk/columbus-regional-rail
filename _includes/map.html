@@ -1,0 +1,142 @@
+<link rel="stylesheet" href="https://unpkg.com/leaflet@1.8.0/dist/leaflet.css"
+   integrity="sha512-hoalWLoI8r4UszCkZ5kL8vayOGVae1oxXe/2A4AO6J9+580uKHDO3JdHb7NzwwzK5xr/Fs0W40kiNHxM9vyTtQ=="
+   crossorigin=""/>
+<script src="https://unpkg.com/leaflet@1.8.0/dist/leaflet.js"
+   integrity="sha512-BB3hKbKWOc9Ez/TAwyWxNXeoV9c1v6FIeYiBieIWkpLjauysF18NzgR1MBNBXf8/KABdlkX68nAhlwcDFLGPCQ=="
+   crossorigin=""></script>
+<script type="text/javascript" src="https://stamen-maps.a.ssl.fastly.net/js/tile.stamen.js?v1.3.0"></script>
+
+<figure class="fullwidth" style="margin-bottom: 1em;">
+	<div id="leaflet-map" style="height:min(70vh, 1000px); width: 100%;"></div>
+</figure>
+<style type="text/css">
+	#leaflet-map p {
+		max-width: unset;
+		width: unset;
+	}
+
+    [class*="phase-"] .leaflet-popup-content-wrapper,
+    [class*="phase-"] .leaflet-popup-tip {
+        border-color: var(--color-phase);
+        border-width: 2px;
+        border-style: solid;
+    }
+    .leaflet-popup p.title {
+        font-weight: bold;
+        font-size: 1.2em;
+        display: inline-block;
+        margin-top: 0;
+        margin-bottom: 0;
+    }
+    [class*="phase-"] p.phase {
+        border: 2px solid var( --color-phase );
+        display: inline-block;
+        padding: 2px;
+        margin-left: 4px;
+        margin-right: 4px;
+        margin-top: 0;
+        margin-bottom: 0;
+    }
+</style>
+
+<script type="text/javascript">
+
+var tramIcon = new L.Icon({
+	iconUrl: '/icons/BSicon_BRILL.svg.png',
+    iconAnchor: [16,16],
+	iconSize: 32
+});
+var defaultIcon = new L.Icon.Default();
+
+// This bit from https://tomik23.github.io/leaflet-examples/#15.geoJson-simple
+function onEachFeature(feature, layer) {
+    let connections = '';
+    if (feature.properties.connections) {
+        connections = `<p class="connections">Connections: ${feature.properties.connections}</p>`;
+    }
+	layer.bindPopup(
+        `<p class="title">${feature.properties.title}</p><p class="phase">Phase ${feature.properties.phase}</p><p class="description">${feature.properties.description}</p> ${connections}`,
+        {
+            className: `phase-${feature.properties.phase} ${feature.properties.icon}`
+        }
+    );
+}
+
+// Style paths, from https://gis.stackexchange.com/questions/158227/leaflet-geojson-problem-with-style
+function stylePaths(feature) {
+    feature.color = feature.properties['stroke'] ??= 'black';
+    feature.weight = feature.properties['stroke-width'] ??= 4;
+    return feature;
+}
+
+// this bit from https://leafletjs.com/examples/geojson/
+function pointToLayer(feature, latlng) {
+	// @todo set up different icons for different shape of feature
+	var options = {};
+	switch (feature.properties.icon) {
+		case 'tram':
+			options.icon = tramIcon;
+            break;
+		case 'bus':
+			options.icon = busIcon;
+            break;
+		case 'train1':
+			options.icon = trainIcon1;
+            break;
+		case 'train2':
+			options.icon = trainIcon2;
+            break;
+		case 'train3':
+			options.icon = trainIcon3;
+            break;
+		case 'train4':
+			options.icon = trainIcon3;
+            break;
+		case 'train5':
+			options.icon = trainIcon3;
+            break;
+		default:
+			options.icon = defaultIcon;
+	};
+	return L.marker( latlng, options );
+}
+
+
+// This bit from https://tomik23.github.io/leaflet-examples/#15.geoJson-simple
+// adding geojson by fetch
+
+function add_geojson_to_map( data ) {
+    L.geoJSON(data, {
+        onEachFeature: onEachFeature,
+        pointToLayer: pointToLayer,
+        style: stylePaths
+    }).addTo(window.map);
+}
+
+function init () {
+    window.map = L.map('leaflet-map', {minZoom: 11, maxZoom:17}).setView([40, -83.00], 12);
+
+    var stamen = new L.StamenTileLayer('toner-lite', {
+        maxZoom: 17
+    })
+    window.map.addLayer(stamen);
+    window.line_geojson.forEach( path => add_geojson_to_map( path ) );
+    window.map.fitBounds();
+
+}
+init();
+
+// debug tools
+var popup = L.popup({
+    offset:[16,-16]
+});
+function onMapClick(event) {
+    popup.setContent(
+    "<p>you clicked the map at " + event.latlng.toString() + "</p>"
+    )
+    .setLatLng(event.latlng)
+    .openOn(window.map);
+}
+window.map.on('click', onMapClick);
+
+</script>

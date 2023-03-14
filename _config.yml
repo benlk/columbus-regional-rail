@@ -27,6 +27,24 @@ twitter_username: benlkeith
 github_username:  benlk
 masto_username:   benlk
 
+collections:
+  lines:
+    output: true
+    permalink: /:collection/:path/
+
+defaults:
+  - scope:
+      path: ""
+      type: "lines"
+    values:
+      layout: "line"
+  - scope:
+      path: "_data/geojson/*.json"
+    values:
+      type: "geojson"
+      geojson: true
+      layout: "geojson"
+
 # Build settings
 remote_theme: pages-themes/slate@v0.2.0
 plugins:
@@ -41,7 +59,8 @@ plugins:
 # Excluded items can be processed by explicitly listing the directories or
 # their entries' file path in the `include:` list.
 #
-# exclude:
+exclude:
+  - serve.sh
 #   - .sass-cache/
 #   - .jekyll-cache/
 #   - gemfiles/
@@ -52,3 +71,6 @@ plugins:
 #   - vendor/cache/
 #   - vendor/gems/
 #   - vendor/ruby/
+
+include:
+  - _data/
