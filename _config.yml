@@ -21,6 +21,7 @@
 title: Columbus Regional Rail Plan
 description: >- # this means to ignore newlines until "baseurl:"
   An overview of places where Columbus can build mass transit.
+theme:
 
 collections:
   lines:
