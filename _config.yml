@@ -46,10 +46,11 @@ defaults:
       layout: "geojson"
 
 # Build settings
-remote_theme: pages-themes/slate@v0.2.0
 plugins:
   - jekyll-feed
-  - jekyll-remote-theme
+
+sass:
+  style: compressed
 
 # Exclude from processing.
 # The following items will not be processed, by default.
@@ -61,16 +62,16 @@ plugins:
 #
 exclude:
   - serve.sh
-#   - .sass-cache/
-#   - .jekyll-cache/
-#   - gemfiles/
-#   - Gemfile
-#   - Gemfile.lock
-#   - node_modules/
-#   - vendor/bundle/
-#   - vendor/cache/
-#   - vendor/gems/
-#   - vendor/ruby/
+  - .sass-cache/
+  - .jekyll-cache/
+  - gemfiles/
+  - Gemfile
+  - Gemfile.lock
+  - node_modules/
+  - vendor/bundle/
+  - vendor/cache/
+  - vendor/gems/
+  - vendor/ruby/
 
 include:
   - _data/
