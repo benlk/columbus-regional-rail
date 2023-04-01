@@ -6,7 +6,7 @@ layout: default
 ---
 
 <script>
-    window.line_geojson = [];
+    window.line_geojson = window.line_geojson || [];
     {% for geojson in site.data.geojson %}
         window.line_geojson.push( {{ geojson | jsonify }} );
     {% endfor %}

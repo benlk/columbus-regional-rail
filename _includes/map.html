@@ -64,8 +64,9 @@ function onEachFeature(feature, layer) {
 
 // Style paths, from https://gis.stackexchange.com/questions/158227/leaflet-geojson-problem-with-style
 function stylePaths(feature) {
-    feature.color = feature.properties['stroke'] ??= 'black';
-    feature.weight = feature.properties['stroke-width'] ??= 4;
+    feature.color     = feature.properties['stroke'] ??= 'black';
+    feature.dashArray = feature.properties['dashArray'] ??= null;
+    feature.weight    = feature.properties['stroke-width'] ??= 4;
     return feature;
 }
 

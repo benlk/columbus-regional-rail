@@ -13,7 +13,7 @@ layout: default
 {% endfor %}
 
 <script>
-    window.line_geojson = [];
+    window.line_geojson = window.line_geojson || [];
     window.line_geojson.push( {{ geojson | jsonify }} );
 </script>
 
@@ -24,15 +24,32 @@ layout: default
 {% assign stops = geojson.features | where: "properties.type", "stop" %}
     
 <h3>Stops</h3>
-<ol>
+<dl>
     {% for stop in stops %}
-    <LI>
-        <b>{{stop.properties.name}}</b>
-        {{stop.properties.type}} - 
-        {{stop.properties.description}}
-    </LI>
+        <dt>{{stop.properties.name}}</dt>
+        <dl>{{stop.properties.description}}</dl>
     {% endfor %}
-</ol>
+</dl>
+
+{% assign routes = geojson.features | where: "properties.type", "route" %}
+    
+<h3 class="routes">Routes</h3>
+<dl class="routes">
+    {% for route in routes %}
+    <dt>{{route.properties.name}}</dt>
+    <dd>{{route.properties.description}}</dd>
+    {% endfor %}
+</dl>
+
+{% assign constructions = geojson.features | where: "properties.type", "construction" %}
+    
+<h3>Major Construction</h3>
+<dl>
+    {% for construction in constructions %}
+        <dt>{{construction.properties.name}}</dt>
+        <dd>{{construction.properties.description}}</dd>
+    {% endfor %}
+</dl>
 
 {% assign update_size = page.updates | size %}
 {% if update_size >= 1 %}
