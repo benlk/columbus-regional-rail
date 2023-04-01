@@ -3,39 +3,6 @@
 ---
 
 /**************************************
-    $ CUSTOM TYPEFACE
-/**************************************/
-/* ET Book Regular */
-@font-face {
-  font-family: "et-book";
-  src: url("/fonts/et-book-roman-line-figures.eot");
-  src: url("/fonts/et-book-roman-line-figures.eot?#iefix") format("embedded-opentype"), url("/fonts/et-book-roman-line-figures.woff") format("woff"), url("/fonts/et-book-roman-line-figures.ttf") format("truetype"), url("/fonts/et-book-roman-line-figures.svg#etbookromanosf") format("svg");
-  font-weight: normal;
-  font-style: normal;
-  font-display: swap;
-}
-
-/* ET Book Italic */
-@font-face {
-  font-family: "et-book";
-  src: url("/fonts/et-book-display-italic-old-style-figures.eot");
-  src: url("/fonts/et-book-display-italic-old-style-figures.eot?#iefix") format("embedded-opentype"), url("/fonts/et-book-display-italic-old-style-figures.woff") format("woff"), url("/fonts/et-book-display-italic-old-style-figures.ttf") format("truetype"), url("/fonts/et-book-display-italic-old-style-figures.svg#etbookromanosf") format("svg");
-  font-weight: normal;
-  font-style: italic;
-  font-display: swap;
-}
-
-/* ET Book Bold */
-@font-face {
-  font-family: "et-book";
-  src: url("/fonts/et-book-bold-line-figures.eot");
-  src: url("/fonts/et-book-bold-line-figures.eot?#iefix") format("embedded-opentype"), url("/fonts/et-book-bold-line-figures.woff") format("woff"), url("/fonts/et-book-bold-line-figures.ttf") format("truetype"), url("/fonts/et-book-bold-line-figures.svg#etbookromanosf") format("svg");
-  font-weight: 600;
-  font-style: bold;
-  font-display: swap;
-}
-
-/**************************************
     $CRITICAL CSS
 /**************************************/
 * {
@@ -53,7 +20,7 @@ body {
     background: #fffff8;
     color: #111;
     counter-reset: sidenote-counter;
-    font: 1.4rem/2rem "et-book", Palatino, "Palatino Linotype", "Palatino LT STD", "Book Antiqua", Georgia, serif;
+    font: 1.4rem/2rem Palatino, "Palatino Linotype", "Palatino LT STD", "Book Antiqua", Georgia, serif;
     height: 100%;
     margin: 0 auto;
     max-width: 1440px;
@@ -202,7 +169,6 @@ figcaption {
 /*span*/.sidenote {
     &:before {
         content: counter(sidenote-counter) " ";
-        font-family: et-book-roman-old-style;
         position: relative;
         top: -0.5rem;
         vertical-align: baseline;
@@ -214,7 +180,6 @@ figcaption {
 
     &:after {
         content: counter(sidenote-counter);
-        font-family: et-book-roman-old-style;
         font-size: 80%;
         left: 0.1rem;
         position: relative;
