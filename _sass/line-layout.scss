@@ -1,7 +1,52 @@
-body.line {
-    @media ( min-aspect-ratio: 1 ) {
-        background-color: blue;
+$column-width: 0.55em * (100-12.5);
+
+@mixin line-layout-beside {
+    .scroll-container {
+        left: -12.5vw;
+        position: relative;
+        width: 100vw;
+
+        // thanks to https://grid.layoutit.com/
+        display: grid;
+        grid-template-columns: 1fr 30em;
+        grid-template-rows: 1fr;
+        gap: 1em;
+        grid-template-areas: "fixed scrollable";
+    }
+    .scroll-container__fixed {
+        grid-area: fixed;
+
+        #map-container {
+            width: 100%;
+            height: 100vh;
+            position: sticky;
+            top: 0;
+        }
+    }
+    .scroll-container__scrollable {
+        grid-area: scrollable;
     }
 
-    background-color: red;
+}
+@mixin line-layout-over {
+
+}
+
+body.line {
+    /**
+     * The aspect ratio is not the key concern here
+     * it's actually about:
+     * - aspect ratio
+     * - height and width of the viewport relative to the text column
+     * - general shape of the layout
+     *
+     * but this is sufficient for testing
+     */
+    @media ( min-aspect-ratio: 1 ) {
+        background-color: blue;
+        @include line-layout-beside;
+    }
+    @media ( max-aspect-ratio: 0.9999 ) {
+        @include line-layout-over;
+    }
 }
