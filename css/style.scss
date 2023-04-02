@@ -2,6 +2,8 @@
 # Main styling
 ---
 
+@import "line-layout";
+
 /**************************************
     $CRITICAL CSS
 /**************************************/
@@ -24,9 +26,9 @@ body {
     height: 100%;
     margin: 0 auto;
     max-width: 1440px;
-    padding-left: 12.5%;
+    padding-left: 12.5vw;
     padding-top: 5rem;
-    width: 87.5%;
+    width: 87.5vw;
 }
 
 h1,h2,h3,h4,h5,h6 {

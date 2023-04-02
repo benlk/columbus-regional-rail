@@ -1,0 +1,7 @@
+body.line {
+    @media ( min-aspect-ratio: 1 ) {
+        background-color: blue;
+    }
+
+    background-color: red;
+}
