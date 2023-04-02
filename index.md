@@ -16,7 +16,7 @@ layout: default
 
 <dl id="line list">
 {% for line in site.lines %}
-    <dt><a href="{{line.url}}">{{line.title}}</a></dt>
+    <dt><a href="{{line.url | absolute_url }}">{{line.title}}</a></dt>
     <dd>{{line.excerpt}}</dd>
 {% endfor %}
 </dl>
