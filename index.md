@@ -1,6 +1,6 @@
 ---
 title: Main Map
-layout: default
+layout: line
 ---
 
 <script>
