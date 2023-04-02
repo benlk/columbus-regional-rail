@@ -31,8 +31,8 @@ templatebodyclass: "default line"
         <h3>Stops</h3>
         <dl>
             {% for stop in stops %}
-                <dt>{{stop.properties.name}}</dt>
-                <dl>{{stop.properties.description}}</dl>
+                <dt id="stops-list-{{ stop.properties.name | slugify }}">{{stop.properties.name}}</dt>
+                <dd>{{stop.properties.description}}</dd>
             {% endfor %}
         </dl>
 
@@ -41,7 +41,7 @@ templatebodyclass: "default line"
         <h3 class="routes">Routes</h3>
         <dl class="routes">
             {% for route in routes %}
-            <dt>{{route.properties.name}}</dt>
+            <dt id="routes-list-{{ route.properties.name | slugify }}">{{route.properties.name}}</dt>
             <dd>{{route.properties.description}}</dd>
             {% endfor %}
         </dl>
@@ -51,7 +51,7 @@ templatebodyclass: "default line"
         <h3>Major Construction</h3>
         <dl>
             {% for construction in constructions %}
-                <dt>{{construction.properties.name}}</dt>
+                <dt id="constructions-list-{{ construction.properties.name | slugify }}">{{construction.properties.name}}</dt>
                 <dd>{{construction.properties.description}}</dd>
             {% endfor %}
         </dl>
@@ -59,14 +59,14 @@ templatebodyclass: "default line"
     </div>
 </div>
 
-{% assign update_size = page.updates | size %}
+{% assign update_size = page.revisions | size %}
 {% if update_size >= 1 %}
     <aside class="author-note">
-        <h3 id="Updates">Updates</h3>
+        <h3 id="Updates">Updates and Revisions</h3>
         <dl>
-            {% for update in page.updates %}
+            {% for update in page.revisions %}
                 <dt><time datetime="{{ update.date | date: '%f' }}">{{ update.date | date_to_long_string }}</time></dt>
-                <dd>{{update.description}}</dd>
+                <dd>{{update.text}}</dd>
             {% endfor %}
         </dl>
     </aside>

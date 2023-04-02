@@ -9,12 +9,24 @@ layout: default
         window.line_geojson.push( {{ geojson | jsonify }} );
     {% endfor %}
 </script>
+<style type="text/css">
+    #map-container {
+        height: min( 70vh, 1000px);
+    }
+</style>
 
-{% include map.html %}
+<div class="scroll-container">
+    <div class="scroll-container__fixed">
+        {% include map.html %}
+    </div>
+    <div class="scroll-container__scrollable">
+        <h2>Line List</h2>
+        <dl id="line list">
+        {% for line in site.lines %}
+            <dt><a href="{{line.url | absolute_url }}">{{line.title}}</a></dt>
+            <dd>{{line.excerpt}}</dd>
+        {% endfor %}
+        </dl>
+    </div>
+</div>
 
-<dl id="line list">
-{% for line in site.lines %}
-    <dt><a href="{{line.url | absolute_url }}">{{line.title}}</a></dt>
-    <dd>{{line.excerpt}}</dd>
-{% endfor %}
-</dl>
