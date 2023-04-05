@@ -1,0 +1,15 @@
+
+
+/* Dark Mode */
+@media (prefers-color-scheme: dark) {
+    body{
+        background:#191919;filter:invert(1);
+        .highlight{border-color: grey !important;}
+        img,
+        .highlight,
+        .icon-custom span,
+        iframe {
+            filter:invert(1);
+        }
+    }
+}

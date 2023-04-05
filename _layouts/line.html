@@ -2,25 +2,27 @@
 layout: default
 templatebodyclass: "default line"
 ---
-
-{% assign geojson = '' | split: ',' %}
-
-{% for json_file in site.data.geojson %}
-    {% if json_file[0] == page.geojson %}
-    {% assign geojson = json_file[1] %}
-    {% break %}
-
-    {% endif %}
-{% endfor %}
+{% assign geojson = '' %}
 
 <script>
     window.line_geojson = window.line_geojson || [];
-    window.line_geojson.push( {{ geojson | jsonify }} );
+    {% for json_file in site.data.geojson %}
+        {% if json_file[0] == page.geojson %}
+            {% assign geojson = json_file[1] %}
+            window.line_geojson.push( {
+                source: {{ json_file[0] | jsonify }},
+                data: {{ json_file[1] | jsonify }} 
+            } );
+
+        {% break %}
+
+        {% endif %}
+    {% endfor %}
 </script>
 
 <div class="scroll-container">
     <div class="scroll-container__fixed">
-        {% include map.html %}
+        {% include map.html simple=false %}
     </div>
     <div class="scroll-container__scrollable">
 
@@ -31,7 +33,21 @@ templatebodyclass: "default line"
         <h3>Stops</h3>
         <dl>
             {% for stop in stops %}
-                <dt id="stops-list-{{ stop.properties.name | slugify }}">{{stop.properties.name}}</dt>
+                {% if stop.properties.stroke and stop.properties.stroke != '' %}
+                    {% assign color = stop.properties.stroke %}
+                {% else if page.color %}
+                    {% assign color = page.color %}
+                {% else %}
+                    {% assign color = 'blue' %}
+                {% endif %}
+                <dt 
+                    id="stops-list-{{ stop.properties.name | slugify }}"
+                    class="stop"
+                    onclick="zoom_to_feature( '.marker-{{ stop.properties.type }}-{{stop.properties.id}}' );"
+                >
+                    <span class="icon-custom icon-{{ stop.properties.icon }}" style="background-color: {{ color }}"></span>
+                    {{stop.properties.name}}
+                </dt>
                 <dd>{{stop.properties.description}}</dd>
             {% endfor %}
         </dl>
@@ -41,8 +57,10 @@ templatebodyclass: "default line"
         <h3 class="routes">Routes</h3>
         <dl class="routes">
             {% for route in routes %}
-            <dt id="routes-list-{{ route.properties.name | slugify }}">{{route.properties.name}}</dt>
-            <dd>{{route.properties.description}}</dd>
+                <dt td="routes-list-{{ route.properties.name | slugify }}">
+                    {{route.properties.name}}
+                </dt>
+                <dd>{{route.properties.description}}</dd>
             {% endfor %}
         </dl>
 
@@ -51,7 +69,17 @@ templatebodyclass: "default line"
         <h3>Major Construction</h3>
         <dl>
             {% for construction in constructions %}
-                <dt id="constructions-list-{{ construction.properties.name | slugify }}">{{construction.properties.name}}</dt>
+                {% if stop.properties.stroke and stop.properties.stroke != '' %}
+                    {% assign color = stop.properties.stroke %}
+                {% else if page.color %}
+                    {% assign color = page.color %}
+                {% else %}
+                    {% assign color = 'blue' %}
+                {% endif %}
+                <dt id="constructions-list-{{ construction.properties.name | slugify }}" class="construction">
+                    <span class="icon-custom icon-{{ stop.properties.icon }}" style="background-color: {{ color }}"><span>🚧</span></span>
+                    {{construction.properties.name}}
+                </dt>
                 <dd>{{construction.properties.description}}</dd>
             {% endfor %}
         </dl>

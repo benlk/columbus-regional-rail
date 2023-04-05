@@ -37,81 +37,182 @@
         margin-top: 0;
         margin-bottom: 0;
     }
+    .icon-custom div {
+        height: 100%;
+        width: 100%;
+        font-size: 16px;
+        line-height: 32px;
+        border-radius: 50%;
+        text-align: center;
+    }
+    dt .icon-custom {
+        height: 32px;
+        width: 32px;
+        display: inline-block;
+        vertical-align: middle;
+
+        font-size: 16px;
+        line-height: 32px;
+        text-align: center;
+        border-radius: 50%;
+    }
+    dt.construction,
+    dt.stop {
+        margin-top: 0.1em;
+        line-height: 32px;
+    }
+    .icon-custom.icon-construction div {
+        border-top-left-radius: 0;
+    }
+    .leaflet-marker-icon div img.icon {
+        max-width: 100% !important;
+        max-height: 100% !important;
+    }
 </style>
 
 <script type="text/javascript">
 
-var tramIcon = new L.Icon({
-	iconUrl: '{{ '/icons/BSicon_BRILL.svg.png' | absolute_url }}',
-    iconAnchor: [16,16],
-	iconSize: 32
-});
 var defaultIcon = new L.Icon.Default();
 
-// This bit from https://tomik23.github.io/leaflet-examples/#15.geoJson-simple
-function onEachFeature(feature, layer) {
-    let connections = '';
-    if (feature.properties.connections) {
-        connections = `<p class="connections">Connections: ${feature.properties.connections}</p>`;
+function add_geojson_to_map( data, index ) {
+    new GeoJSONConverter( data, index );
+}
+
+class GeoJSONConverter {
+
+    constructor( data, index ) {
+        // expect an object with source and data keys
+        this.simple = {{include.simple | jsonify}};
+        this.source = data.source;
+        this.features = data.data;
+        this.line = window.lines.find( object => object.source === this.source );
+
+        /**
+         * @todo
+         * then define a window.lines array of lines with metadata, including color
+         * then match the line to this data based on the index/key
+         * then save the color in this class
+         * then use this class property to pass the color to the icons
+         * 
+         */
+        L.geoJSON( this.features, {
+            onEachFeature: this.onEachFeature.bind(this),
+            pointToLayer: this.pointToLayer.bind(this),
+            style: this.stylePaths.bind(this),
+            filter: this.visibility_filter.bind(this)
+        }).addTo(window.map);
     }
-	layer.bindPopup(
-        `<p class="title">${feature.properties.title}</p><p class="phase">Phase ${feature.properties.phase}</p><p class="description">${feature.properties.description}</p> ${connections}`,
-        {
-            className: `phase-${feature.properties.phase} ${feature.properties.icon}`
+
+    /**
+     * Bind popups and do other things
+     * 
+     * This bit from https://tomik23.github.io/leaflet-examples/#15.geoJson-simple
+     */
+    onEachFeature(feature, layer) {
+        let connections = '';
+        if (feature.properties.connections) {
+            connections = `<p class="connections">Connections: ${feature.properties.connections}</p>`;
         }
-    );
-}
+        layer.bindPopup(
+            `<p class="title">${feature.properties.name}</p><p class="description">${feature.properties.description}</p> ${connections}`,
+            {
+                className: `phase-${feature.properties.phase} ${feature.properties.icon}`
+            }
+        );
+    }
 
-// Style paths, from https://gis.stackexchange.com/questions/158227/leaflet-geojson-problem-with-style
-function stylePaths(feature) {
-    feature.color     = feature.properties['stroke'] ??= 'black';
-    feature.dashArray = feature.properties['dashArray'] ??= null;
-    feature.weight    = feature.properties['stroke-width'] ??= 4;
-    return feature;
-}
+    /**
+     * turn a geojson point into an marker for a layer
+     * 
+     * this bit from https://leafletjs.com/examples/geojson/
+     */
+    pointToLayer(feature, latlng) {
+        // @todo set up different icons for different shape of feature
+        var options = {};
+        switch (feature.properties.icon) {
+            case 'construction':
+                options.icon = this.return_constructionIcon(feature, this);               break;
+                break;
+            case 'tram':
+                options.icon = this.return_tramIcon(feature,);
+                break;
+            default:
+                options.icon = defaultIcon;
+        };
+        options.riseOnHover = true;
+        return L.marker( latlng, options );
+    }
 
-// this bit from https://leafletjs.com/examples/geojson/
-function pointToLayer(feature, latlng) {
-	// @todo set up different icons for different shape of feature
-	var options = {};
-	switch (feature.properties.icon) {
-		case 'tram':
-			options.icon = tramIcon;
-            break;
-		case 'bus':
-			options.icon = busIcon;
-            break;
-		case 'train1':
-			options.icon = trainIcon1;
-            break;
-		case 'train2':
-			options.icon = trainIcon2;
-            break;
-		case 'train3':
-			options.icon = trainIcon3;
-            break;
-		case 'train4':
-			options.icon = trainIcon3;
-            break;
-		case 'train5':
-			options.icon = trainIcon3;
-            break;
-		default:
-			options.icon = defaultIcon;
-	};
-	return L.marker( latlng, options );
-}
+    /**
+     * Return an icon for a construction thing
+     */
+    return_constructionIcon( feature ) {
+        let color = this.chooseColor( feature.properties.stroke );
+        let id = this.featureToMarkerID( feature );
+        return new L.DivIcon({
+            className: 'icon-custom icon-construction ' + id,
+            html: '<div style="background-color:' + color + '"><span>🚧</span></div>',
+            iconAnchor: [0,0],
+            iconSize: 32
+        });
+    }
+    /**
+     * Return an icon for a construction thing
+     */
+    return_tramIcon( feature ) {
+        let color = this.chooseColor( feature.properties.stroke );
+        let id = this.featureToMarkerID( feature );
+        return new L.DivIcon({
+            className: 'icon-custom icon-tram ' + id,
+            html: '<div style="background-color:' + color + '"><img class="icon" src="{{ '/icons/BSicon_BRILL.svg.png' | absolute_url }}"></div>',
+            iconAnchor: [16,16],
+            iconSize: 36
+        });
+    }
 
+    /**
+     * Give a feature a deterministic ID
+     */
+    featureToMarkerID( feature ) {
+        return 'marker-' + feature.properties.type + '-' + feature.properties.id;
+    }
 
-// This bit from https://tomik23.github.io/leaflet-examples/#15.geoJson-simple
-// adding geojson by fetch
+    /**
+     * Given some colors, and the page context, determine which color to use for this object
+     */
+    chooseColor( feature_color ) {
+        if ( this.simple ) {
+            return this.line.color;
+        }
+        if ( ! feature_color ) {
+            return this.line.color;
+        }
+        if ( ! feature_color && ! this.line.color ) {
+            return black;
+        }
+        return feature_color;
+    }
 
-function add_geojson_to_map( data ) {
-    L.geoJSON(data, {
-        onEachFeature: onEachFeature,
-        pointToLayer: pointToLayer,
-        style: stylePaths
-    }).addTo(window.map);
+    /**
+     *  Style paths, from https://gis.stackexchange.com/questions/158227/leaflet-geojson-problem-with-style
+     */
+    stylePaths(feature) {
+        feature.color     = this.chooseColor( feature.properties['stroke'] );
+        feature.stroke    = this.chooseColor( feature.properties['stroke'] );
+        feature.dashArray = feature.properties['dashArray'] ??= null;
+        feature.weight    = feature.properties['stroke-width'] ??= 4;
+        return feature;
+    }
+
+    /**
+     * Control whether a given feature displays on this page
+     */
+    visibility_filter(feature, layer) {
+        if ( this.simple ) {
+            return ( feature.properties.simple === 'true' );
+        }
+        return true;
+    }
 }
 
 function init () {
@@ -121,9 +222,8 @@ function init () {
         maxZoom: 17
     })
     window.map.addLayer(stamen);
-    window.line_geojson.forEach( path => add_geojson_to_map( path ) );
+    window.line_geojson.forEach( (data) => add_geojson_to_map( data ) );
     window.map.fitBounds();
-
 }
 init();
 
@@ -139,5 +239,15 @@ function onMapClick(event) {
     .openOn(window.map);
 }
 window.map.on('click', onMapClick);
+
+    /**
+     * Given a map ID, find it and focus on its Marker.
+     * 
+     * This assumes that IDs are selectors.
+     */
+    function zoom_to_feature( id ) {
+        document.querySelector( id ).click();
+        console.log( id );
+    }
 
 </script>

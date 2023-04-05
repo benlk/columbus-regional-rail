@@ -5,8 +5,11 @@ layout: default
 
 <script>
     window.line_geojson = window.line_geojson || [];
-    {% for geojson in site.data.geojson %}
-        window.line_geojson.push( {{ geojson | jsonify }} );
+    {% for json_file in site.data.geojson %}
+        window.line_geojson.push( {
+            source: {{ json_file[0] | jsonify }},
+            data: {{ json_file[1] | jsonify }} 
+        } );
     {% endfor %}
 </script>
 <style type="text/css">
@@ -17,7 +20,7 @@ layout: default
 
 <div class="scroll-container">
     <div class="scroll-container__fixed">
-        {% include map.html %}
+        {% include map.html simple=true %}
     </div>
     <div class="scroll-container__scrollable">
         <h2>Line List</h2>
