@@ -2,6 +2,7 @@
 # Main styling
 ---
 
+@import "variables";
 @import "line-layout";
 
 /**************************************
@@ -22,7 +23,7 @@ body {
     background: #fffff8;
     color: #111;
     counter-reset: sidenote-counter;
-    font: 1.4rem/2rem Palatino, "Palatino Linotype", "Palatino LT STD", "Book Antiqua", Georgia, serif;
+    font: 1.4rem/2rem $font-family-serif;
     height: 100%;
     margin: 0 auto;
     max-width: 1440px;
@@ -158,7 +159,7 @@ table {
 }
 
 /*p*/.sans {
-    font-family: "Gill Sans", "Gill Sans MT", Calibri, sans-serif;
+    font-family: $font-family-sans;
     letter-spacing: .03em;
 }
 
@@ -336,4 +337,4 @@ nav {
 
 }
 
-@import "dark-mode";
+// @import "dark-mode";
