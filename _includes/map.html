@@ -9,66 +9,6 @@
 <figure id="map-container" style="margin-bottom: 1em;">
 	<div id="leaflet-map" style="height: 100%; width: 100%;"></div>
 </figure>
-<style type="text/css">
-	#leaflet-map p {
-		max-width: unset;
-		width: unset;
-	}
-
-    [class*="phase-"] .leaflet-popup-content-wrapper,
-    [class*="phase-"] .leaflet-popup-tip {
-        border-color: var(--color-phase);
-        border-width: 2px;
-        border-style: solid;
-    }
-    .leaflet-popup p.title {
-        font-weight: bold;
-        font-size: 1.2em;
-        display: inline-block;
-        margin-top: 0;
-        margin-bottom: 0;
-    }
-    [class*="phase-"] p.phase {
-        border: 2px solid var( --color-phase );
-        display: inline-block;
-        padding: 2px;
-        margin-left: 4px;
-        margin-right: 4px;
-        margin-top: 0;
-        margin-bottom: 0;
-    }
-    .icon-custom div {
-        height: 100%;
-        width: 100%;
-        font-size: 16px;
-        line-height: 32px;
-        border-radius: 50%;
-        text-align: center;
-    }
-    dt .icon-custom {
-        height: 32px;
-        width: 32px;
-        display: inline-block;
-        vertical-align: middle;
-
-        font-size: 16px;
-        line-height: 32px;
-        text-align: center;
-        border-radius: 50%;
-    }
-    dt.construction,
-    dt.stop {
-        margin-top: 0.1em;
-        line-height: 32px;
-    }
-    .icon-custom.icon-construction div {
-        border-top-left-radius: 0;
-    }
-    .leaflet-marker-icon div img.icon {
-        max-width: 100% !important;
-        max-height: 100% !important;
-    }
-</style>
 
 <script type="text/javascript">
 
@@ -151,9 +91,9 @@ class GeoJSONConverter {
         let id = this.featureToMarkerID( feature );
         return new L.DivIcon({
             className: 'icon-custom icon-construction ' + id,
-            html: '<div style="background-color:' + color + '"><span>🚧</span></div>',
+            html: '<div>🚧</div>',
             iconAnchor: [0,0],
-            iconSize: 32
+            iconSize: 28
         });
     }
     /**
@@ -164,8 +104,8 @@ class GeoJSONConverter {
         let id = this.featureToMarkerID( feature );
         return new L.DivIcon({
             className: 'icon-custom icon-tram ' + id,
-            html: '<div style="background-color:' + color + '"><img class="icon" src="{{ '/icons/BSicon_BRILL.svg.png' | absolute_url }}"></div>',
-            iconAnchor: [16,16],
+            html: '<div style="background-color:' + color + '"></div>',
+            iconAnchor: [36,36],
             iconSize: 36
         });
     }
@@ -240,14 +180,15 @@ function onMapClick(event) {
 }
 window.map.on('click', onMapClick);
 
-    /**
-     * Given a map ID, find it and focus on its Marker.
-     * 
-     * This assumes that IDs are selectors.
-     */
-    function zoom_to_feature( id ) {
-        document.querySelector( id ).click();
-        console.log( id );
-    }
+/**
+ * Given a map ID, find it and focus on its Marker.
+ * 
+ * This assumes that IDs are selectors.
+ */
+function zoom_to_feature( id ) {
+    window.map.setZoom(14);
+    document.querySelector( id ).click();
+    console.log( id );
+}
 
 </script>

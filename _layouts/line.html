@@ -42,10 +42,10 @@ templatebodyclass: "default line"
                 {% endif %}
                 <dt 
                     id="stops-list-{{ stop.properties.name | slugify }}"
-                    class="stop"
+                    class="icon-custom icon-{{ stop.properties.icon }} js-clickable"
                     onclick="zoom_to_feature( '.marker-{{ stop.properties.type }}-{{stop.properties.id}}' );"
                 >
-                    <span class="icon-custom icon-{{ stop.properties.icon }}" style="background-color: {{ color }}"></span>
+                    <div class="dt-icon" style="background-color: {{ color }}">&nbsp;</div>
                     {{stop.properties.name}}
                 </dt>
                 <dd>{{stop.properties.description}}</dd>
@@ -57,7 +57,10 @@ templatebodyclass: "default line"
         <h3 class="routes">Routes</h3>
         <dl class="routes">
             {% for route in routes %}
-                <dt td="routes-list-{{ route.properties.name | slugify }}">
+                <dt
+                    id="routes-list-{{ route.properties.name | slugify }}"
+                    style="text-decoration-color: {{ route.properties.stroke }}; {% if route.properties.dashArray %}text-decoration-style: dashed; {% endif %}"
+                >
                     {{route.properties.name}}
                 </dt>
                 <dd>{{route.properties.description}}</dd>
@@ -76,8 +79,12 @@ templatebodyclass: "default line"
                 {% else %}
                     {% assign color = 'blue' %}
                 {% endif %}
-                <dt id="constructions-list-{{ construction.properties.name | slugify }}" class="construction">
-                    <span class="icon-custom icon-{{ stop.properties.icon }}" style="background-color: {{ color }}"><span>🚧</span></span>
+                <dt
+                    id="constructions-list-{{ construction.properties.name | slugify }}"
+                    class="icon-custom icon-construction js-clickable"
+                    onclick="zoom_to_feature( '.marker-{{ construction.properties.type }}-{{construction.properties.id}}' );"
+                >
+                    <div class="dt-icon">🚧</div>
                     {{construction.properties.name}}
                 </dt>
                 <dd>{{construction.properties.description}}</dd>
