@@ -3,7 +3,7 @@ title: "An Airport Train to Downtown Columbus"
 slug: "APM"
 excerpt: "LAX is building an automated peoplemover to connect its airport to its transit system. Why can't Columbus?"
 date: 2023-04-05
-published: false
+published: true
 revisions:
   - text: "Initial publication"
     date: 2023-04-05
