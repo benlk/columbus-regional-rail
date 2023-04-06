@@ -54,6 +54,7 @@ templatebodyclass: "default line"
 
         {% assign routes = geojson.features | where: "properties.type", "route" %}
             
+        {% if routes.size > 1 %}
         <h3 class="routes">Routes</h3>
         <dl class="routes">
             {% for route in routes %}
@@ -66,9 +67,11 @@ templatebodyclass: "default line"
                 <dd>{{route.properties.description}}</dd>
             {% endfor %}
         </dl>
+        {% endif %}
 
         {% assign constructions = geojson.features | where: "properties.type", "construction" %}
             
+        {% if constructions.size > 0 %}
         <h3>Major Construction</h3>
         <dl>
             {% for construction in constructions %}
@@ -90,6 +93,7 @@ templatebodyclass: "default line"
                 <dd>{{construction.properties.description}}</dd>
             {% endfor %}
         </dl>
+        {% endif %}
 
     </div>
 </div>

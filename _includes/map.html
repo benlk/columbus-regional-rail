@@ -28,12 +28,10 @@ class GeoJSONConverter {
         this.line = window.lines.find( object => object.source === this.source );
 
         /**
-         * @todo
          * then define a window.lines array of lines with metadata, including color
          * then match the line to this data based on the index/key
          * then save the color in this class
          * then use this class property to pass the color to the icons
-         * 
          */
         L.geoJSON( this.features, {
             onEachFeature: this.onEachFeature.bind(this),
@@ -73,6 +71,9 @@ class GeoJSONConverter {
             case 'construction':
                 options.icon = this.return_constructionIcon(feature, this);               break;
                 break;
+            case 'apm':
+                options.icon = this.return_apmIcon(feature,);
+                break;
             case 'tram':
                 options.icon = this.return_tramIcon(feature,);
                 break;
@@ -104,6 +105,19 @@ class GeoJSONConverter {
         let id = this.featureToMarkerID( feature );
         return new L.DivIcon({
             className: 'icon-custom icon-tram ' + id,
+            html: '<div style="background-color:' + color + '"></div>',
+            iconAnchor: [36,36],
+            iconSize: 36
+        });
+    }
+    /**
+     * Return an icon for a construction thing
+     */
+    return_apmIcon( feature ) {
+        let color = this.chooseColor( feature.properties.stroke );
+        let id = this.featureToMarkerID( feature );
+        return new L.DivIcon({
+            className: 'icon-custom icon-apm ' + id,
             html: '<div style="background-color:' + color + '"></div>',
             iconAnchor: [36,36],
             iconSize: 36

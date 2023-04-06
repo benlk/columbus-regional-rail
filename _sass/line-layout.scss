@@ -73,6 +73,9 @@ $column-width: 0.55em * (100-12.5);
 @media ( max-aspect-ratio: 0.9999 ) {
     @include line-layout-over;
 }
+body.line {
+    max-width: unset;
+}
 
 #leaflet-map p {
     max-width: unset;
@@ -128,6 +131,19 @@ dt.icon-custom {
     font-weight: 700;
     margin-top: 0.2em;
 }
+.leaflet-marker-icon div img.icon {
+    max-width: 100% !important;
+    max-height: 100% !important;
+}
+.routes dt {
+    text-decoration: underline;
+    text-decoration-thickness: 2px;
+}
+.js-clickable {
+    cursor: pointer;
+}
+
+/* icon types */
 .icon-custom.icon-tram div {
     border-bottom-right-radius: 0;
     background-image: url( '/columbus-regional-rail/icons/BSicon_BRILL.svg.png' );
@@ -138,6 +154,7 @@ dt.icon-custom {
     height: 32px;
     margin-right: 8px;
 }
+
 .icon-custom.icon-construction div {
     border-top-left-radius: 0;
     background-color: palegoldenrod;
@@ -146,16 +163,14 @@ dt.icon-custom {
     height: 28px;
     margin-right: 12px;
 }
-.leaflet-marker-icon div img.icon {
-    max-width: 100% !important;
-    max-height: 100% !important;
-}
-dt div.dt-icon {
-}
-.routes dt {
-    text-decoration: underline;
-    text-decoration-thickness: 2px;
-}
-.js-clickable {
-    cursor: pointer;
+
+.icon-custom.icon-apm div {
+    border-bottom-right-radius: 0;
+    background-image: url( '/columbus-regional-rail/icons/ICTS.svg' );
+    background-position: center center;
+    background-size: 90%;
+    line-height: 32px;
+    width: 32px;
+    height: 32px;
+    margin-right: 8px;
 }
