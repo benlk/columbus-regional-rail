@@ -33,9 +33,22 @@ Why this tech, and why now?
 
 In 2022, the Columbus Regional Airport Authority [began designing a new terminal building](https://flycolumbus.com/at-port-columbus/terminal-modernization-program) for John Glenn International Airport. This redesign presents a perfect opportunity to build an automated people mover connecting the airport to Downtown. Our peer cities have equivalent transit connections. It's time for Columbus to catch up.
 
+### Ridership
+
+The most important consideration in any transit line is ridership: how many people can be expected to use it?
+
+More than 30 million passengers boarded airplanes at John Glenn International Airport in 2021, according to the [2021 CRAA Annual Comprehensive Financial Report](https://columbusairports.com/storage/production/20220601113659-craa-2021-annual-comprehensive-financial-report.pdf). 
+
+I haven't found numbers for the total number of guests at the Greater Columbus Convention Center in a year, or for the estimated number of passengers who fly into CMH and then go to a convention, but consider: The 2023 Arnold Sports Festival brought an estimated [100,000 people to Columbus for one event](https://www.10tv.com/article/entertainment/events/arnold-sports-festival-columbus-ohio/530-925690e5-1def-4379-956c-beecfafbe69b), including more than 12,000 athletes from around the world.
+
 ### Funding
 
 Primary funds would come from the Columbus Regional Airport Authority and the Franklin County Convention Facilities Authority, with additional money from the city, state, and feds as necessary. It would be ideal if CRAA and FCCFA could finance this project entirely from their own funds, and develop it under their own recognizance. COTA and MORPC are currently focused on [building bus rapid transit lines that don't approach the airport](https://linkuscolumbus.com/corridors/). 
+
+Can CRAA and FCCFA afford this project?
+
+- CRAA's [January 2023 board meeting notes](https://columbusairports.com/about-us/leadership-team/craa-board-of-directors/craa-board-meetings-and-minutes) report $135.7M in revenue in CY 2022, of which 33% was parking fees. Switching from the existing shuttle-bus solution to an APM wouldn't divert revenue. However, allowing passengers to ride the APM from Downtown or other transit routes to the airport, instead of requiring passengers to drive and park, would divert some revenue. This could be made up for by allowing suburban commuters to use CRAA parking lots for park-and-ride service into Downtown Columbus, or to other spots along the APM line. This includes the possibility of using the airport surface lots as a park-and-ride collector for the Amtrak station located at the Convention Center.
+- FCCFA's [2023 budget documents](https://www.meetusincolumbus.com/wp-content/uploads/2022/12/2023-CFA-Full-Budget-Document.pdf) show that FCCFA financed the $269m cost of the new hospital tower by issuing $160m in bonds repayable over 30 years, backed by Franklin County's taxation authority. FCCFA charges a 4% hotel occupancy tax on Franklin County and an additional 0.9% occupancy tax within the City of Columbus; these taxes are projected to bring in $26.8 million dollars in 2023.
 
 Operating costs would come from airport fees, increased rates on connecting hotels, and fares charged for people boarding the train at locations other than the airport.
 
