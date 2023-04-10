@@ -14,7 +14,7 @@ tags: APM
 system: None
 ---
 
-Columbus is an award-winning convention city, but it still has no regular public transportation between the airport and Downtown. That fact is a significant part of why Columbus keeps losing contracts to host national political conventions: no one wants to send party delegates to a city where they have to take an Uber to the convention hotel because [the last public bus leaves the airport at 8:29 p.m.](https://www.cota.com/timetables/7.pdf).
+Columbus is an award-winning convention city, but it still has no regular public transportation between the airport and Downtown. That fact is a significant part of why Columbus keeps losing contracts to host national political conventions: no one wants to send party delegates to a city where they have to take an Uber to the convention hotel because [the last public bus leaves the airport at 8:29 p.m.](https://www.cota.com/timetables/7.pdf)
 
 Los Angeles [just installed a 2.25-mile automated people mover](https://web.archive.org/web/20220328204906/https://thepointsguy.com/news/new-lax-people-movers-on-track-for-2023-completion/) to connect the LAX airport to parking, transit, and hotels.
 
@@ -44,3 +44,8 @@ The total construction cost of similar systems:
 
 - [AirTrain JFK], NYC, 8.1 miles, 9 stations, three routes, 20k daily ridership, about $2 billion
 - [LAX Automated People Mover](https://en.wikipedia.org/wiki/LAX_Automated_People_Mover), California, 2.25 miles, 6 stations, 1 route, part of a $5.5 billion terminal modernization program
+- Cairo, Egypt, paid Alstom [$2.7 billion for two automated monorail lines](https://www.alstom.com/monorail-story-greater-cairo) covering about 60 miles of track, with 30 years of operation and maintenance services included.
+- [Las Vegas Monorail](https://en.wikipedia.org/wiki/Las_Vegas_Monorail), Nevada, 3.9 miles, 7 stations, 1 route, $650 million in 1995
+
+- George Bush Intercontinental Airport [paid Alstom about $90 million for a 10-year maintenance contract](https://www.alstom.com/press-releases-news/2021/4/alstom-operate-and-maintain-innovia-people-mover-system-houstons-george-bush-intercontinental-airport) in 2021.
+- Washington Dulles International Airport [paid Mitsubishi Heavy Industries' Crystal Mover Services $136 million for a 10-year contract](https://www.thefreelibrary.com/Washington+Dulles+International+Airport+renews+contract+with+Crystal...-a0392166934) in 2014.
