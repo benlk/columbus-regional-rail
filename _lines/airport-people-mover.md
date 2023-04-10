@@ -23,15 +23,15 @@ Los Angeles [just installed a 2.25-mile automated people mover](https://web.arch
 
 Automated People Movers are, generally speaking, small trains running on dedicated concrete guideways. They run without drivers in fully automated systems, with platform screen doors. [They're all over the place in US airports](https://en.wikipedia.org/wiki/List_of_airport_people_mover_systems), including [Chicago](https://en.wikipedia.org/wiki/Airport_Transit_System), [Los Angeles](https://en.wikipedia.org/wiki/LAX_Automated_People_Mover), [Phoenix](https://en.wikipedia.org/wiki/PHX_Sky_Train), [Tampa](https://en.wikipedia.org/wiki/Tampa_International_Airport_People_Movers), [San Francisco](https://en.wikipedia.org/wiki/AirTrain_(San_Francisco_International_Airport)), [Atlanta](https://en.wikipedia.org/wiki/ATL_SkyTrain), [JFK](https://en.wikipedia.org/wiki/AirTrain_JFK), and .... you get the point. This technology is proven in airport contexts.
 
-The same vehicles are used to provide transit services [in Miami](https://en.wikipedia.org/wiki/Metromover), [Detroit](https://en.wikipedia.org/wiki/Detroit_People_Mover), [Tokyo](https://en.wikipedia.org/wiki/Yurikamome), [Tokyo](https://en.wikipedia.org/wiki/Nippori-Toneri_Liner), [Taiwan](https://en.wikipedia.org/wiki/Wenhu_line), ... and many, many more locations. Automated trains are proven tech, with off-the-shelf solutions available from several manufacturers: [Alstom Inovia](https://en.wikipedia.org/wiki/Alstom_Innovia), [Mitsubishi Crystal Mover](https://en.wikipedia.org/wiki/Crystal_Mover), 
+Columbus should follow the example of Los Angeles. Columbus' airport peoplemover should extend to the nearest local hotspot: Downtown Columbus. Such a system isn't just for airline passengers and convention-goers: stops along 670 would serve employers, schools, and neighborhoods east of Downtown.
 
-Columbus follow Los Angeles' example. Columbus' airport peoplemover should extend to the nearest local hotspot: Downtown Columbus. Such a system isn't just for airline passengers and convention-goers: stops along 670 would serve employers, schools, and neighborhoods east of Downtown.
+These same vehicles are used to provide general transit services [in Miami](https://en.wikipedia.org/wiki/Metromover), [Detroit](https://en.wikipedia.org/wiki/Detroit_People_Mover), [Tokyo](https://en.wikipedia.org/wiki/Yurikamome), [elsewhere in Tokyo](https://en.wikipedia.org/wiki/Nippori-Toneri_Liner), [Taiwan](https://en.wikipedia.org/wiki/Wenhu_line), ... and many, many more locations. Automated trains are proven tech, with off-the-shelf solutions available from several manufacturers: [Alstom Inovia](https://en.wikipedia.org/wiki/Alstom_Innovia), [Mitsubishi Crystal Mover](https://en.wikipedia.org/wiki/Crystal_Mover), and others. It's not just for airports, it's for the rest of the city, too.
 
-By using automated people movers, Columbus would gain affordable, high-frequency, 24/7 service with self-driving vehicles on a dedicated track. LAX has a train every two minutes during peak hours, and automated people movers are used in several international metro systems.
+By using automated people movers, Columbus would gain affordable, high-frequency, 24/7 transit service with self-driving vehicles on a dedicated track. LAX has a train every two minutes during peak hours, and automated people movers are used in several international metro systems. It's nothing exceptional. It's the way of the future, and it's already here.
 
 Why this tech, and why now?
 
-In 2022, the Columbus Regional Airport Authority [began designing a new terminal building](https://flycolumbus.com/at-port-columbus/terminal-modernization-program) for John Glenn International Airport. This redesign presents a perfect opportunity to build an automated people mover connecting the airport to Downtown. Our peer cities have equivalent transit connections. It's time for Columbus to catch up.
+In 2022, the Columbus Regional Airport Authority [began designing a new terminal building](https://flycolumbus.com/at-port-columbus/terminal-modernization-program) for John Glenn International Airport. This redesign presents a perfect opportunity to build an automated connection from the airport to Downtown. Our peer cities have equivalent transit connections. It's time for Columbus to catch up.
 
 ### Ridership
 
@@ -40,6 +40,8 @@ The most important consideration in any transit line is ridership: how many peop
 More than 30 million passengers boarded airplanes at John Glenn International Airport in 2021, according to the [2021 CRAA Annual Comprehensive Financial Report](https://columbusairports.com/storage/production/20220601113659-craa-2021-annual-comprehensive-financial-report.pdf). 
 
 I haven't found numbers for the total number of guests at the Greater Columbus Convention Center in a year, or for the estimated number of passengers who fly into CMH and then go to a convention, but consider: The 2023 Arnold Sports Festival brought an estimated [100,000 people to Columbus for one event](https://www.10tv.com/article/entertainment/events/arnold-sports-festival-columbus-ohio/530-925690e5-1def-4379-956c-beecfafbe69b), including more than 12,000 athletes from around the world.
+
+For comparison, the [Detroit People Mover](https://en.wikipedia.org/wiki/Detroit_People_Mover) is a circular line, most akin to the [defunct CBUS Circulator bus route](https://web.archive.org/web/20210923002929/https://www.dispatch.com/story/news/2021/08/20/cbus-cotas-popular-and-free-circulator-downtown-isnt-coming-back/8196863002/), and had 364,300 annual riders in 2022. The [Miami-Dade Metromover](https://en.wikipedia.org/wiki/Metromover) had more than 5.5 million annual riders in 2022.
 
 ### Funding
 
@@ -63,3 +65,5 @@ The total construction cost of similar systems:
 
 - George Bush Intercontinental Airport [paid Alstom about $90 million for a 10-year maintenance contract](https://www.alstom.com/press-releases-news/2021/4/alstom-operate-and-maintain-innovia-people-mover-system-houstons-george-bush-intercontinental-airport) in 2021.
 - Washington Dulles International Airport [paid Mitsubishi Heavy Industries' Crystal Mover Services $136 million for a 10-year contract](https://www.thefreelibrary.com/Washington+Dulles+International+Airport+renews+contract+with+Crystal...-a0392166934) in 2014.
+
+For comparison, ODOT is spending [$1.4 billion-with-a-b dollars on widening I-71 and I-70](https://www.transportation.ohio.gov/projects/mega-projects/mega-projects/downtown-ramp-up) in the areas around Downtown Columbus, and [$112 million to widen SR 161 between 270 and New Albany](https://www.transportation.ohio.gov/projects/projects/116322), to support the Intel development. [$48 million to convert a shoulder on I-71 to a smart lane between 5th Avenue and SR 161](https://www.transportation.ohio.gov/projects/projects/109164).
