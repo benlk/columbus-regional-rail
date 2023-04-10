@@ -88,25 +88,10 @@ body.line {
     text-decoration-line: underline;
     text-decoration-thickness: 4px;
 }
-[class*="phase-"] .leaflet-popup-content-wrapper,
-[class*="phase-"] .leaflet-popup-tip {
-    border-color: var(--color-phase);
-    border-width: 2px;
-    border-style: solid;
-}
 .leaflet-popup p.title {
     font-weight: bold;
     font-size: 1.2em;
     display: inline-block;
-    margin-top: 0;
-    margin-bottom: 0;
-}
-[class*="phase-"] p.phase {
-    border: 2px solid var( --color-phase );
-    display: inline-block;
-    padding: 2px;
-    margin-left: 4px;
-    margin-right: 4px;
     margin-top: 0;
     margin-bottom: 0;
 }
@@ -138,6 +123,11 @@ dt.icon-custom {
 .routes dt {
     text-decoration: underline;
     text-decoration-thickness: 2px;
+}
+#line-list dt a {
+    text-decoration: underline;
+    text-decoration-thickness: 2px;
+    text-decoration-color: inherit;
 }
 .js-clickable {
     cursor: pointer;

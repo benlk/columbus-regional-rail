@@ -24,9 +24,14 @@ layout: default
     </div>
     <div class="scroll-container__scrollable">
         <h2>Line List</h2>
-        <dl id="line list">
+        <dl id="line-list">
         {% for line in site.lines %}
-            <dt><a href="{{line.url | absolute_url }}">{{line.title}}</a></dt>
+            <dt
+                id="line-list-{{ line.name | slugify }}"
+                style="text-decoration-color: {{ line.color }};"
+            >
+                <a href="{{line.url | absolute_url }}">{{line.title}}</a>
+            </dt>
             <dd>{{line.excerpt}}</dd>
         {% endfor %}
         </dl>
