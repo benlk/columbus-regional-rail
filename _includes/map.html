@@ -26,6 +26,7 @@ class GeoJSONConverter {
         this.source = data.source;
         this.features = data.data;
         this.line = window.lines.find( object => object.source === this.source );
+        console.log(this.line);
 
         /**
          * then define a window.lines array of lines with metadata, including color
@@ -48,13 +49,26 @@ class GeoJSONConverter {
      */
     onEachFeature(feature, layer) {
         let connections = '';
+        let color = this.chooseColor( feature.properties.stroke );
+        let description = feature.properties.description;
+        let title = feature.properties.name;
+        console.log( this.line );
         if (feature.properties.connections) {
             connections = `<p class="connections">Connections: ${feature.properties.connections}</p>`;
         }
+
+        if ( this.simple ) {
+            description = '<a href="">Click for more information about this line.</a>'
+            title = `<span class="route-underline-color" style="text-decoration-color: ${color}">${this.line.slug}</span>: ${title}`;
+        } else {
+            description = feature.properties.description; 
+        }
         layer.bindPopup(
-            `<p class="title">${feature.properties.name}</p><p class="description">${feature.properties.description}</p> ${connections}`,
+            `<p class="title">${title}</p><p class="description">${description}</p> ${connections}`,
             {
-                className: `phase-${feature.properties.phase} ${feature.properties.icon}`
+                className: `${feature.properties.icon}`,
+                autoPanPaddingTopLeft: '20px',
+                autoPanPaddingBottomRight: '20px',
             }
         );
     }
@@ -67,21 +81,40 @@ class GeoJSONConverter {
     pointToLayer(feature, latlng) {
         // @todo set up different icons for different shape of feature
         var options = {};
-        switch (feature.properties.icon) {
-            case 'construction':
-                options.icon = this.return_constructionIcon(feature, this);               break;
-                break;
-            case 'apm':
-                options.icon = this.return_apmIcon(feature,);
-                break;
-            case 'tram':
-                options.icon = this.return_tramIcon(feature,);
-                break;
-            default:
-                options.icon = defaultIcon;
-        };
+        if ( this.simple ) {
+            options.icon = this.return_simpleIcon(feature, this);
+        } else {
+            switch (feature.properties.icon) {
+                case 'construction':
+                    options.icon = this.return_constructionIcon(feature, this);
+                    break;
+                case 'apm':
+                    options.icon = this.return_apmIcon(feature,);
+                    break;
+                case 'tram':
+                    options.icon = this.return_tramIcon(feature,);
+                    break;
+                default:
+                    options.icon = defaultIcon;
+            };
+
+        }
         options.riseOnHover = true;
         return L.marker( latlng, options );
+    }
+
+    /**
+     * Return a simple icon for simple maps
+     */
+    return_simpleIcon( feature ) {
+        let color = this.chooseColor( feature.properties.stroke );
+        let id = this.featureToMarkerID( feature );
+        return new L.DivIcon({
+            className: 'icon-custom icon-simple ' + id,
+            html: '<div style="background-color:' + color + '"></div>',
+            iconAnchor: [0,0],
+            iconSize: 10
+        });
     }
 
     /**
@@ -177,7 +210,7 @@ function init () {
     })
     window.map.addLayer(stamen);
     window.line_geojson.forEach( (data) => add_geojson_to_map( data ) );
-    window.map.fitBounds();
+    // window.map.fitBounds();
 }
 init();
 
@@ -202,7 +235,6 @@ window.map.on('click', onMapClick);
 function zoom_to_feature( id ) {
     window.map.setZoom(14);
     document.querySelector( id ).click();
-    console.log( id );
 }
 
 </script>

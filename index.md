@@ -29,6 +29,7 @@ layout: default
             <dt
                 id="line-list-{{ line.name | slugify }}"
                 style="text-decoration-color: {{ line.color }};"
+                class="route-underline-color"
             >
                 <a href="{{line.url | absolute_url }}">{{line.title}}</a>
             </dt>

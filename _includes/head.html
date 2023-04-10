@@ -19,7 +19,8 @@
             window.lines.push( {
                 source: {{ line.geojson | jsonify}},
                 title:  {{ line.title | jsonify}},
-                color:  {{ line.color | jsonify}}
+                color:  {{ line.color | jsonify}},
+                slug:   {{ line.slug | jsonify}}
             } );
         {% endfor %}
 	</script>

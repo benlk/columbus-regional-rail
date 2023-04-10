@@ -120,11 +120,12 @@ dt.icon-custom {
     max-width: 100% !important;
     max-height: 100% !important;
 }
+.route-underline-color,
 .routes dt {
     text-decoration: underline;
     text-decoration-thickness: 2px;
 }
-#line-list dt a {
+.route-underline-color a {
     text-decoration: underline;
     text-decoration-thickness: 2px;
     text-decoration-color: inherit;
@@ -163,4 +164,10 @@ dt.icon-custom {
     width: 32px;
     height: 32px;
     margin-right: 8px;
+}
+
+.icon-custom.icon-simple div {
+    line-height: 10px;
+    width: 10px;
+    height: 10px;
 }
