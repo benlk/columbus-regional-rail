@@ -12,6 +12,7 @@ color: "#4298b5"
 icon: ""
 tags: APM
 system: None
+image: '/static/apm.png'
 ---
 
 Columbus is an award-winning convention city, but it still has no regular public transportation between the airport and Downtown. That fact is a significant part of why Columbus keeps losing contracts to host national political conventions: no one wants to send party delegates to a city where they have to take an Uber to the convention hotel because [the last public bus leaves the airport at 8:29 p.m.](https://www.cota.com/timetables/7.pdf)
