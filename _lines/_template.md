@@ -12,3 +12,6 @@ color: "#bada55"
 icon: ""
 tags:
 ---
+{% include line-stops.html %}
+{% include line-constructions.html %}
+{% include line-routes.html %}

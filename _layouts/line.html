@@ -28,72 +28,7 @@ templatebodyclass: "default line"
 
         {{ page.content }}
 
-        {% assign stops = geojson.features | where: "properties.type", "stop" %}
-            
-        <h3>Stops</h3>
-        <dl>
-            {% for stop in stops %}
-                {% if stop.properties.stroke and stop.properties.stroke != '' %}
-                    {% assign color = stop.properties.stroke %}
-                {% else if page.color %}
-                    {% assign color = page.color %}
-                {% else %}
-                    {% assign color = 'blue' %}
-                {% endif %}
-                <dt 
-                    id="stops-list-{{ stop.properties.name | slugify }}"
-                    class="icon-custom icon-{{ stop.properties.icon }} js-clickable"
-                    onclick="zoom_to_feature( '.marker-{{ stop.properties.type }}-{{stop.properties.id}}' );"
-                >
-                    <div class="dt-icon" style="background-color: {{ color }}">&nbsp;</div>
-                    {{stop.properties.name}}
-                </dt>
-                <dd>{{stop.properties.description}}</dd>
-            {% endfor %}
-        </dl>
-
-        {% assign routes = geojson.features | where: "properties.type", "route" %}
-            
-        {% if routes.size > 1 %}
-        <h3 class="routes">Routes</h3>
-        <dl class="routes">
-            {% for route in routes %}
-                <dt
-                    id="routes-list-{{ route.properties.name | slugify }}"
-                    style="text-decoration-color: {{ route.properties.stroke }}; {% if route.properties.dashArray %}text-decoration-style: dashed; {% endif %}"
-                >
-                    {{route.properties.name}}
-                </dt>
-                <dd>{{route.properties.description}}</dd>
-            {% endfor %}
-        </dl>
-        {% endif %}
-
-        {% assign constructions = geojson.features | where: "properties.type", "construction" %}
-            
-        {% if constructions.size > 0 %}
-        <h3>Major Construction</h3>
-        <dl>
-            {% for construction in constructions %}
-                {% if stop.properties.stroke and stop.properties.stroke != '' %}
-                    {% assign color = stop.properties.stroke %}
-                {% else if page.color %}
-                    {% assign color = page.color %}
-                {% else %}
-                    {% assign color = 'blue' %}
-                {% endif %}
-                <dt
-                    id="constructions-list-{{ construction.properties.name | slugify }}"
-                    class="icon-custom icon-construction js-clickable"
-                    onclick="zoom_to_feature( '.marker-{{ construction.properties.type }}-{{construction.properties.id}}' );"
-                >
-                    <div class="dt-icon">🚧</div>
-                    {{construction.properties.name}}
-                </dt>
-                <dd>{{construction.properties.description}}</dd>
-            {% endfor %}
-        </dl>
-        {% endif %}
+       
 
     </div>
 </div>

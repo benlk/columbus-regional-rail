@@ -33,6 +33,8 @@ Why this tech, and why now?
 
 In 2022, the Columbus Regional Airport Authority [began designing a new terminal building](https://flycolumbus.com/at-port-columbus/terminal-modernization-program) for John Glenn International Airport. This redesign presents a perfect opportunity to build an automated connection from the airport to Downtown. Our peer cities have equivalent transit connections. It's time for Columbus to catch up.
 
+{% include line-stops.html %}
+
 ### Ridership
 
 The most important consideration in any transit line is ridership: how many people can be expected to use it?
@@ -43,7 +45,11 @@ I haven't found numbers for the total number of guests at the Greater Columbus C
 
 For comparison, the [Detroit People Mover](https://en.wikipedia.org/wiki/Detroit_People_Mover) is a circular line, most akin to the [defunct CBUS Circulator bus route](https://web.archive.org/web/20210923002929/https://www.dispatch.com/story/news/2021/08/20/cbus-cotas-popular-and-free-circulator-downtown-isnt-coming-back/8196863002/), and had 364,300 annual riders in 2022. The [Miami-Dade Metromover](https://en.wikipedia.org/wiki/Metromover) had more than 5.5 million annual riders in 2022.
 
+I would estimate we're looking at 10 million annual riders on this route, _easy_. But I haven't done the actual STOPS assessments.
+
 ### Funding
+
+It would likely take $1-2 billion to build this train, and around $10 million per year for maintenance.
 
 Primary funds would come from the Columbus Regional Airport Authority and the Franklin County Convention Facilities Authority, with additional money from the city, state, and feds as necessary. It would be ideal if CRAA and FCCFA could finance this project entirely from their own funds, and develop it under their own recognizance. COTA and MORPC are currently focused on [building bus rapid transit lines that don't approach the airport](https://linkuscolumbus.com/corridors/). 
 
@@ -63,7 +69,11 @@ The total construction cost of similar systems:
 - Cairo, Egypt, paid Alstom [$2.7 billion for two automated monorail lines](https://www.alstom.com/monorail-story-greater-cairo) covering about 60 miles of track, with 30 years of operation and maintenance services included.
 - [Las Vegas Monorail](https://en.wikipedia.org/wiki/Las_Vegas_Monorail), Nevada, 3.9 miles, 7 stations, 1 route, $650 million in 1995
 
+For maintenance costs:
+
 - George Bush Intercontinental Airport [paid Alstom about $90 million for a 10-year maintenance contract](https://www.alstom.com/press-releases-news/2021/4/alstom-operate-and-maintain-innovia-people-mover-system-houstons-george-bush-intercontinental-airport) in 2021.
 - Washington Dulles International Airport [paid Mitsubishi Heavy Industries' Crystal Mover Services $136 million for a 10-year contract](https://www.thefreelibrary.com/Washington+Dulles+International+Airport+renews+contract+with+Crystal...-a0392166934) in 2014.
 
 For comparison, ODOT is spending [$1.4 billion-with-a-b dollars on widening I-71 and I-70](https://www.transportation.ohio.gov/projects/mega-projects/mega-projects/downtown-ramp-up) in the areas around Downtown Columbus, and [$112 million to widen SR 161 between 270 and New Albany](https://www.transportation.ohio.gov/projects/projects/116322), to support the Intel development. [$48 million to convert a shoulder on I-71 to a smart lane between 5th Avenue and SR 161](https://www.transportation.ohio.gov/projects/projects/109164).
+
+{% include line-constructions.html %}

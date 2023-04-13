@@ -1,0 +1,24 @@
+{% assign geojson = '' %}
+{% for json_file in site.data.geojson %}
+    {% if json_file[0] == page.geojson %}
+        {% assign geojson = json_file[1] %}
+        {% break %}
+    {% endif %}
+{% endfor %}
+
+{% assign routes = geojson.features | where: "properties.type", "route" %}
+            
+{% if routes.size > 1 %}
+<h3 class="routes">Routes</h3>
+<dl class="routes">
+    {% for route in routes %}
+        <dt
+            id="routes-list-{{ route.properties.name | slugify }}"
+            style="text-decoration-color: {{ route.properties.stroke }}; {% if route.properties.dashArray %}text-decoration-style: dashed; {% endif %}"
+        >
+            {{route.properties.name}}
+        </dt>
+        <dd>{{route.properties.description}}</dd>
+    {% endfor %}
+</dl>
+{% endif %}

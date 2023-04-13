@@ -1,0 +1,33 @@
+{% assign geojson = '' %}
+{% for json_file in site.data.geojson %}
+    {% if json_file[0] == page.geojson %}
+        {% assign geojson = json_file[1] %}
+        {% break %}
+    {% endif %}
+{% endfor %}
+    
+{% assign constructions = geojson.features | where: "properties.type", "construction" %}
+            
+{% if constructions.size > 0 %}
+<h3>Major Construction</h3>
+<dl>
+    {% for construction in constructions %}
+        {% if construction.properties.stroke and construction.properties.stroke != '' %}
+            {% assign color = construction.properties.stroke %}
+        {% else if page.color %}
+            {% assign color = page.color %}
+        {% else %}
+            {% assign color = 'blue' %}
+        {% endif %}
+        <dt
+            id="constructions-list-{{ construction.properties.name | slugify }}"
+            class="icon-custom icon-construction js-clickable"
+            onclick="zoom_to_feature( '.marker-{{ construction.properties.type }}-{{construction.properties.id}}' );"
+        >
+            <div class="dt-icon">🚧</div>
+            {{construction.properties.name}}
+        </dt>
+        <dd>{{construction.properties.description}}</dd>
+    {% endfor %}
+</dl>
+{% endif %}
