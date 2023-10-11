@@ -8,6 +8,10 @@ This is a wholly unofficial site. Pages on this site may reference official data
 
 Use this site as inspiration for when you contact your public officials, to demand that they do better.
 
+## Maps
+
+This project uses [Leaflet.js](https://leafletjs.com/) for drawing its maps, with the "Stamen Light" tiles from [Stadia Maps](https://docs.stadiamaps.com/guides/migrating-from-stamen-map-tiles/#leaflet-providers). 
+
 ## Icon credits
 
 <a title="BSicon TRAM-HK.svg: *BSicon DDTRAM.svg: Sameboat
