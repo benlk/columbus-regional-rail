@@ -12,11 +12,7 @@ Here's the ways you can help:
 
 ### Making a new line
 
-- copy `_lines/_template.md` to a new file
-- use http://geojson.io/ to draw the line:
-	- Table columns: "name", "description", "icon", "type", ["stroke"](https://developer.mozilla.org/en-US/docs/Web/SVG/Attribute/stroke), ["dashArray"](https://developer.mozilla.org/en-US/docs/Web/SVG/Attribute/stroke-dasharray)
-	- save the map in `_data/geojson` as a `.json` file. 
-	- add it to your new file in `_lines/` as the "geojson:" key
+See the [pull request template for lines](.github/PULL_REQUEST_TEMPLATE/line.md).
 
 ### Other todos
 
@@ -28,3 +24,7 @@ Here's the ways you can help:
 - [ ] history
 	- [ ] suggestion from M: map timeline of gas prices, interest rates, vs cost of proposal
 	- [ ] the tram lines
+
+### License
+
+<p xmlns:cc="http://creativecommons.org/ns#" xmlns:dct="http://purl.org/dc/terms/"><a property="dct:title" rel="cc:attributionURL" href="https://github.com/benlk/columbus-regional-rail">Columbus Regional Rail</a> by <a rel="cc:attributionURL dct:creator" property="cc:attributionName" href="https://github.com/benlk">Ben Keith</a> is licensed under <a href="http://creativecommons.org/licenses/by-sa/4.0/?ref=chooser-v1" target="_blank" rel="license noopener noreferrer" style="display:inline-block;">CC BY-SA 4.0<img style="height:22px!important;margin-left:3px;vertical-align:text-bottom;" src="https://mirrors.creativecommons.org/presskit/icons/cc.svg?ref=chooser-v1"><img style="height:22px!important;margin-left:3px;vertical-align:text-bottom;" src="https://mirrors.creativecommons.org/presskit/icons/by.svg?ref=chooser-v1"><img style="height:22px!important;margin-left:3px;vertical-align:text-bottom;" src="https://mirrors.creativecommons.org/presskit/icons/sa.svg?ref=chooser-v1"></a></p>

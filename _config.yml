@@ -76,6 +76,7 @@ exclude:
   - serve.sh
   - .sass-cache/
   - .jekyll-cache/
+  - .github/
   - gemfiles/
   - Gemfile
   - Gemfile.lock
