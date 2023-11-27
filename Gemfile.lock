@@ -254,8 +254,6 @@ PLATFORMS
 
 DEPENDENCIES
   github-pages
-  tzinfo (~> 1.2)
-  tzinfo-data
   webrick (~> 1.7)
 
 BUNDLED WITH
