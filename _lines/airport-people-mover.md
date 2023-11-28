@@ -15,17 +15,23 @@ system: None
 image: '/static/apm.png'
 ---
 
+### Summary
+
+Build a fully-automated rail link connecting the John Glenn Columbus International Airport terminal to other services in the airport area. From there, run along 670 to connect to the Convention Center, the Arena District, the Scioto Peninsula, and River South.
+
+### Long description
+
 Columbus is an award-winning convention city, but it still has no regular public transportation between the airport and Downtown. That fact is a significant part of why Columbus keeps losing contracts to host national political conventions: no one wants to send party delegates to a city where they have to take an Uber to the convention hotel because [the last public bus leaves the airport at 8:29 p.m.](https://www.cota.com/timetables/7.pdf)
 
-Los Angeles [just installed a 2.25-mile automated people mover](https://web.archive.org/web/20220328204906/https://thepointsguy.com/news/new-lax-people-movers-on-track-for-2023-completion/) to connect the LAX airport to parking, transit, and hotels.
+Los Angeles [just installed a 2.25-mile automated people mover](https://web.archive.org/web/20220328204906/https://thepointsguy.com/news/new-lax-people-movers-on-track-for-2023-completion/) to connect the LAX airport to parking, hotels, and the LA metro rail system.
 
 <iframe width="100%" height="315" src="https://www.youtube.com/embed/ybql0RXXtHc" title="RM Transit: Modern Metro Systems Where You'd Least Expect! Airport People Movers" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 
 Automated People Movers are, generally speaking, small trains running on dedicated concrete guideways. They run without drivers in fully automated systems, with platform screen doors. [They're all over the place in US airports](https://en.wikipedia.org/wiki/List_of_airport_people_mover_systems), including [Chicago](https://en.wikipedia.org/wiki/Airport_Transit_System), [Los Angeles](https://en.wikipedia.org/wiki/LAX_Automated_People_Mover), [Phoenix](https://en.wikipedia.org/wiki/PHX_Sky_Train), [Tampa](https://en.wikipedia.org/wiki/Tampa_International_Airport_People_Movers), [San Francisco](https://en.wikipedia.org/wiki/AirTrain_(San_Francisco_International_Airport)), [Atlanta](https://en.wikipedia.org/wiki/ATL_SkyTrain), [JFK](https://en.wikipedia.org/wiki/AirTrain_JFK), and .... you get the point. This technology is proven in airport contexts.
 
-Columbus should follow the example of Los Angeles. Columbus' airport peoplemover should extend to the nearest local hotspot: Downtown Columbus. Such a system isn't just for airline passengers and convention-goers: stops along 670 would serve employers, schools, and neighborhoods east of Downtown.
+These same rubber-tired autormated vehicles are also used to provide general transit services [in Miami](https://en.wikipedia.org/wiki/Metromover), [Detroit](https://en.wikipedia.org/wiki/Detroit_People_Mover), [Tokyo](https://en.wikipedia.org/wiki/Yurikamome), [elsewhere in Tokyo](https://en.wikipedia.org/wiki/Nippori-Toneri_Liner), [Taiwan](https://en.wikipedia.org/wiki/Wenhu_line), ... and many, many more locations. Automated trains are proven tech, with off-the-shelf solutions available from several manufacturers: [Alstom Inovia](https://en.wikipedia.org/wiki/Alstom_Innovia), [Mitsubishi Crystal Mover](https://en.wikipedia.org/wiki/Crystal_Mover), and others. It's not just for airports, it's for the rest of the city, too.
 
-These same vehicles are used to provide general transit services [in Miami](https://en.wikipedia.org/wiki/Metromover), [Detroit](https://en.wikipedia.org/wiki/Detroit_People_Mover), [Tokyo](https://en.wikipedia.org/wiki/Yurikamome), [elsewhere in Tokyo](https://en.wikipedia.org/wiki/Nippori-Toneri_Liner), [Taiwan](https://en.wikipedia.org/wiki/Wenhu_line), ... and many, many more locations. Automated trains are proven tech, with off-the-shelf solutions available from several manufacturers: [Alstom Inovia](https://en.wikipedia.org/wiki/Alstom_Innovia), [Mitsubishi Crystal Mover](https://en.wikipedia.org/wiki/Crystal_Mover), and others. It's not just for airports, it's for the rest of the city, too.
+Columbus should follow the example of Los Angeles. Columbus' airport peoplemover should extend to the nearest local hotspot: Downtown Columbus. Such a system isn't just for airline passengers and convention-goers: stops along 670 would serve employers, schools, and neighborhoods east of Downtown.
 
 By using automated people movers, Columbus would gain affordable, high-frequency, 24/7 transit service with self-driving vehicles on a dedicated track. LAX has a train every two minutes during peak hours, and automated people movers are used in several international metro systems. It's nothing exceptional. It's the way of the future, and it's already here.
 
@@ -45,7 +51,7 @@ I haven't found numbers for the total number of guests at the Greater Columbus C
 
 For comparison, the [Detroit People Mover](https://en.wikipedia.org/wiki/Detroit_People_Mover) is a circular line, most akin to the [defunct CBUS Circulator bus route](https://web.archive.org/web/20210923002929/https://www.dispatch.com/story/news/2021/08/20/cbus-cotas-popular-and-free-circulator-downtown-isnt-coming-back/8196863002/), and had 364,300 annual riders in 2022. The [Miami-Dade Metromover](https://en.wikipedia.org/wiki/Metromover) had more than 5.5 million annual riders in 2022.
 
-I would estimate we're looking at 10 million annual riders on this route, _easy_. But I haven't done the actual STOPS assessments.
+I would estimate we're looking at 10 million annual riders on this route. But I haven't done [the actual STOPS assessments](https://www.transit.dot.gov/funding/grant-programs/capital-investments/stops). This is a visionary proposal, not an actual application for FTA funding.
 
 ### Funding
 
@@ -60,7 +66,9 @@ Can CRAA and FCCFA afford this project?
 
 Operating costs would come from airport fees, increased rates on connecting hotels, and fares charged for people boarding the train at locations other than the airport.
 
-Additionally, this system should pursue fare integration with COTA, to allow painless transfers from COTA bus lines.
+One major point of contention is that this project might decrease CRAA's parking revenue, by reducing the number of passengers who need to drive to the airport. This revenue could be offset by opening some of CRAA's parking lots to park-and-ride service for commuters entering into Downtown. This would be most efficient if the operators of Downtown parking garages raised their daily fee above the cost of rail fare plus daily parking.
+
+Additionally, this system should pursue fare integration with COTA, to allow painless transfers from COTA bus lines, and to take advantage of COTA's fare capping scheme. This will reduce the cost for commuters.
 
 The total construction cost of similar systems:
 
