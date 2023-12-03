@@ -9,7 +9,6 @@
 {% assign routes = geojson.features | where: "properties.type", "route" %}
             
 {% if routes.size > 1 %}
-<h3 class="routes">Routes</h3>
 <dl class="routes">
     {% for route in routes %}
         <dt

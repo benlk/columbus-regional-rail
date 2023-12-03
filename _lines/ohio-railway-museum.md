@@ -25,6 +25,8 @@ What would happen if that line were extended? If a historical curiosity could be
 
 This map envisions an extension of the present-day Ohio Railway Museum line to the south along I-71, potentially all the way to the Convention Center.
 
+### Stops
+
 {% include line-stops.html %}
 
 ### Key Considerations
@@ -66,5 +68,7 @@ The trolley would run in dedicated curb-protected tracks on High Street and on 4
 However, this alternative should only be considered if the 5th Avenue warehouse obstacle is insurmountable. Street running results in lower quality of service, is more expensive to build, and exposes the passengers to delays from bad drivers.
 
 {% include line-routes.html %}
+
+### Construction
 
 {% include line-constructions.html %}

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<!-- drawn by Useddenim -->
+<!-- updated by MelioraCogito 2015-05-17 -->
+<svg xmlns="http://www.w3.org/2000/svg" width="500" height="500">
+	<title>BRÜCKE3+1</title>
+	<path d="M 255,60 L 60,255 245,440 440,245 Z" fill="#fcfcfc"/>
+	<g fill="none">
+		<path d="M 500,0 L 0,500" stroke="#be2d2c" stroke-width="100"/>
+		<path d="M 255,0 V 60 L 60,255 H 0 M 500,245 H 440 L 245,440 V 500" stroke="#80a080" stroke-width="50"/>
+	</g>
+</svg>

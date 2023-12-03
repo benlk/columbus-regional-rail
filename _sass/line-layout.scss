@@ -46,6 +46,7 @@ $column-width: 0.55em * (100-12.5);
         position: sticky;
         top: 0;
         z-index: 100;
+        border-bottom: 2px solid black;
 
         #map-container {
             width: 100%;
@@ -75,6 +76,18 @@ $column-width: 0.55em * (100-12.5);
 }
 body.line {
     max-width: unset;
+    padding-top: 1rem;
+
+    h2.title,
+    main nav a
+    {
+        margin-top: 0;
+        font-size: 1rem;
+    }
+    
+    h1 {
+        font-size: 1.5rem;
+    }
 }
 
 #leaflet-map p {
@@ -95,26 +108,42 @@ body.line {
     margin-top: 0;
     margin-bottom: 0;
 }
-.icon-custom div {
-    height: 100%;
-    width: 100%;
-    box-sizing: border-box;
-    font-size: 16px;
-    line-height: 100%;
-    border-radius: 50%;
-    text-align: center;
-    border: 1px solid black;
+#map-container .leaflet-popup-content-wrapper,
+#map-container .leaflet-popup-tip {
+    border-radius: 0;
+    box-shadow: 0 11px 40px rgba(0,0,0,0.5);
 }
+
+.icon-custom {
+    div {
+        height: 100%;
+        width: 100%;
+        box-sizing: border-box;
+        font-size: 16px;
+        line-height: 100%;
+        border-radius: 16px;
+        text-align: center;
+        border: 1px solid black;
+        background-repeat: no-repeat;
+        background-position: left center;
+    }
+}
+
 dt .dt-icon {
+    height: 32px;
+    width: 32px;
     display: inline-block;
     font-size: 16px;
     text-align: center;
-    border-radius: 50%;
+    border-radius: 16px;
 }
 dt.icon-custom {
     text-decoration: underline;
     font-weight: 700;
     margin-top: 0.2em;
+}
+dt.hastext ~ dd {
+    margin-left: 54px;
 }
 .leaflet-marker-icon div img.icon {
     max-width: 100% !important;
@@ -138,36 +167,91 @@ dt.icon-custom {
 .icon-custom.icon-tram div {
     border-bottom-right-radius: 0;
     background-image: url( '/columbus-regional-rail/icons/BSicon_BRILL.svg.png' );
-    background-position: center center;
     background-size: 90%;
     line-height: 32px;
-    width: 32px;
-    height: 32px;
-    margin-right: 8px;
+
+    dt & {
+        width: 32px;
+        height: 32px;
+        margin-right: 8px;
+    }
+    .leaflet-marker-icon & {
+        width: 100%;
+        height: 32px;
+    }
 }
 
+.icon-custom.icon-tunnel div,
+.icon-custom.icon-yard div,
+.icon-custom.icon-bridge div,
 .icon-custom.icon-construction div {
     border-top-left-radius: 0;
-    background-color: palegoldenrod;
+    background-color: orange;
+    background-size: 90%;
     line-height: 28px;
-    width: 28px;
-    height: 28px;
-    margin-right: 12px;
+    dt & {
+        width: 28px;
+        height: 28px;
+        margin-right: 12px;
+    }
+    .leaflet-marker-icon & {
+        width: 100%;
+        height: 32px;
+    }
+}
+.icon-custom.icon-bridge div {
+    background-image: url( '/columbus-regional-rail/icons/bridge.svg' );
+}
+.icon-custom.icon-yard div {
+    background-image: url( '/columbus-regional-rail/icons/yard.svg' );
+}
+.icon-custom.icon-tunnel div {
+    background-image: url( '/columbus-regional-rail/icons/tunnel.svg' );
 }
 
 .icon-custom.icon-apm div {
     border-bottom-right-radius: 0;
     background-image: url( '/columbus-regional-rail/icons/ICTS.svg' );
-    background-position: center center;
     background-size: 90%;
     line-height: 32px;
-    width: 32px;
-    height: 32px;
-    margin-right: 8px;
+    dt & {
+        width: 32px;
+        height: 32px;
+        margin-right: 8px;
+    }
+    .leaflet-marker-icon & {
+        width: 100%;
+        height: 32px;
+    }
 }
 
 .icon-custom.icon-simple div {
     line-height: 10px;
     width: 10px;
     height: 10px;
+}
+
+.icon-custom {
+    &.hastext .dt-icon,
+    .leaflet-marker-icon &.hastext {
+        width: 48px;
+    }
+    &.hastext {
+        div {
+            text-align: left;
+            padding-left: 24px;
+            background-size: 26px;
+            overflow: hidden;
+        }
+    }
+    .stop-id {
+        background-color: black;
+        color: white;
+        font-size: 14px;
+        line-height: 32px;
+        display: block;
+        padding: 0 3px;
+        font-variant-numeric: tabular-nums;
+        text-align: left;
+    }
 }
