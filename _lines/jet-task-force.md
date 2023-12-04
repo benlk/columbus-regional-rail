@@ -3,7 +3,7 @@ title: "JET Task Force Proposal"
 slug: "JET"
 excerpt: "A 2014 planning exercise to build rail connecting Downtown to the Airport."
 date: 2023-11-28
-published: false
+published: true
 revisions:
   - text: "initial publication"
     date: 2023-11-28
