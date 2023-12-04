@@ -9,7 +9,6 @@
 {% assign constructions = geojson.features | where: "properties.type", "construction" %}
             
 {% if constructions.size > 0 %}
-<h3>Major Construction</h3>
 <dl>
     {% for construction in constructions %}
         {% if construction.properties.stroke and construction.properties.stroke != '' %}

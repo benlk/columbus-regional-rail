@@ -1,14 +1,22 @@
 ---
-title: System Map
+title: Map of All Projects
 layout: default
 ---
 
 <script>
     window.line_geojson = window.line_geojson || [];
     {% for json_file in site.data.geojson %}
+
+        {% assign link = nil %}
+        {% for line in site.lines %}
+            {% if json_file[0] == line.geojson %}
+                {% assign link = line.url %}
+            {% endif %}
+        {% endfor %}
         window.line_geojson.push( {
             source: {{ json_file[0] | jsonify }},
-            data: {{ json_file[1] | jsonify }} 
+            data: {{ json_file[1] | jsonify }},
+            link: {{ link | absolute_url | jsonify }}
         } );
     {% endfor %}
 </script>
@@ -23,7 +31,7 @@ layout: default
         {% include map.html simple=true %}
     </div>
     <div class="scroll-container__scrollable">
-        <h2>Line List</h2>
+        <h2>Project details</h2>
         <dl id="line-list">
         {% for line in site.lines %}
             <dt

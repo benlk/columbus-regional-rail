@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="500" height="500">
+<title>TUNNEL2</title>
+<g fill="none">
+ <g stroke="#be2d2c">
+  <path d="M 250,0 V 125 M 250,500 V 375" stroke-width="100"/>
+  <path d="M 220,180 V 375 M 280,180 V 375" stroke-width="40" stroke-dasharray="50,40"/>
+ </g>
+ <path d="M 75,90 A 1000,2500 0 0 0 425,90 M 75,410 A 1000,2500 0 0 1 425,410" stroke="#80a080" stroke-width="60"/>
+</g>
+</svg>

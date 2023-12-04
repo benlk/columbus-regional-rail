@@ -1,1 +1,863 @@
-{"type":"FeatureCollection","features":[{"type":"Feature","properties":{"name":"Ohio Railway Museum","description":"The current location of the Ohio Railway Museum serves as the northern terminus station and maintenance yard.","icon":"tram","type":"stop","simple":"true","id":1},"geometry":{"coordinates":[-83.00332845489301,40.09315085144328],"type":"Point"}},{"type":"Feature","properties":{"name":"State Route 161","description":"A stop at State Route 161 provides transfers to a future east-west COTA line.","icon":"tram","type":"stop","stroke":"","simple":"true","id":2},"geometry":{"coordinates":[-83.00287479163123,40.08835493462479],"type":"Point"}},{"type":"Feature","properties":{"name":"Ohio Railway Museum Line","description":"This is the default route, running from the Ohio Railway Museum in Worthington to the Greater Columbus Convention Center along dedicated rail right-of-way.","stroke":"red","type":"route","icon":"","simple":"true","id":3},"geometry":{"coordinates":[[-83.00328366877,40.093140836411806],[-83.00311717612665,40.09203395079888],[-83.00287290770319,40.0883376735307],[-83.00266838341489,40.08739436528725],[-83.0018788940784,40.08483720380289],[-83.00164501155555,40.08364222731646],[-83.00150399777398,40.08183661325623],[-83.00087374289326,40.07477967483035],[-83.0000724464174,40.06442261258323],[-82.99982765116611,40.06141974204209],[-82.99886835924674,40.04821851506708],[-82.99874990658742,40.04663241127318],[-82.99837142457226,40.041130726668655],[-82.99778137628708,40.03292247499007],[-82.99766195875875,40.03121571749878],[-82.99715274915181,40.02420991651843],[-82.99677733559668,40.01910135684244],[-82.99649959816816,40.01499469551695],[-82.99586483765714,40.00601189608031],[-82.99560360299974,40.001165096771246],[-82.99512136594862,39.99426234102066],[-82.99479666043797,39.98912296080974],[-82.99453160774047,39.98666758486479],[-82.99450637199384,39.986422536687684],[-82.99431624710274,39.98346391738505],[-82.99434300096395,39.982129225776816],[-82.99410904808937,39.98100154021484],[-82.99360700228262,39.97995507043795],[-82.99335767098125,39.97939048144315],[-82.99319871382218,39.978834548884315],[-82.99314130108336,39.978008487290566],[-82.99340754364367,39.97717887241801],[-82.99384323772091,39.97627567307177],[-82.99435738039762,39.97556502658159],[-82.99493930368108,39.97505348912705],[-82.998007638409,39.97252164451213],[-82.99931274206806,39.97169356782759],[-83.00075035490406,39.971040895542274]],"type":"LineString"}},{"type":"Feature","properties":{"name":"Lincoln Avenue","description":"At this stop: Indianola Park and several small employers.","icon":"tram","type":"stop","simple":"true","id":4},"geometry":{"coordinates":[-83.0008877705982,40.07489403330405],"type":"Point"}},{"type":"Feature","properties":{"name":"Morse Road","description":"Nearby attractions include the Ohio School for the Deaf, many small employers, and the shopping corridor of Morse Road. Transfer here for COTA lines 4, 34, and 42, and for Easton.","icon":"tram","stroke":"","type":"stop","simple":"true","id":5},"geometry":{"coordinates":[-82.99987012740355,40.061873273453074],"type":"Point"}},{"type":"Feature","properties":{"name":"Cooke Road","icon":"tram","stroke":"","type":"stop","description":"There really ought to be a COTA bus on Cooke Road, since it's a major east-west route, but the hilly bit in Clintonville is too steep for buses. A stop here would still provide access to people in Clintonville and North Linden.","simple":"true","id":6},"geometry":{"coordinates":[-82.9987671001739,40.04680687741876],"type":"Point"}},{"type":"Feature","properties":{"name":"North Broadway","description":"Many apartments and local employers here, and it's just a short ride to the downhill cyclist's mecca on Walhalla Road. Transfer here for COTA line 32 on North Broadway and 4 on Indianola.","icon":"tram","type":"stop","simple":"true","id":7},"geometry":{"coordinates":[-82.9976775868933,40.031335542709826],"type":"Point"}},{"type":"Feature","properties":{"name":"Weber Road","description":"Nearby attractions include Petro Annie's, Midwest Photo, Savor Growl, and other entertainments.","icon":"tram","type":"stop","simple":"true","id":8},"geometry":{"coordinates":[-82.9971546077007,40.024268885922055],"type":"Point"}},{"type":"Feature","properties":{"name":"Hudson Street","description":"Nearby attractions include the Historic Crew Stadium, the SoHud Market, and Glen Echo Park. Transfer here for the OSU CABS East Residential route and COTA lines 31 and 4.","stroke":"","icon":"tram","type":"stop","simple":"true","id":9},"geometry":{"coordinates":[-82.99651398874128,40.0150631380003],"type":"Point"}},{"type":"Feature","properties":{"name":"Old Crew Stadium","description":"Easy access to Iuka Park and off-campus student housing. With the addition of an underpass, this stop could connect to the Historic Crew Stadium.","icon":"tram","type":"stop","simple":"true","id":10},"geometry":{"coordinates":[-82.99599516230889,40.007793625132905],"type":"Point"}},{"type":"Feature","properties":{"name":"17th Avenue","description":"This stop provides easy access to the north entrance to the State Fairgrounds.","icon":"tram","type":"stop","simple":"true","id":11},"geometry":{"coordinates":[-82.99561140507345,40.001235740167004],"type":"Point"}},{"type":"Feature","properties":{"name":"11th Avenue and State Fairgrounds","description":"This stop aligns with Governor DeWine's planned new transit center at the Fairgrounds, and provides easy access to the south entrance to the State Fairgrounds. Transfer here for COTA lines 8 and 22.","icon":"tram","type":"stop","simple":"true","id":12},"geometry":{"coordinates":[-82.99514412980832,39.994362747520995],"type":"Point"}},{"type":"Feature","properties":{"name":"5th Avenue","icon":"tram","type":"stop","description":"Nearby attractions include many employers and new apartment blocks in Weinland Park. Transfer here for COTA line 12.","simple":"true","id":13},"geometry":{"coordinates":[-82.99458562745461,39.98668265750513],"type":"Point"}},{"type":"Feature","properties":{"name":"2nd Avenue","icon":"tram","type":"stop","description":"Nearby attractions include apartments and the Ohio Brewing Company.","simple":"true","id":14},"geometry":{"coordinates":[-82.99434950058915,39.98215018207111],"type":"Point"}},{"type":"Feature","properties":{"name":"Convention Center","description":"There appears to be enough space on the south side of Convention Center Drive, north of the CSX tracks, to allow trolley traffic to the convention center.","icon":"tram","type":"stop","simple":"true","id":15},"geometry":{"coordinates":[-83.00073050488047,39.97107126936598],"type":"Point"}},{"type":"Feature","properties":{"name":"Alternate Route","type":"route","icon":"","stroke":"rgba(255,0,0,0.5)","dashArray":"8","description":"This route avoids the warehouses and freight trafic south of 5th by exiting the rail right-of-way at the State Fairgrounds. It runs in mixed traffic along 11th, and then in a curb-protected dedicated lane down High Street, possibly as protection for a bike lane. At the Statehouse, the tram turns onto Broad, running in the BRT lanes, before turning north on 4th Street, where a curb-protected tram lane serves as buffer for a bikeway. ","id":16},"geometry":{"coordinates":[[-82.99531183855018,39.9970783751732],[-82.99497054043289,39.99570745929944],[-82.99494611637554,39.99521019634378],[-82.99445021957807,39.99518899988894],[-82.99389982173136,39.99509153190911],[-82.99373775100969,39.99499762365656],[-82.993657117679,39.99481657272841],[-82.99371868750579,39.99448936432526],[-82.99407785157813,39.99427393360571],[-82.99701448628022,39.994375488168146],[-83.00702551304595,39.994807258136746],[-83.00676060721815,39.99346710654703],[-83.00654050305752,39.992303248661415],[-83.00633766196773,39.991317921653916],[-83.00552762039445,39.98712810501138],[-83.00463304783692,39.98263799375118],[-83.00392622604865,39.97897971123271],[-83.00324607205636,39.97558056367458],[-83.00290630574919,39.973822039703634],[-83.00220283599994,39.970091260828156],[-83.00143306640715,39.96627315208451],[-83.00064466618602,39.96223703813635],[-82.9962962851912,39.962729910179064],[-82.99667175699562,39.96453929321612],[-82.99705586222042,39.966636398346566],[-82.99737091643685,39.968313374043646],[-82.9974874446946,39.96889586794401],[-82.99752628660514,39.96918031884428],[-82.99743527940984,39.97040041208908],[-82.99729244389422,39.97220446484596],[-82.99733364664853,39.9724212849753],[-82.99741879836769,39.972619158750604],[-82.9981002634566,39.97347093926095],[-82.9982266176202,39.97372564510306],[-82.99830352885053,39.97396140503636],[-82.99828704787274,39.974178219256856],[-82.99821013748672,39.97512335201591],[-82.9981359735257,39.976190558717946],[-82.99811028127806,39.97642093590011],[-82.9980514863305,39.97718137370802],[-82.99798982337475,39.9779978465738],[-82.99796687926307,39.978320916575825],[-82.99796544523988,39.97840662870391],[-82.9980572227187,39.978859362777],[-82.9981977571582,39.979560434933546],[-82.99833398804667,39.98027468387474],[-82.99848812872547,39.981035000733954],[-82.99864874003704,39.98185352869285],[-82.9987491221355,39.98235568673314],[-82.99878353869045,39.98253808882362],[-82.99897702034005,39.98353786696012],[-82.99917634989781,39.98456149815894],[-82.99928963819619,39.98516635131767],[-82.99941439869065,39.98580802682213],[-82.9995936511132,39.98676835249407],[-82.99961659621584,39.98700589450016],[-82.99950330807647,39.98880010182094],[-82.99931372263126,39.991745675831964],[-82.99921274178259,39.993267185627104],[-82.99915595391985,39.994198653609686],[-82.99914139301204,39.99431913020203],[-82.999030730115,39.99440167885649],[-82.99767487912086,39.994348034235216],[-82.9966426825366,39.99431426379414],[-82.9944562308768,39.99424282261063],[-82.99367197655283,39.99446904789377],[-82.99361399600981,39.99481188442553],[-82.9936969931826,39.99503387154485],[-82.99387975338689,39.9951256385427],[-82.99445415975109,39.99518892718626]],"type":"LineString"}},{"type":"Feature","properties":{"name":"Lincoln Grade Crossing","icon":"construction","type":"construction","description":"The Lincoln Avenue grade crossing will need to accommodate a fourth track.","id":17},"geometry":{"coordinates":[-83.00088068047991,40.074835415352],"type":"Point"}},{"type":"Feature","properties":{"name":"New Morse Rd. Bridge","icon":"construction","type":"construction","description":"The existing single-track Conrail bridge over Morse Road will need to be suplemented by a new bridge for Conrail tracks, preferably supporting two tracks.","id":18},"geometry":{"coordinates":[-82.99973887833393,40.061705305635826],"type":"Point"}},{"type":"Feature","properties":{"name":"E. Cooke Rd. Grade Crossing","icon":"construction","type":"construction","description":"The E. Cooke Road crossing will need to support additional tracks.","id":19},"geometry":{"coordinates":[-82.99875643674463,40.04823055150908],"type":"Point"}},{"type":"Feature","properties":{"name":"New E. Cooke Rd. Bridge","icon":"construction","type":"construction","description":"The Cooke Road bridges will require a supplemental bridge for the relocated Conrail lines.","id":20},"geometry":{"coordinates":[-82.99865227535193,40.046655414348095],"type":"Point"}},{"type":"Feature","properties":{"name":"New North Broadway Bridge","icon":"construction","type":"construction","description":"The North Broadway bridges will need to be supplemented with a new bridge for the relocated Conrail lines.","id":21},"geometry":{"coordinates":[-82.9975431595597,40.03122382356787],"type":"Point"}},{"type":"Feature","properties":{"name":"Weber Rd. Grade Crosing","icon":"construction","type":"construction","description":"The Weber Road crossing will need to be upgraded to support additional tracks. Alternately, this crossing can be turned into a road underpass to allow continuous traffic under the tracks.","id":22},"geometry":{"coordinates":[-82.99702840320938,40.02421319936715],"type":"Point"}},{"type":"Feature","properties":{"name":"New Hudson St. Bridge","icon":"construction","type":"construction","description":"The existing four tracks' worth of bridges will require a fifth track's worth of bridge to support the relocated Conrail tracks.","id":23},"geometry":{"coordinates":[-82.99635448488554,40.014972844840315],"type":"Point"}},{"type":"Feature","properties":{"name":"Fairgrounds Underpass","icon":"construction","type":"construction","description":"Running the tram line into the Fairgrounds from the west side of the tracks would require construction of a ramp down from the rail embankment to grade level, a new retaining wall, a tunnel under the Conrail tracks, and new tracks to be laid under the Norfolk Southern tracks' viaduct into the Fairgrounds.","id":24},"geometry":{"coordinates":[-82.99508446653866,39.9961855527373],"type":"Point"}}]}
+{
+    "type": "FeatureCollection",
+    "features": [
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "Ohio Railway Museum",
+                "description": "The current location of the Ohio Railway Museum serves as the northern terminus station and maintenance yard.",
+                "icon": "tram",
+                "type": "stop",
+                "simple": "true",
+                "id": 1
+            },
+            "geometry": {
+                "coordinates": [
+                    -83.00332845489301,
+                    40.09315085144328
+                ],
+                "type": "Point"
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "State Route 161",
+                "description": "A stop at State Route 161 provides transfers to a future east-west COTA line.",
+                "icon": "tram",
+                "type": "stop",
+                "stroke": "",
+                "simple": "true",
+                "id": 2
+            },
+            "geometry": {
+                "coordinates": [
+                    -83.00287479163123,
+                    40.08835493462479
+                ],
+                "type": "Point"
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "Ohio Railway Museum Line",
+                "description": "This is the default route, running from the Ohio Railway Museum in Worthington to the Greater Columbus Convention Center along dedicated rail right-of-way.",
+                "stroke": "red",
+                "type": "route",
+                "icon": "",
+                "simple": "true",
+                "id": 3
+            },
+            "geometry": {
+                "coordinates": [
+                    [
+                        -83.00328366877,
+                        40.093140836411806
+                    ],
+                    [
+                        -83.00311717612665,
+                        40.09203395079888
+                    ],
+                    [
+                        -83.00287290770319,
+                        40.0883376735307
+                    ],
+                    [
+                        -83.00266838341489,
+                        40.08739436528725
+                    ],
+                    [
+                        -83.0018788940784,
+                        40.08483720380289
+                    ],
+                    [
+                        -83.00164501155555,
+                        40.08364222731646
+                    ],
+                    [
+                        -83.00150399777398,
+                        40.08183661325623
+                    ],
+                    [
+                        -83.00087374289326,
+                        40.07477967483035
+                    ],
+                    [
+                        -83.0000724464174,
+                        40.06442261258323
+                    ],
+                    [
+                        -82.99982765116611,
+                        40.06141974204209
+                    ],
+                    [
+                        -82.99886835924674,
+                        40.04821851506708
+                    ],
+                    [
+                        -82.99874990658742,
+                        40.04663241127318
+                    ],
+                    [
+                        -82.99837142457226,
+                        40.041130726668655
+                    ],
+                    [
+                        -82.99778137628708,
+                        40.03292247499007
+                    ],
+                    [
+                        -82.99766195875875,
+                        40.03121571749878
+                    ],
+                    [
+                        -82.99715274915181,
+                        40.02420991651843
+                    ],
+                    [
+                        -82.99677733559668,
+                        40.01910135684244
+                    ],
+                    [
+                        -82.99649959816816,
+                        40.01499469551695
+                    ],
+                    [
+                        -82.99586483765714,
+                        40.00601189608031
+                    ],
+                    [
+                        -82.99560360299974,
+                        40.001165096771246
+                    ],
+                    [
+                        -82.99512136594862,
+                        39.99426234102066
+                    ],
+                    [
+                        -82.99479666043797,
+                        39.98912296080974
+                    ],
+                    [
+                        -82.99453160774047,
+                        39.98666758486479
+                    ],
+                    [
+                        -82.99450637199384,
+                        39.986422536687684
+                    ],
+                    [
+                        -82.99431624710274,
+                        39.98346391738505
+                    ],
+                    [
+                        -82.99434300096395,
+                        39.982129225776816
+                    ],
+                    [
+                        -82.99410904808937,
+                        39.98100154021484
+                    ],
+                    [
+                        -82.99360700228262,
+                        39.97995507043795
+                    ],
+                    [
+                        -82.99335767098125,
+                        39.97939048144315
+                    ],
+                    [
+                        -82.99319871382218,
+                        39.978834548884315
+                    ],
+                    [
+                        -82.99314130108336,
+                        39.978008487290566
+                    ],
+                    [
+                        -82.99340754364367,
+                        39.97717887241801
+                    ],
+                    [
+                        -82.99384323772091,
+                        39.97627567307177
+                    ],
+                    [
+                        -82.99435738039762,
+                        39.97556502658159
+                    ],
+                    [
+                        -82.99493930368108,
+                        39.97505348912705
+                    ],
+                    [
+                        -82.998007638409,
+                        39.97252164451213
+                    ],
+                    [
+                        -82.99931274206806,
+                        39.97169356782759
+                    ],
+                    [
+                        -83.00075035490406,
+                        39.971040895542274
+                    ]
+                ],
+                "type": "LineString"
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "Lincoln Avenue",
+                "description": "At this stop: Indianola Park and several small employers.",
+                "icon": "tram",
+                "type": "stop",
+                "simple": "true",
+                "id": 4
+            },
+            "geometry": {
+                "coordinates": [
+                    -83.0008877705982,
+                    40.07489403330405
+                ],
+                "type": "Point"
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "Morse Road",
+                "description": "Nearby attractions include the Ohio School for the Deaf, many small employers, and the shopping corridor of Morse Road. Transfer here for COTA lines 4, 34, and 42, and for Easton.",
+                "icon": "tram",
+                "stroke": "",
+                "type": "stop",
+                "simple": "true",
+                "id": 5
+            },
+            "geometry": {
+                "coordinates": [
+                    -82.99987012740355,
+                    40.061873273453074
+                ],
+                "type": "Point"
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "Cooke Road",
+                "icon": "tram",
+                "stroke": "",
+                "type": "stop",
+                "description": "There really ought to be a COTA bus on Cooke Road, since it's a major east-west route, but the hilly bit in Clintonville is too steep for buses. A stop here would still provide access to people in Clintonville and North Linden.",
+                "simple": "true",
+                "id": 6
+            },
+            "geometry": {
+                "coordinates": [
+                    -82.9987671001739,
+                    40.04680687741876
+                ],
+                "type": "Point"
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "North Broadway",
+                "description": "Many apartments and local employers here, and it's just a short ride to the downhill cyclist's mecca on Walhalla Road. Transfer here for COTA line 32 on North Broadway and 4 on Indianola.",
+                "icon": "tram",
+                "type": "stop",
+                "simple": "true",
+                "id": 7
+            },
+            "geometry": {
+                "coordinates": [
+                    -82.9976775868933,
+                    40.031335542709826
+                ],
+                "type": "Point"
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "Weber Road",
+                "description": "Nearby attractions include Petro Annie's, Midwest Photo, Savor Growl, and other entertainments.",
+                "icon": "tram",
+                "type": "stop",
+                "simple": "true",
+                "id": 8
+            },
+            "geometry": {
+                "coordinates": [
+                    -82.9971546077007,
+                    40.024268885922055
+                ],
+                "type": "Point"
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "Hudson Street",
+                "description": "Nearby attractions include the Historic Crew Stadium, the SoHud Market, and Glen Echo Park. Transfer here for the OSU CABS East Residential route and COTA lines 31 and 4.",
+                "stroke": "",
+                "icon": "tram",
+                "type": "stop",
+                "simple": "true",
+                "id": 9
+            },
+            "geometry": {
+                "coordinates": [
+                    -82.99651398874128,
+                    40.0150631380003
+                ],
+                "type": "Point"
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "Old Crew Stadium",
+                "description": "Easy access to Iuka Park and off-campus student housing. With the addition of an underpass, this stop could connect to the Historic Crew Stadium.",
+                "icon": "tram",
+                "type": "stop",
+                "simple": "true",
+                "id": 10
+            },
+            "geometry": {
+                "coordinates": [
+                    -82.99599516230889,
+                    40.007793625132905
+                ],
+                "type": "Point"
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "17th Avenue",
+                "description": "This stop provides easy access to the north entrance to the State Fairgrounds.",
+                "icon": "tram",
+                "type": "stop",
+                "simple": "true",
+                "id": 11
+            },
+            "geometry": {
+                "coordinates": [
+                    -82.99561140507345,
+                    40.001235740167004
+                ],
+                "type": "Point"
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "11th Avenue and State Fairgrounds",
+                "description": "This stop aligns with Governor DeWine's planned new transit center at the Fairgrounds, and provides easy access to the south entrance to the State Fairgrounds. Transfer here for COTA lines 8 and 22.",
+                "icon": "tram",
+                "type": "stop",
+                "simple": "true",
+                "id": 12
+            },
+            "geometry": {
+                "coordinates": [
+                    -82.99514412980832,
+                    39.994362747520995
+                ],
+                "type": "Point"
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "5th Avenue",
+                "icon": "tram",
+                "type": "stop",
+                "description": "Nearby attractions include many employers and new apartment blocks in Weinland Park. Transfer here for COTA line 12.",
+                "simple": "true",
+                "id": 13
+            },
+            "geometry": {
+                "coordinates": [
+                    -82.99458562745461,
+                    39.98668265750513
+                ],
+                "type": "Point"
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "2nd Avenue",
+                "icon": "tram",
+                "type": "stop",
+                "description": "Nearby attractions include apartments and the Ohio Brewing Company.",
+                "simple": "true",
+                "id": 14
+            },
+            "geometry": {
+                "coordinates": [
+                    -82.99434950058915,
+                    39.98215018207111
+                ],
+                "type": "Point"
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "Convention Center",
+                "description": "There appears to be enough space on the south side of Convention Center Drive, north of the CSX tracks, to allow trolley traffic to the convention center.",
+                "icon": "tram",
+                "type": "stop",
+                "simple": "true",
+                "id": 15
+            },
+            "geometry": {
+                "coordinates": [
+                    -83.00073050488047,
+                    39.97107126936598
+                ],
+                "type": "Point"
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "Alternate Route",
+                "type": "route",
+                "icon": "",
+                "stroke": "rgba(255,0,0,0.5)",
+                "dashArray": "8",
+                "description": "This route avoids the warehouses and freight trafic south of 5th by exiting the rail right-of-way at the State Fairgrounds. It runs in mixed traffic along 11th, and then in a curb-protected dedicated lane down High Street, possibly as protection for a bike lane. At the Statehouse, the tram turns onto Broad, running in the BRT lanes, before turning north on 4th Street, where a curb-protected tram lane serves as buffer for a bikeway. ",
+                "id": 16
+            },
+            "geometry": {
+                "coordinates": [
+                    [
+                        -82.99531183855018,
+                        39.9970783751732
+                    ],
+                    [
+                        -82.99497054043289,
+                        39.99570745929944
+                    ],
+                    [
+                        -82.99494611637554,
+                        39.99521019634378
+                    ],
+                    [
+                        -82.99445021957807,
+                        39.99518899988894
+                    ],
+                    [
+                        -82.99389982173136,
+                        39.99509153190911
+                    ],
+                    [
+                        -82.99373775100969,
+                        39.99499762365656
+                    ],
+                    [
+                        -82.993657117679,
+                        39.99481657272841
+                    ],
+                    [
+                        -82.99371868750579,
+                        39.99448936432526
+                    ],
+                    [
+                        -82.99407785157813,
+                        39.99427393360571
+                    ],
+                    [
+                        -82.99701448628022,
+                        39.994375488168146
+                    ],
+                    [
+                        -83.00702551304595,
+                        39.994807258136746
+                    ],
+                    [
+                        -83.00676060721815,
+                        39.99346710654703
+                    ],
+                    [
+                        -83.00654050305752,
+                        39.992303248661415
+                    ],
+                    [
+                        -83.00633766196773,
+                        39.991317921653916
+                    ],
+                    [
+                        -83.00552762039445,
+                        39.98712810501138
+                    ],
+                    [
+                        -83.00463304783692,
+                        39.98263799375118
+                    ],
+                    [
+                        -83.00392622604865,
+                        39.97897971123271
+                    ],
+                    [
+                        -83.00324607205636,
+                        39.97558056367458
+                    ],
+                    [
+                        -83.00290630574919,
+                        39.973822039703634
+                    ],
+                    [
+                        -83.00220283599994,
+                        39.970091260828156
+                    ],
+                    [
+                        -83.00143306640715,
+                        39.96627315208451
+                    ],
+                    [
+                        -83.00064466618602,
+                        39.96223703813635
+                    ],
+                    [
+                        -82.9962962851912,
+                        39.962729910179064
+                    ],
+                    [
+                        -82.99667175699562,
+                        39.96453929321612
+                    ],
+                    [
+                        -82.99705586222042,
+                        39.966636398346566
+                    ],
+                    [
+                        -82.99737091643685,
+                        39.968313374043646
+                    ],
+                    [
+                        -82.9974874446946,
+                        39.96889586794401
+                    ],
+                    [
+                        -82.99752628660514,
+                        39.96918031884428
+                    ],
+                    [
+                        -82.99743527940984,
+                        39.97040041208908
+                    ],
+                    [
+                        -82.99729244389422,
+                        39.97220446484596
+                    ],
+                    [
+                        -82.99733364664853,
+                        39.9724212849753
+                    ],
+                    [
+                        -82.99741879836769,
+                        39.972619158750604
+                    ],
+                    [
+                        -82.9981002634566,
+                        39.97347093926095
+                    ],
+                    [
+                        -82.9982266176202,
+                        39.97372564510306
+                    ],
+                    [
+                        -82.99830352885053,
+                        39.97396140503636
+                    ],
+                    [
+                        -82.99828704787274,
+                        39.974178219256856
+                    ],
+                    [
+                        -82.99821013748672,
+                        39.97512335201591
+                    ],
+                    [
+                        -82.9981359735257,
+                        39.976190558717946
+                    ],
+                    [
+                        -82.99811028127806,
+                        39.97642093590011
+                    ],
+                    [
+                        -82.9980514863305,
+                        39.97718137370802
+                    ],
+                    [
+                        -82.99798982337475,
+                        39.9779978465738
+                    ],
+                    [
+                        -82.99796687926307,
+                        39.978320916575825
+                    ],
+                    [
+                        -82.99796544523988,
+                        39.97840662870391
+                    ],
+                    [
+                        -82.9980572227187,
+                        39.978859362777
+                    ],
+                    [
+                        -82.9981977571582,
+                        39.979560434933546
+                    ],
+                    [
+                        -82.99833398804667,
+                        39.98027468387474
+                    ],
+                    [
+                        -82.99848812872547,
+                        39.981035000733954
+                    ],
+                    [
+                        -82.99864874003704,
+                        39.98185352869285
+                    ],
+                    [
+                        -82.9987491221355,
+                        39.98235568673314
+                    ],
+                    [
+                        -82.99878353869045,
+                        39.98253808882362
+                    ],
+                    [
+                        -82.99897702034005,
+                        39.98353786696012
+                    ],
+                    [
+                        -82.99917634989781,
+                        39.98456149815894
+                    ],
+                    [
+                        -82.99928963819619,
+                        39.98516635131767
+                    ],
+                    [
+                        -82.99941439869065,
+                        39.98580802682213
+                    ],
+                    [
+                        -82.9995936511132,
+                        39.98676835249407
+                    ],
+                    [
+                        -82.99961659621584,
+                        39.98700589450016
+                    ],
+                    [
+                        -82.99950330807647,
+                        39.98880010182094
+                    ],
+                    [
+                        -82.99931372263126,
+                        39.991745675831964
+                    ],
+                    [
+                        -82.99921274178259,
+                        39.993267185627104
+                    ],
+                    [
+                        -82.99915595391985,
+                        39.994198653609686
+                    ],
+                    [
+                        -82.99914139301204,
+                        39.99431913020203
+                    ],
+                    [
+                        -82.999030730115,
+                        39.99440167885649
+                    ],
+                    [
+                        -82.99767487912086,
+                        39.994348034235216
+                    ],
+                    [
+                        -82.9966426825366,
+                        39.99431426379414
+                    ],
+                    [
+                        -82.9944562308768,
+                        39.99424282261063
+                    ],
+                    [
+                        -82.99367197655283,
+                        39.99446904789377
+                    ],
+                    [
+                        -82.99361399600981,
+                        39.99481188442553
+                    ],
+                    [
+                        -82.9936969931826,
+                        39.99503387154485
+                    ],
+                    [
+                        -82.99387975338689,
+                        39.9951256385427
+                    ],
+                    [
+                        -82.99445415975109,
+                        39.99518892718626
+                    ]
+                ],
+                "type": "LineString"
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "Lincoln Grade Crossing",
+                "icon": "construction",
+                "type": "construction",
+                "description": "The Lincoln Avenue grade crossing will need to accommodate a fourth track.",
+                "id": 17
+            },
+            "geometry": {
+                "coordinates": [
+                    -83.00088068047991,
+                    40.074835415352
+                ],
+                "type": "Point"
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "New Morse Rd. Bridge",
+                "icon": "construction",
+                "type": "construction",
+                "description": "The existing single-track Conrail bridge over Morse Road will need to be suplemented by a new bridge for Conrail tracks, preferably supporting two tracks.",
+                "id": 18
+            },
+            "geometry": {
+                "coordinates": [
+                    -82.99973887833393,
+                    40.061705305635826
+                ],
+                "type": "Point"
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "E. Cooke Rd. Grade Crossing",
+                "icon": "construction",
+                "type": "construction",
+                "description": "The E. Cooke Road crossing will need to support additional tracks.",
+                "id": 19
+            },
+            "geometry": {
+                "coordinates": [
+                    -82.99875643674463,
+                    40.04823055150908
+                ],
+                "type": "Point"
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "New E. Cooke Rd. Bridge",
+                "icon": "construction",
+                "type": "construction",
+                "description": "The Cooke Road bridges will require a supplemental bridge for the relocated Conrail lines.",
+                "id": 20
+            },
+            "geometry": {
+                "coordinates": [
+                    -82.99865227535193,
+                    40.046655414348095
+                ],
+                "type": "Point"
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "New North Broadway Bridge",
+                "icon": "construction",
+                "type": "construction",
+                "description": "The North Broadway bridges will need to be supplemented with a new bridge for the relocated Conrail lines.",
+                "id": 21
+            },
+            "geometry": {
+                "coordinates": [
+                    -82.9975431595597,
+                    40.03122382356787
+                ],
+                "type": "Point"
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "Weber Rd. Grade Crosing",
+                "icon": "construction",
+                "type": "construction",
+                "description": "The Weber Road crossing will need to be upgraded to support additional tracks. Alternately, this crossing can be turned into a road underpass to allow continuous traffic under the tracks.",
+                "id": 22
+            },
+            "geometry": {
+                "coordinates": [
+                    -82.99702840320938,
+                    40.02421319936715
+                ],
+                "type": "Point"
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "New Hudson St. Bridge",
+                "icon": "construction",
+                "type": "construction",
+                "description": "The existing four tracks' worth of bridges will require a fifth track's worth of bridge to support the relocated Conrail tracks.",
+                "id": 23
+            },
+            "geometry": {
+                "coordinates": [
+                    -82.99635448488554,
+                    40.014972844840315
+                ],
+                "type": "Point"
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "Fairgrounds Underpass",
+                "icon": "construction",
+                "type": "construction",
+                "description": "Running the tram line into the Fairgrounds from the west side of the tracks would require construction of a ramp down from the rail embankment to grade level, a new retaining wall, a tunnel under the Conrail tracks, and new tracks to be laid under the Norfolk Southern tracks' viaduct into the Fairgrounds.",
+                "id": 24
+            },
+            "geometry": {
+                "coordinates": [
+                    -82.99508446653866,
+                    39.9961855527373
+                ],
+                "type": "Point"
+            }
+        }
+    ]
+}

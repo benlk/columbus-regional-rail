@@ -39,6 +39,8 @@ Why this tech, and why now?
 
 In 2022, the Columbus Regional Airport Authority [began designing a new terminal building](https://flycolumbus.com/at-port-columbus/terminal-modernization-program) for John Glenn International Airport. This redesign presents a perfect opportunity to build an automated connection from the airport to Downtown. Our peer cities have equivalent transit connections. It's time for Columbus to catch up.
 
+### Stops
+
 {% include line-stops.html %}
 
 ### Ridership
@@ -83,5 +85,7 @@ For maintenance costs:
 - Washington Dulles International Airport [paid Mitsubishi Heavy Industries' Crystal Mover Services $136 million for a 10-year contract](https://www.thefreelibrary.com/Washington+Dulles+International+Airport+renews+contract+with+Crystal...-a0392166934) in 2014.
 
 For comparison, ODOT is spending [$1.4 billion-with-a-b dollars on widening I-71 and I-70](https://www.transportation.ohio.gov/projects/mega-projects/mega-projects/downtown-ramp-up) in the areas around Downtown Columbus, and [$112 million to widen SR 161 between 270 and New Albany](https://www.transportation.ohio.gov/projects/projects/116322), to support the Intel development. [$48 million to convert a shoulder on I-71 to a smart lane between 5th Avenue and SR 161](https://www.transportation.ohio.gov/projects/projects/109164).
+
+### Construction
 
 {% include line-constructions.html %}

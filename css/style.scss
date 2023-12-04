@@ -39,7 +39,7 @@ h1,h2,h3,h4,h5,h6 {
     margin: 0;
     text-transform: capitalize;
 }
-h1 { font-size: 3.2rem; font-style: normal; margin-top: 2.6rem; }
+h1 { font-size: 2.2rem; font-style: normal; margin-top: 2.6rem; }
 h2 { font-size: 2.2rem; margin-top: 4.2rem; }
 h3 { font-size: 1.7rem; margin-top: 2.6rem; }
 
@@ -60,6 +60,11 @@ dl dd
 }
 .MathJax_SVG_Display {
     max-width: 55% !important;
+}
+sup {
+    font-size: 1rem;
+    line-height: 1;
+    padding: 0 0.5ch;
 }
 li ul li, li ol li {
     max-width: 100%;

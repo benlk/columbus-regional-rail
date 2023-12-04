@@ -7,9 +7,10 @@
 {% endfor %}
 {% assign stops = geojson.features | where: "properties.type", "stop" %}
     
-<h3>Stops</h3>
 <dl>
     {% for stop in stops %}
+        {% assign classes = 'icon-custom js-clickable hastext icon-' | append: stop.properties.icon%}
+
         {% if stop.properties.stroke and stop.properties.stroke != '' %}
             {% assign color = stop.properties.stroke %}
         {% else if page.color %}
@@ -17,12 +18,15 @@
         {% else %}
             {% assign color = 'blue' %}
         {% endif %}
+
         <dt 
             id="stops-list-{{ stop.properties.name | slugify }}"
-            class="icon-custom icon-{{ stop.properties.icon }} js-clickable"
+            class="icon-custom icon-{{classes}} js-clickable"
             onclick="zoom_to_feature( '.marker-{{ stop.properties.type }}-{{stop.properties.id}}' );"
         >
-            <div class="dt-icon" style="background-color: {{ color }}">&nbsp;</div>
+            <div class="dt-icon" style="background-color: {{ color }}">
+                <span class="stop-id">{{stop.properties.id}}</span>
+            </div>
             {{stop.properties.name}}
         </dt>
         <dd>{{stop.properties.description}}</dd>

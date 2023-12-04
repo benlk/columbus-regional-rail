@@ -6,10 +6,13 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>{{ page.title }} | {{ site.title }}</title>
+    <meta property="og:title" content="{{ page.title }} | {{ site.title }}">
+    <meta property="og:type" content="website" />
     <meta name="description" content="{% if page.description %}{{ page.description }}{% else %}{{ site.description }}{% endif %}">
     <link rel="icon" href="{{ 'favicon.ico' | absolute_url }}" type="image/x-icon">
     <link href='{{ 'feed.xml' | absolute_url }}' rel='alternate' type='application/atom+xml'>
     <link rel="canonical" href="{{ page.url }}">
+    <meta property="og:url" href="{{ page.url }}">
     <link rel="stylesheet" href="{{ 'css/style.css' | absolute_url  }}">
 	<script>
 		window.baseurl = '{{ site.baseurl }}';
