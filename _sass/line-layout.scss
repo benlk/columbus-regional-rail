@@ -164,9 +164,10 @@ dt.hastext ~ dd {
 }
 
 /* icon types */
+.icon-custom.icon-safege div,
+.icon-custom.icon-apm div,
 .icon-custom.icon-tram div {
     border-bottom-right-radius: 0;
-    background-image: url( '/columbus-regional-rail/icons/BSicon_BRILL.svg.png' );
     background-size: 90%;
     line-height: 32px;
 
@@ -179,6 +180,15 @@ dt.hastext ~ dd {
         width: 100%;
         height: 32px;
     }
+}
+.icon-custom.icon-safege div {
+    background-image: url( '/columbus-regional-rail/icons/safege.svg' );
+}
+.icon-custom.icon-apm div {
+    background-image: url( '/columbus-regional-rail/icons/ICTS.svg' );
+}
+.icon-custom.icon-tram div {
+    background-image: url( '/columbus-regional-rail/icons/BSicon_BRILL.svg.png' );
 }
 
 .icon-custom.icon-tunnel div,
@@ -209,21 +219,6 @@ dt.hastext ~ dd {
     background-image: url( '/columbus-regional-rail/icons/tunnel.svg' );
 }
 
-.icon-custom.icon-apm div {
-    border-bottom-right-radius: 0;
-    background-image: url( '/columbus-regional-rail/icons/ICTS.svg' );
-    background-size: 90%;
-    line-height: 32px;
-    dt & {
-        width: 32px;
-        height: 32px;
-        margin-right: 8px;
-    }
-    .leaflet-marker-icon & {
-        width: 100%;
-        height: 32px;
-    }
-}
 
 .icon-custom.icon-simple div {
     line-height: 10px;
@@ -253,5 +248,7 @@ dt.hastext ~ dd {
         padding: 0 3px;
         font-variant-numeric: tabular-nums;
         text-align: left;
+        font-family: $font-family-sans;
+        font-weight: bold;
     }
 }

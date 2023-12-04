@@ -1,0 +1,774 @@
+{
+    "type": "FeatureCollection",
+    "features": [
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "Suspended Monorail",
+                "description": "A SAFEGE suspended monorail with passing loops and overhead stations, running fully automated, connects commuters and eventgoers along the Olentangy River",
+                "icon": "safege",
+                "type": "route",
+                "simple": "true",
+                "id": ""
+            },
+            "geometry": {
+                "coordinates": [
+                    [
+                        -83.04561871513394,
+                        40.15707588810588
+                    ],
+                    [
+                        -83.04335875343088,
+                        40.149232055228424
+                    ],
+                    [
+                        -83.03769032356603,
+                        40.13759206320066
+                    ],
+                    [
+                        -83.0359068310932,
+                        40.131209768607505
+                    ],
+                    [
+                        -83.03443230742256,
+                        40.125538147128964
+                    ],
+                    [
+                        -83.03119168362865,
+                        40.12027271966738
+                    ],
+                    [
+                        -83.03216967993323,
+                        40.11578509682829
+                    ],
+                    [
+                        -83.03238492565268,
+                        40.113390007033786
+                    ],
+                    [
+                        -83.03294159062548,
+                        40.110929782461994
+                    ],
+                    [
+                        -83.0330446621285,
+                        40.10977460073582
+                    ],
+                    [
+                        -83.03540026474953,
+                        40.10722452622662
+                    ],
+                    [
+                        -83.03572213725502,
+                        40.105377164781345
+                    ],
+                    [
+                        -83.03608313793444,
+                        40.100858730390314
+                    ],
+                    [
+                        -83.0362209229177,
+                        40.096511070906786
+                    ],
+                    [
+                        -83.0368658314182,
+                        40.093561776580714
+                    ],
+                    [
+                        -83.03608790126658,
+                        40.09121202306227
+                    ],
+                    [
+                        -83.03546871728597,
+                        40.089702724633796
+                    ],
+                    [
+                        -83.03476094309634,
+                        40.08617530405934
+                    ],
+                    [
+                        -83.03495475725006,
+                        40.08064936916864
+                    ],
+                    [
+                        -83.03505655850552,
+                        40.0789560426056
+                    ],
+                    [
+                        -83.0352058402137,
+                        40.0768897171709
+                    ],
+                    [
+                        -83.03523723717102,
+                        40.074975078045384
+                    ],
+                    [
+                        -83.03470329891542,
+                        40.07186724926967
+                    ],
+                    [
+                        -83.03334444590004,
+                        40.06849561880334
+                    ],
+                    [
+                        -83.03325430026602,
+                        40.065741780075655
+                    ],
+                    [
+                        -83.03424795223702,
+                        40.06405356944953
+                    ],
+                    [
+                        -83.03421107632823,
+                        40.06303022057804
+                    ],
+                    [
+                        -83.03348420079308,
+                        40.06235328463814
+                    ],
+                    [
+                        -83.03206507698641,
+                        40.06173748820028
+                    ],
+                    [
+                        -83.03119707445241,
+                        40.06028174372389
+                    ],
+                    [
+                        -83.03100191707834,
+                        40.057676145345724
+                    ],
+                    [
+                        -83.03165323569597,
+                        40.0544195155688
+                    ],
+                    [
+                        -83.03200272046293,
+                        40.05189676750652
+                    ],
+                    [
+                        -83.03245709807813,
+                        40.04550669879768
+                    ],
+                    [
+                        -83.03189048765996,
+                        40.042595638892294
+                    ],
+                    [
+                        -83.03034929429312,
+                        40.039555743312604
+                    ],
+                    [
+                        -83.0270016261106,
+                        40.036490492460985
+                    ],
+                    [
+                        -83.026979007507,
+                        40.033771482284465
+                    ],
+                    [
+                        -83.02707204223508,
+                        40.031439739750056
+                    ],
+                    [
+                        -83.02730433505754,
+                        40.02940985949235
+                    ],
+                    [
+                        -83.02728920722424,
+                        40.027543062996884
+                    ],
+                    [
+                        -83.02734825430457,
+                        40.026585872436186
+                    ],
+                    [
+                        -83.02676573339446,
+                        40.02592344848022
+                    ],
+                    [
+                        -83.02574099857691,
+                        40.022962668727814
+                    ],
+                    [
+                        -83.02475972120465,
+                        40.02062848809476
+                    ],
+                    [
+                        -83.02348641334812,
+                        40.017187196564976
+                    ],
+                    [
+                        -83.02234606717732,
+                        40.01340600479196
+                    ],
+                    [
+                        -83.02233264372701,
+                        40.01096705668661
+                    ],
+                    [
+                        -83.02300287241681,
+                        40.008616326899386
+                    ],
+                    [
+                        -83.02304108451271,
+                        40.00655635606134
+                    ],
+                    [
+                        -83.0224734503329,
+                        40.00398592824317
+                    ],
+                    [
+                        -83.02217641923912,
+                        40.00204631457444
+                    ],
+                    [
+                        -83.02308776775679,
+                        39.99956459536577
+                    ],
+                    [
+                        -83.02400938936533,
+                        39.997365076361575
+                    ],
+                    [
+                        -83.02533643606093,
+                        39.99533974401098
+                    ],
+                    [
+                        -83.02543429473111,
+                        39.9918836123837
+                    ],
+                    [
+                        -83.02346572152169,
+                        39.98727346968684
+                    ],
+                    [
+                        -83.0228450437024,
+                        39.98532989791002
+                    ],
+                    [
+                        -83.02279118229406,
+                        39.9831227553523
+                    ],
+                    [
+                        -83.02283766569249,
+                        39.979446360952906
+                    ],
+                    [
+                        -83.02266121657138,
+                        39.976578548621546
+                    ],
+                    [
+                        -83.02259022496803,
+                        39.9742264024967
+                    ],
+                    [
+                        -83.02198845742653,
+                        39.97192154568589
+                    ],
+                    [
+                        -83.0209363797346,
+                        39.97023419642986
+                    ],
+                    [
+                        -83.02058078941988,
+                        39.96926673824828
+                    ],
+                    [
+                        -83.01984799200703,
+                        39.96770975752568
+                    ],
+                    [
+                        -83.01902275204196,
+                        39.96672216130304
+                    ],
+                    [
+                        -83.01778838431001,
+                        39.96618805870901
+                    ],
+                    [
+                        -83.01249356577239,
+                        39.96598525916767
+                    ],
+                    [
+                        -83.00908327834,
+                        39.965827079731355
+                    ],
+                    [
+                        -83.00788731606828,
+                        39.965150137924354
+                    ],
+                    [
+                        -83.00794087920238,
+                        39.963170282081194
+                    ],
+                    [
+                        -83.00772307251391,
+                        39.96118150763891
+                    ],
+                    [
+                        -83.00817473296934,
+                        39.95794753844544
+                    ],
+                    [
+                        -83.007668223599,
+                        39.95607713756539
+                    ],
+                    [
+                        -83.00733164074478,
+                        39.954857659477796
+                    ],
+                    [
+                        -83.00704631978381,
+                        39.953621714740876
+                    ],
+                    [
+                        -83.0056785258242,
+                        39.95187355457969
+                    ],
+                    [
+                        -83.0036050884008,
+                        39.9506746330496
+                    ],
+                    [
+                        -83.00256377151429,
+                        39.94857973770205
+                    ],
+                    [
+                        -83.00169093006491,
+                        39.94647231085161
+                    ],
+                    [
+                        -83.00132679740192,
+                        39.945424878978145
+                    ],
+                    [
+                        -82.99981140873261,
+                        39.94260650156113
+                    ],
+                    [
+                        -82.99966676239787,
+                        39.94111210081047
+                    ],
+                    [
+                        -83.00107340058867,
+                        39.93966679079355
+                    ],
+                    [
+                        -83.00163323771895,
+                        39.939044157146654
+                    ],
+                    [
+                        -83.00237568825929,
+                        39.93624127548628
+                    ],
+                    [
+                        -83.00491358746498,
+                        39.93257287522111
+                    ],
+                    [
+                        -83.0056721050598,
+                        39.929239597780935
+                    ],
+                    [
+                        -83.0086445044247,
+                        39.921631479660135
+                    ],
+                    [
+                        -83.01046257867738,
+                        39.91725166736387
+                    ],
+                    [
+                        -83.00787245213525,
+                        39.90962163745539
+                    ],
+                    [
+                        -83.00491800988848,
+                        39.903147780986615
+                    ],
+                    [
+                        -83.0010045954847,
+                        39.90128868401775
+                    ],
+                    [
+                        -82.99978060478247,
+                        39.89860253003128
+                    ],
+                    [
+                        -82.99997377852107,
+                        39.89600846715766
+                    ],
+                    [
+                        -83.00157979874899,
+                        39.89373302178814
+                    ],
+                    [
+                        -83.0019585124301,
+                        39.89022005285776
+                    ],
+                    [
+                        -83.00490384687772,
+                        39.88284814018024
+                    ],
+                    [
+                        -83.00578526680046,
+                        39.87891629549452
+                    ],
+                    [
+                        -83.00518793362086,
+                        39.86943301486747
+                    ],
+                    [
+                        -83.00092191560987,
+                        39.84345658574145
+                    ],
+                    [
+                        -82.99990194852843,
+                        39.8354916347956
+                    ]
+                ],
+                "type": "LineString"
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "Powell Road",
+                "description": "Northern terminus of the rail line",
+                "icon": "safege",
+                "type": "stop",
+                "simple": "true",
+                "id": "01"
+            },
+            "geometry": {
+                "coordinates": [
+                    -83.04583364003813,
+                    40.156957767154694
+                ],
+                "type": "Point"
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "Wilson Bridge Road",
+                "simple": "true",
+                "id": "02",
+                "type": "stop",
+                "icon": "safege"
+            },
+            "geometry": {
+                "coordinates": [
+                    -83.03310004184641,
+                    40.109604610900846
+                ],
+                "type": "Point"
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "State Route 161",
+                "description": "This station is built in the middle of a highway interchange for efficient space usage, but provides easy walking distance to The Flats park and the Dow Nelson Sports Complex.",
+                "icon": "safege",
+                "simple": "true",
+                "id": "03",
+                "type": "stop"
+            },
+            "geometry": {
+                "coordinates": [
+                    -83.03562027404755,
+                    40.08978742931083
+                ],
+                "type": "Point"
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "Bethel Road",
+                "description": "This station is built on the edge of the Olentangy and Bethel Park and Ride",
+                "id": "04",
+                "simple": "true",
+                "type": "stop",
+                "icon": "safege"
+            },
+            "geometry": {
+                "coordinates": [
+                    -83.03298400105373,
+                    40.0621830364617
+                ],
+                "type": "Point"
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "Henderson Road",
+                "description": "An overhead station paralleling 315 leaves plenty of room for bus and bike access along Olentangy River Road and the Olentangy Trail",
+                "icon": "safege",
+                "type": "stop",
+                "simple": "true",
+                "id": "05"
+            },
+            "geometry": {
+                "coordinates": [
+                    -83.03199375286339,
+                    40.05187404949564
+                ],
+                "type": "Point"
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "North Broadway",
+                "description": "This stop services OhioHealth and the Kohl's shopping center, as well as several malls and, via the Olentangy Trail, Clinton&mdash;Como Park",
+                "icon": "safege",
+                "type": "stop",
+                "simple": "true",
+                "id": "06"
+            },
+            "geometry": {
+                "coordinates": [
+                    -83.02733879954732,
+                    40.02909381640171
+                ],
+                "type": "Point"
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "Dodridge Street",
+                "description": "Easy access to the OSU athletic fields, The Lawn at CAS, and select offcampus housing.",
+                "icon": "safege",
+                "type": "stop",
+                "simple": "true",
+                "id": "07"
+            },
+            "geometry": {
+                "coordinates": [
+                    -83.02324800713886,
+                    40.01615893679161
+                ],
+                "type": "Point"
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "Lane Avenue",
+                "description": "This station is here for the Schottenstein Center.",
+                "icon": "safege",
+                "type": "stop",
+                "simple": "true",
+                "id": "08"
+            },
+            "geometry": {
+                "coordinates": [
+                    -83.02320772675493,
+                    40.00827759284638
+                ],
+                "type": "Point"
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "Ohio Stadium",
+                "description": "Exit here for Ohio State University.",
+                "icon": "safege",
+                "type": "stop",
+                "simple": "true",
+                "id": "09"
+            },
+            "geometry": {
+                "coordinates": [
+                    -83.02290159205586,
+                    39.999888693841456
+                ],
+                "type": "Point"
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "Lennox Town Center",
+                "description": "For all your shopping needs.",
+                "icon": "safege",
+                "type": "stop",
+                "simple": "true",
+                "id": 10
+            },
+            "geometry": {
+                "coordinates": [
+                    -83.02529814232432,
+                    39.99392560295942
+                ],
+                "type": "Point"
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "5th Avenue",
+                "description": "Battelle Memorial Institute, as well as a connection to crosstown bus lines.",
+                "icon": "safege",
+                "type": "stop",
+                "simple": "true",
+                "id": 11
+            },
+            "geometry": {
+                "coordinates": [
+                    -83.02391080917401,
+                    39.98816477276844
+                ],
+                "type": "Point"
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "Gowdy Field",
+                "description": "This stop provides access to several outpatient medial facilities.",
+                "icon": "safege",
+                "type": "stop",
+                "simple": "true",
+                "id": 12
+            },
+            "geometry": {
+                "coordinates": [
+                    -83.02314142982725,
+                    39.982073666342075
+                ],
+                "type": "Point"
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "type": "stop",
+                "name": "Arena District",
+                "description": "Huntington Park, KEMBA Live, and Nationwide Arena",
+                "icon": "safege",
+                "simple": "true",
+                "id": 13
+            },
+            "geometry": {
+                "coordinates": [
+                    -83.01352417041154,
+                    39.966214632678856
+                ],
+                "type": "Point"
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "Main Street",
+                "description": "Stop here for the Scioto Trail, COSI, Main Street, Town Street, Rich Street, and the Broas Street BRT.",
+                "icon": "safege",
+                "type": "stop",
+                "simple": "true",
+                "id": 14
+            },
+            "geometry": {
+                "coordinates": [
+                    -83.0080758303027,
+                    39.95698422786316
+                ],
+                "type": "Point"
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "Scioto Audubon Metro Park",
+                "description": "Pedestrian bridges provide access to the park, with easy access from South Front Street",
+                "icon": "safege",
+                "type": "stop",
+                "simple": "true",
+                "id": 15
+            },
+            "geometry": {
+                "coordinates": [
+                    -83.00205656314334,
+                    39.94732247254754
+                ],
+                "type": "Point"
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "Greenlawn Avenue",
+                "description": "",
+                "icon": "safege",
+                "type": "stop",
+                "simple": "true",
+                "id": 16
+            },
+            "geometry": {
+                "coordinates": [
+                    -83.00157561007288,
+                    39.938955403048965
+                ],
+                "type": "Point"
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "Frank Road",
+                "description": "",
+                "icon": "safege",
+                "type": "stop",
+                "simple": "true",
+                "id": 17
+            },
+            "geometry": {
+                "coordinates": [
+                    -83.01048570167278,
+                    39.917687401042315
+                ],
+                "type": "Point"
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "Great Southern Shopping Center",
+                "description": "The Shopping Center could also serve as a park and ride, or it could be redeveloped with large amounts of housing",
+                "icon": "safege",
+                "type": "stop",
+                "simple": "true",
+                "id": 18
+            },
+            "geometry": {
+                "coordinates": [
+                    -83.003303804077,
+                    39.8866665187206
+                ],
+                "type": "Point"
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "Scioto Downs",
+                "description": "It's a casino and racetrack, but that just means that people can take the monorail home instead of driving while drunk.",
+                "icon": "safege",
+                "type": "stop",
+                "simple": "true",
+                "id": 19
+            },
+            "geometry": {
+                "coordinates": [
+                    -83.00016997430613,
+                    39.840269068303655
+                ],
+                "type": "Point"
+            }
+        }
+    ]
+}
