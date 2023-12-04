@@ -61,6 +61,11 @@ dl dd
 .MathJax_SVG_Display {
     max-width: 55% !important;
 }
+sup {
+    font-size: 1rem;
+    line-height: 1;
+    padding: 0 0.5ch;
+}
 li ul li, li ol li {
     max-width: 100%;
 }
