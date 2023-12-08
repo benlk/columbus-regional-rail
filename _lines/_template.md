@@ -1,11 +1,11 @@
 ---
 title: ""
 slug: ""
-excerpt:
+excerpt: ""
 date: {{%Y-%m-%d}}
 published: false
 revisions:
-  - text: "initial publication"
+  - text: "Initial publication"
     date: {{%Y-%m-%d}}
 geojson: "/example.geojson"
 color: "#bada55"
