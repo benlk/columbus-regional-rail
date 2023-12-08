@@ -1,8 +1,6 @@
 ---
-title: credits
+title: About this site
 ---
-
-## About this site
 
 Use this site as inspiration for when you contact your public officials, to demand that they do better.
 
