@@ -59,7 +59,19 @@ New station locations for the Cleveland-Toledo-Detroit line are based on those m
 - Cleveland Hopkins International Airport
 - Detroit Airport
 
+## Next steps
+
+[According to the Ohio chapter of the Brotherhood of Locomotive Engineers and Trainmen](https://twitter.com/bletohio/status/1732157444615229591), these are the steps: 
+
+1. Scoping: The sponsors will review the Statement of Work framework from their application and develop scope, schedle, and budget for the Corridor Service Development Plan (SDP). This accounts for any work already started at the time of the announcement. This work can begin immediately, and determines the cost of the second step.
+2. Ironing out the details: The sponsors will develop their SDP for the corridor. This will include choices about route, capital expenditures like stations and support facilities, and phases of implementation. This is done in cooperation with the FRA and will determine the cost of the third step.
+3. Final design: Step three is the final stage of the process and includes an engineering and environmental design plan. At the end of step three, the sponsor will be able to establish a concrete design schedule and know their construction costs. Once completed and approved, the next step is construction!
+
+And construction may take years. When will we get trains? [BLET Ohio chairman Joh Esterly said](https://twitter.com/realJohnEsterly/status/1732162450131230968): "It all depends on the funding for Steps 2 and 3. Optimistically, we'll have humans on trains by the end of the decade." Worst case? "Maybe 2035?"
+
 ## References
+
+If you think I've got something wrong here, let me know. Either [open an issue on GitHub](https://github.com/benlk/columbus-regional-rail/issues) or [send me a message](https://benlk.com/socials/).
 
 [^1]: The [May 17, 2021 Amtrak-provided list of stations](https://media.amtrak.com/wp-content/uploads/2021/05/3CD-Corridor-Fact-Sheet-05-17-Final.pdf) matches [the list given on December 6 by Brotherhood of Locomotive Engineers chairman John Easterly on Twitter](https://twitter.com/realJohnEsterly/status/1732252585313055170). These stops differ slightly from the [Amtrak Connects US webpage's list](https://www.amtrakconnectsus.com/maps/cleveland-columbus-cincinnati/), dropping Hamilton and adding Sharonville.
 [^2]: This line is called by various names; I've seen "Cleveland-Toledo-Detroit" in Ohio planning documents and "Cleveland-Detroit-Pontiac" in documents that I guess are directed to the Michigan audience. Michigan has much more rail service than Ohio.

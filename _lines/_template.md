@@ -7,7 +7,7 @@ published: false
 revisions:
   - text: "Initial publication"
     date: {{%Y-%m-%d}}
-geojson: "/example.geojson"
+geojson: "example"
 color: "#bada55"
 icon: ""
 tags:
