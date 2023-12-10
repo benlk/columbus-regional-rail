@@ -4,194 +4,6 @@
         {
             "type": "Feature",
             "properties": {
-                "name": "Cleveland Station",
-                "icon": "amtrak",
-                "description": "First stop on the new Cleveland-Detroit route. This is the current location of the Cleveland Amtrak Station; it's quite inaccessible. There are rumors about potentially building a new station in a better location, or improving pedestrian and transit access to this station.",
-                "type": "stop",
-                "stroke": "",
-                "connections": "Amtrak Lake Shore Limited and Capitol Limited. GCRTA Blue/Green/Waterfront Line.",
-                "id": "CLE"
-            },
-            "geometry": {
-                "coordinates": [
-                    -81.69615399797955,
-                    41.505466480406426
-                ],
-                "type": "Point"
-            }
-        },
-        {
-            "type": "Feature",
-            "properties": {
-                "name": "Cleveland Hopkins International Airport",
-                "icon": "amtrak",
-                "description": "New station. The problem with trying to place a railroad station at Cleveland Hopkins is that there's no real good space for it. The east side of the mainline tracks are blocked by a large number of sidings, but the west side of the tracks are blocked by the Berea Freeway and the GCRTA tracks and yard. The Amtrak station's platforms would have to be narrow, positioned either side of the three through tracks, connected to parking and ticketing by a walkway bridge or tunnel.",
-                "type": "stop",
-                "connections": "Amtrak Lake Shore Limited and Capitol Limited. GCRTA Blue/Green/Waterfront Line.",
-                "id": "D02"
-            },
-            "geometry": {
-                "coordinates": [
-                    -81.83429658494154,
-                    41.40674025736712
-                ],
-                "type": "Point"
-            }
-        },
-        {
-            "type": "Feature",
-            "properties": {
-                "name": "Elyria Station",
-                "icon": "amtrak",
-                "description": "Existing Amtrak station.",
-                "type": "stop",
-                "stroke": "",
-                "connections": "Amtrak Lake Shore Limited and Capitol Limited",
-                "id": "ELY"
-            },
-            "geometry": {
-                "coordinates": [
-                    -82.09656308648685,
-                    41.37013201581547
-                ],
-                "type": "Point"
-            }
-        },
-        {
-            "type": "Feature",
-            "properties": {
-                "name": "Sandusky Station",
-                "icon": "amtrak",
-                "description": "Existing Amtrak stop",
-                "type": "stop",
-                "stroke": "",
-                "connections": "Amtrak Lake Shore Limited and Capitol Limited",
-                "id": "SKY"
-            },
-            "geometry": {
-                "coordinates": [
-                    -82.71872970685212,
-                    41.44065082151107
-                ],
-                "type": "Point"
-            }
-        },
-        {
-            "type": "Feature",
-            "properties": {
-                "name": "Toledo Station",
-                "icon": "amtrak",
-                "description": "Existing Amtrak station.",
-                "type": "stop",
-                "stroke": "",
-                "connections": "Amtrak Lake Shore Limited and Capitol Limited.",
-                "id": "TOL"
-            },
-            "geometry": {
-                "coordinates": [
-                    -83.5416967338092,
-                    41.63811371206663
-                ],
-                "type": "Point"
-            }
-        },
-        {
-            "type": "Feature",
-            "properties": {
-                "name": "Detroit Airport",
-                "icon": "amtrak",
-                "description": "This new stop location is included based on the Amtrak Connects US website description of a Cleveland-Detroit-Pontiac line.",
-                "type": "stop",
-                "stroke": "",
-                "id": "DTW"
-            },
-            "geometry": {
-                "coordinates": [
-                    -83.3936572092149,
-                    42.19575645550037
-                ],
-                "type": "Point"
-            }
-        },
-        {
-            "type": "Feature",
-            "properties": {
-                "name": "Dearborn",
-                "icon": "amtrak",
-                "description": "This marker is placed at an existing station.",
-                "type": "stop",
-                "stroke": "",
-                "connections": "Mighican Wolverines service, proposed Chicago-Toronto line",
-                "id": "DER"
-            },
-            "geometry": {
-                "coordinates": [
-                    -83.23520762271791,
-                    42.30703397180562
-                ],
-                "type": "Point"
-            }
-        },
-        {
-            "type": "Feature",
-            "properties": {
-                "name": "Detroit",
-                "icon": "amtrak",
-                "description": "This marker is placed at an existing station.",
-                "type": "stop",
-                "stroke": "",
-                "connections": "Mighican Wolverines service, proposed Amtrak Chicago-Toronto line",
-                "id": "DET"
-            },
-            "geometry": {
-                "coordinates": [
-                    -83.0723167871486,
-                    42.36780336593279
-                ],
-                "type": "Point"
-            }
-        },
-        {
-            "type": "Feature",
-            "properties": {
-                "type": "stop",
-                "icon": "amtrak",
-                "name": "Troy",
-                "description": "This existing station location is included based on the Amtrak Connects US website description of a Cleveland-Detroit-Pontiac line.",
-                "stroke": "",
-                "connections": "Michigan Wolverines service",
-                "id": "TRM"
-            },
-            "geometry": {
-                "coordinates": [
-                    -83.1909209624487,
-                    42.54261894100071
-                ],
-                "type": "Point"
-            }
-        },
-        {
-            "type": "Feature",
-            "properties": {
-                "description": "This existing station location is included based on the Amtrak Connects US website description of a Cleveland-Detroit-Pontiac line.",
-                "type": "stop",
-                "connections": "Michigan Wolverines service",
-                "stroke": "",
-                "icon": "amtrak",
-                "name": "Pontiac",
-                "id": "PNT"
-            },
-            "geometry": {
-                "coordinates": [
-                    -83.29232665309034,
-                    42.63272934886348
-                ],
-                "type": "Point"
-            }
-        },
-        {
-            "type": "Feature",
-            "properties": {
                 "name": "3C+D",
                 "description": "This route is the State of Ohio's biggest priority, and it might be the first of these tracks to get into service.",
                 "icon": "amtrak",
@@ -599,16 +411,16 @@
                         40.27513646860686
                     ],
                     [
-                        -83.05754662373808,
-                        40.29767835746432
+                        -83.01726427868049,
+                        40.30595580874811
                     ],
                     [
-                        -83.05806505643994,
-                        40.30163229965959
+                        -83.0163247712791,
+                        40.312544493363816
                     ],
                     [
-                        -83.01202043885397,
-                        40.320539668085985
+                        -83.01256041666986,
+                        40.320663177791374
                     ],
                     [
                         -82.89624073211161,
@@ -659,8 +471,8 @@
                         40.97902241776518
                     ],
                     [
-                        -82.52096979050602,
-                        41.02427772870024
+                        -82.51841749022925,
+                        41.02984014119136
                     ],
                     [
                         -82.49088599592325,
@@ -699,12 +511,16 @@
                         41.375610630864145
                     ],
                     [
-                        -81.85509224076372,
-                        41.38073297848737
+                        -81.85546769699187,
+                        41.38083240810445
                     ],
                     [
-                        -81.77876822835992,
-                        41.470868469561395
+                        -81.78487141360239,
+                        41.46621761222492
+                    ],
+                    [
+                        -81.77895739384157,
+                        41.471459051220904
                     ],
                     [
                         -81.71310572338423,
@@ -716,155 +532,6 @@
                     ]
                 ],
                 "type": "LineString"
-            },
-            "id": 5
-        },
-        {
-            "type": "Feature",
-            "properties": {
-                "name": "Cincinnati Union Station",
-                "icon": "amtrak",
-                "description": "Southernmost stop on the 3C+D line.",
-                "type": "stop",
-                "stroke": "",
-                "connections": "Amtrak's Cardinal; Cincinnati Metro lines 49 and 31",
-                "id": "CIN"
-            },
-            "geometry": {
-                "coordinates": [
-                    -84.53824897370045,
-                    39.110020763169274
-                ],
-                "type": "Point"
-            }
-        },
-        {
-            "type": "Feature",
-            "properties": {
-                "name": "Sharonville",
-                "icon": "amtrak",
-                "description": "Possible future location of a Sharonville stop for the 3C+D route, as specified in Senator Brown's press release.",
-                "type": "stop",
-                "id": "C2",
-                "stroke": ""
-            },
-            "geometry": {
-                "coordinates": [
-                    -84.4151681556047,
-                    39.27040714793873
-                ],
-                "type": "Point"
-            }
-        },
-        {
-            "type": "Feature",
-            "properties": {
-                "name": "Dayton Union Station",
-                "icon": "amtrak",
-                "description": "This marker is placed at the historical location of Dayton Union Station.",
-                "type": "stop",
-                "id": "C3"
-            },
-            "geometry": {
-                "coordinates": [
-                    -84.19424408174922,
-                    39.754651208975304
-                ],
-                "type": "Point"
-            }
-        },
-        {
-            "type": "Feature",
-            "properties": {
-                "name": "Big Four Depot (Springfield)",
-                "icon": "amtrak",
-                "description": "This marker is placed at the historic location  of the Big Four Deport, a passenger station that was demolished in 1969.",
-                "type": "stop",
-                "stroke": "",
-                "connections": "3C+D",
-                "id": "C4"
-            },
-            "geometry": {
-                "coordinates": [
-                    -83.8077640221405,
-                    39.92165182944325
-                ],
-                "type": "Point"
-            }
-        },
-        {
-            "type": "Feature",
-            "properties": {
-                "name": "Columbus Convention Center Station",
-                "icon": "amtrak",
-                "description": "The current plan is to locate Columbus' railroad station underneath the Convention Center, for ease of access to parking, amenities, and transit.",
-                "type": "stop",
-                "stroke": "",
-                "simple": "true",
-                "connections": "Amtrak 3C+D and Chicago-Pittsburgh routes. COTA lines 1, 2, 5, 9, 75, and 102",
-                "id": "CCC"
-            },
-            "geometry": {
-                "coordinates": [
-                    -83.00105599375249,
-                    39.970627129970666
-                ],
-                "type": "Point"
-            }
-        },
-        {
-            "type": "Feature",
-            "properties": {
-                "name": "John Glenn Columbus International Airport",
-                "icon": "amtrak",
-                "description": "Plans for a \"multimodal transit center\" near the airport have ben brought up on and off for years, but the tracks don't run very close to the airport. A last-mile shuttlebus or airport peoplemover will be needed.",
-                "type": "stop",
-                "stroke": "",
-                "simple": "true",
-                "connections": "COTA lines 7 and 23. Airport shuttles and rental car center. Airport.",
-                "id": "CMH"
-            },
-            "geometry": {
-                "coordinates": [
-                    -82.909847,
-                    39.983697
-                ],
-                "type": "Point"
-            }
-        },
-        {
-            "type": "Feature",
-            "properties": {
-                "name": "Big Four Depot (Delaware)",
-                "icon": "amtrak",
-                "description": "Sixth stop on 3C+D. This historic building could be renovated for use as the railroad station, if Amtrak uses the CSX tracks to get to Cleveland from Columbus.",
-                "type": "stop",
-                "stroke": "",
-                "id": "C5"
-            },
-            "geometry": {
-                "coordinates": [
-                    -83.05769386905237,
-                    40.299501319432125
-                ],
-                "type": "Point"
-            }
-        },
-        {
-            "type": "Feature",
-            "properties": {
-                "name": "Crestline Station",
-                "icon": "amtrak",
-                "description": "Seventh stop on 3C+D. I wasn't able to find information on the historical location of the Crestline railroad station, so I've plonked this marker down next to an empty parking lot. No new stops from here to the Cleveland airport.",
-                "type": "stop",
-                "id": "C6"
-            },
-            "geometry": {
-                "coordinates": [
-                    -82.73513282362748,
-                    40.786354274912924
-                ],
-                "type": "Point"
             }
         },
         {
@@ -893,12 +560,12 @@
                         41.50525912412772
                     ],
                     [
-                        -81.77872557195745,
-                        41.47077148236173
+                        -81.77889897364825,
+                        41.47148018111395
                     ],
                     [
-                        -81.83409517235852,
-                        41.40678725795502
+                        -81.78494091623901,
+                        41.46615003629074
                     ],
                     [
                         -81.8555993208136,
@@ -1170,10 +837,8 @@
                     ]
                 ],
                 "type": "LineString"
-            },
-            "id": 13
+            }
         },
-
         {
             "type": "Feature",
             "properties": {
@@ -2542,8 +2207,343 @@
                     ]
                 ],
                 "type": "LineString"
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "Cleveland Station",
+                "icon": "amtrak",
+                "description": "First stop on the new Cleveland-Detroit route. This is the current location of the Cleveland Amtrak Station; it's quite inaccessible. There are rumors about potentially building a new station in a better location, or improving pedestrian and transit access to this station.",
+                "type": "stop",
+                "stroke": "",
+                "connections": "Amtrak Lake Shore Limited and Capitol Limited. GCRTA Blue/Green/Waterfront Line.",
+                "id": "CLE"
             },
-            "id": 19
+            "geometry": {
+                "coordinates": [
+                    -81.69615399797955,
+                    41.505466480406426
+                ],
+                "type": "Point"
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "Cleveland Hopkins International Airport",
+                "icon": "amtrak",
+                "description": "New station. The problem with trying to place a railroad station at Cleveland Hopkins is that there's no real good space for it. So, the plans place the actual Amtrak station at the Puritas station of Cleveland's light-rail line.",
+                "type": "stop",
+                "connections": "Amtrak Lake Shore Limited and Capitol Limited. GCRTA Blue/Green/Waterfront Line.",
+                "id": "D02"
+            },
+            "geometry": {
+                "coordinates": [
+                    -81.8059499706173,
+                    41.44100391093903
+                ],
+                "type": "Point"
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "Elyria Station",
+                "icon": "amtrak",
+                "description": "Existing Amtrak station.",
+                "type": "stop",
+                "stroke": "",
+                "connections": "Amtrak Lake Shore Limited and Capitol Limited",
+                "id": "ELY"
+            },
+            "geometry": {
+                "coordinates": [
+                    -82.09656308648685,
+                    41.37013201581547
+                ],
+                "type": "Point"
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "Sandusky Station",
+                "icon": "amtrak",
+                "description": "Existing Amtrak stop",
+                "type": "stop",
+                "stroke": "",
+                "connections": "Amtrak Lake Shore Limited and Capitol Limited",
+                "id": "SKY"
+            },
+            "geometry": {
+                "coordinates": [
+                    -82.71872970685212,
+                    41.44065082151107
+                ],
+                "type": "Point"
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "Toledo Station",
+                "icon": "amtrak",
+                "description": "Existing Amtrak station.",
+                "type": "stop",
+                "stroke": "",
+                "connections": "Amtrak Lake Shore Limited and Capitol Limited.",
+                "id": "TOL"
+            },
+            "geometry": {
+                "coordinates": [
+                    -83.5416967338092,
+                    41.63811371206663
+                ],
+                "type": "Point"
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "Detroit Airport",
+                "icon": "amtrak",
+                "description": "This new stop location is included based on the Amtrak Connects US website description of a Cleveland-Detroit-Pontiac line.",
+                "type": "stop",
+                "stroke": "",
+                "id": "DTW"
+            },
+            "geometry": {
+                "coordinates": [
+                    -83.3936572092149,
+                    42.19575645550037
+                ],
+                "type": "Point"
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "Dearborn",
+                "icon": "amtrak",
+                "description": "This marker is placed at an existing station.",
+                "type": "stop",
+                "stroke": "",
+                "connections": "Mighican Wolverines service, proposed Chicago-Toronto line",
+                "id": "DER"
+            },
+            "geometry": {
+                "coordinates": [
+                    -83.23520762271791,
+                    42.30703397180562
+                ],
+                "type": "Point"
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "Detroit",
+                "icon": "amtrak",
+                "description": "This marker is placed at an existing station.",
+                "type": "stop",
+                "stroke": "",
+                "connections": "Mighican Wolverines service, proposed Amtrak Chicago-Toronto line",
+                "id": "DET"
+            },
+            "geometry": {
+                "coordinates": [
+                    -83.0723167871486,
+                    42.36780336593279
+                ],
+                "type": "Point"
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "type": "stop",
+                "icon": "amtrak",
+                "name": "Troy",
+                "description": "This existing station location is included based on the Amtrak Connects US website description of a Cleveland-Detroit-Pontiac line.",
+                "stroke": "",
+                "connections": "Michigan Wolverines service",
+                "id": "TRM"
+            },
+            "geometry": {
+                "coordinates": [
+                    -83.1909209624487,
+                    42.54261894100071
+                ],
+                "type": "Point"
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "description": "This existing station location is included based on the Amtrak Connects US website description of a Cleveland-Detroit-Pontiac line.",
+                "type": "stop",
+                "connections": "Michigan Wolverines service",
+                "stroke": "",
+                "icon": "amtrak",
+                "name": "Pontiac",
+                "id": "PNT"
+            },
+            "geometry": {
+                "coordinates": [
+                    -83.29232665309034,
+                    42.63272934886348
+                ],
+                "type": "Point"
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "Cincinnati Union Station",
+                "icon": "amtrak",
+                "description": "Southernmost stop on the 3C+D line.",
+                "type": "stop",
+                "stroke": "",
+                "connections": "Amtrak's Cardinal; Cincinnati Metro lines 49 and 31",
+                "id": "CIN"
+            },
+            "geometry": {
+                "coordinates": [
+                    -84.53824897370045,
+                    39.110020763169274
+                ],
+                "type": "Point"
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "Sharonville",
+                "icon": "amtrak",
+                "description": "Possible future location of a Sharonville stop for the 3C+D route, as specified in Senator Brown's press release.",
+                "type": "stop",
+                "id": "C2",
+                "stroke": ""
+            },
+            "geometry": {
+                "coordinates": [
+                    -84.4151681556047,
+                    39.27040714793873
+                ],
+                "type": "Point"
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "Dayton Union Station",
+                "icon": "amtrak",
+                "description": "This marker is placed at the historical location of Dayton Union Station.",
+                "type": "stop",
+                "id": "C3"
+            },
+            "geometry": {
+                "coordinates": [
+                    -84.19424408174922,
+                    39.754651208975304
+                ],
+                "type": "Point"
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "Big Four Depot (Springfield)",
+                "icon": "amtrak",
+                "description": "This marker is placed at the historic location  of the Big Four Deport, a passenger station that was demolished in 1969.",
+                "type": "stop",
+                "stroke": "",
+                "connections": "3C+D",
+                "id": "C4"
+            },
+            "geometry": {
+                "coordinates": [
+                    -83.8077640221405,
+                    39.92165182944325
+                ],
+                "type": "Point"
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "Columbus Convention Center Station",
+                "icon": "amtrak",
+                "description": "The current plan is to locate Columbus' railroad station underneath the Convention Center, for ease of access to parking, amenities, and transit.",
+                "type": "stop",
+                "stroke": "",
+                "simple": "true",
+                "connections": "Amtrak 3C+D and Chicago-Pittsburgh routes. COTA lines 1, 2, 5, 9, 75, and 102",
+                "id": "CCC"
+            },
+            "geometry": {
+                "coordinates": [
+                    -83.00105599375249,
+                    39.970627129970666
+                ],
+                "type": "Point"
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "John Glenn Columbus International Airport",
+                "icon": "amtrak",
+                "description": "Plans for a \"multimodal transit center\" near the airport have ben brought up on and off for years, but the tracks don't run very close to the airport. A last-mile shuttlebus or airport peoplemover will be needed.",
+                "type": "stop",
+                "stroke": "",
+                "simple": "true",
+                "connections": "COTA lines 7 and 23. Airport shuttles and rental car center. Airport.",
+                "id": "CMH"
+            },
+            "geometry": {
+                "coordinates": [
+                    -82.909847,
+                    39.983697
+                ],
+                "type": "Point"
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "Big Four Depot (Delaware)",
+                "icon": "amtrak",
+                "description": "Sixth stop on 3C+D. This historic building could be renovated for use as the railroad station, if Amtrak uses the CSX tracks to get to Cleveland from Columbus.",
+                "type": "stop",
+                "stroke": "",
+                "id": "C5"
+            },
+            "geometry": {
+                "coordinates": [
+                    -83.01595358389213,
+                    40.28838105708209
+                ],
+                "type": "Point"
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "Crestline Station",
+                "icon": "amtrak",
+                "description": "Seventh stop on 3C+D. I wasn't able to find information on the historical location of the Crestline railroad station, so I've plonked this marker down next to an empty parking lot. No new stops from here to the Cleveland airport.",
+                "type": "stop",
+                "id": "C6"
+            },
+            "geometry": {
+                "coordinates": [
+                    -82.73513282362748,
+                    40.786354274912924
+                ],
+                "type": "Point"
+            }
         },
         {
             "type": "Feature",
