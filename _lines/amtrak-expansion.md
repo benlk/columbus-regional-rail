@@ -7,6 +7,8 @@ published: true
 revisions:
   - text: "Initial publication"
     date: 2023-12-08
+  - text: "Revisions to Delaware and Cleveland Hopkins Airport stations, [thanks to /u/janna15](https://www.reddit.com/r/Columbus/comments/18dwzl0/comment/kcl2yu9/?utm_source=reddit&utm_medium=web2x&context=3)."
+    date: 2023-12-08
 geojson: "amtrak"
 color: "#003759"
 icon: ""
@@ -31,9 +33,9 @@ New stations on the the 3C+D line are based on [an Amtrak handout about the 3C+D
 - Dayton
 - Springfield
 - Greater Columbus Convention Center
-- Delaware
+- Delaware &mdash; on US 36, [not at the historic location in Downtown Delaware](https://www.10tv.com/amp/article/news/local/ohio-officials-support-amtrak-expansion/530-9065e317-8079-4546-b3fd-29e8f356ddb6)
 - Crestline
-- Cleveland Hopkins International Airport
+- Cleveland Hopkins International Airport &mdash; not actually at the airport, but [at the Puritas light-rail station](https://www.axios.com/local/cleveland/2023/11/13/greyhound-station-bus-stop-puritas-rapid-downtown), a couple miles north-northeast of the airport.
 
 New stations for the Chicago-Pittsburgh route are based on the stops mentioned in [Senator Brown's announcement of Chicago-Fort Wayne-Columbus-Pittsburgh](https://www.brown.senate.gov/newsroom/press/release/sherrod-brown-announces-first-step-expanding-amtrak-ohio).[^3]
 
@@ -68,6 +70,10 @@ New station locations for the Cleveland-Toledo-Detroit line are based on those m
 3. Final design: Step three is the final stage of the process and includes an engineering and environmental design plan. At the end of step three, the sponsor will be able to establish a concrete design schedule and know their construction costs. Once completed and approved, the next step is construction!
 
 And construction may take years. When will we get trains? [BLET Ohio chairman Joh Esterly said](https://twitter.com/realJohnEsterly/status/1732162450131230968): "It all depends on the funding for Steps 2 and 3. Optimistically, we'll have humans on trains by the end of the decade." Worst case? "Maybe 2035?"
+
+## Revisions
+
+{% include line-revisions.html %}
 
 ## References
 

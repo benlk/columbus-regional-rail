@@ -265,3 +265,13 @@ dt.hastext ~ dd {
         text-align: left;
     }
 }
+
+// Revisions list
+dl.revisions {
+    dd :first-child  {
+        margin-top: 0;
+    }
+    dd :last-child  {
+        margin-bottom: 0;
+    }
+}
