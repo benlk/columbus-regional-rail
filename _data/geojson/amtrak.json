@@ -2716,7 +2716,7 @@
                 "icon": "amtrak",
                 "description": "There's no historic location here; this is just some empty land between two major streets with easy access to a bike trail",
                 "type": "stop",
-                "connections": "Chicago-Pittsburgh",
+                "connections": "",
                 "stroke": "",
                 "id": "MRT"
             },
@@ -2724,6 +2724,25 @@
                 "coordinates": [
                     -83.36788665196768,
                     40.23986175491078
+                ],
+                "type": "Point"
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "Dublin Station",
+                "icon": "amtrak",
+                "description": "",
+                "type": "stop",
+                "connections": "Thought this station isn't in Amtrak's plans, the City of Dublin plans to build a rail station here.",
+                "stroke": "",
+                "id": "P11"
+            },
+            "geometry": {
+                "coordinates": [
+                    -83.20788665196768,
+                    40.09986175491078
                 ],
                 "type": "Point"
             }
@@ -2774,7 +2793,7 @@
                 "description": "There's no historic station here, so I chose to put the station in an empty centrally-located plot. Alternative locations avoiding road crossings would put the station east or west of town.",
                 "type": "stop",
                 "stroke": "",
-                "id": "P13"
+                "id": "P14"
             },
             "geometry": {
                 "coordinates": [
@@ -2793,7 +2812,7 @@
                 "type": "stop",
                 "stroke": "",
                 "connections": "Historic railroad excursions.",
-                "id": "P14"
+                "id": "P15"
             },
             "geometry": {
                 "coordinates": [
@@ -2811,7 +2830,7 @@
                 "description": "There's no historic station here, so I chose an empty parking lot near downtown Steubenville",
                 "type": "stop",
                 "stroke": "",
-                "id": "P15"
+                "id": "P16"
             },
             "geometry": {
                 "coordinates": [

@@ -7,7 +7,7 @@ published: true
 revisions:
   - text: "Initial publication"
     date: 2023-12-08
-  - text: "Revisions to Delaware and Cleveland Hopkins Airport stations, [thanks to /u/janna15](https://www.reddit.com/r/Columbus/comments/18dwzl0/comment/kcl2yu9/?utm_source=reddit&utm_medium=web2x&context=3)."
+  - text: "Revisions to Delaware and Cleveland Hopkins Airport stations, [thanks to /u/janna15](https://www.reddit.com/r/Columbus/comments/18dwzl0/comment/kcl2yu9/?utm_source=reddit&utm_medium=web2x&context=3). Added the Dublin station, [thanks to /u/TYouMissedCBus](https://www.reddit.com/r/Columbus/comments/18dwzl0/comment/kcjyxga/?utm_source=reddit&utm_medium=web2x&context=3)"
     date: 2023-12-08
 geojson: "amtrak"
 color: "#003759"
@@ -48,6 +48,7 @@ New stations for the Chicago-Pittsburgh route are based on the stops mentioned i
 - Lima, Ohio &mdash; has [a historic station](https://en.wikipedia.org/wiki/Lima_station_(Pennsylvania_Railroad)) that could be reopened.
 - Kenton, Ohio
 - Marysville, Ohio
+- Dublin, Ohio &mdash; not in Amtrak's plans, [but the City of Dublin is moving ahead with plans](https://columbusunderground.com/dublin-planning-for-future-rail-station-bw1/).
 - Greater Columbus Convention Center, Ohio &mdash; [The designs for this station are already made](https://columbusunderground.com/study-amtrak-station-new-plaza-could-be-added-to-convention-center-bw1/), and recent construction at the Convention Center has reserved space for this station.
 - John Glenn Columbus International Airport, Ohio &mdash; I guess this is the most logical location for a multi-modal transportation center in Columbus. Certainly not [some gas station in Hilltop](https://news.wosu.org/2023-06-30/customers-unhappy-with-changes-at-new-west-columbus-greyhound-bus-terminal).
 - Newark, Ohio
