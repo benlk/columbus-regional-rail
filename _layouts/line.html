@@ -45,7 +45,7 @@ minZoom: 11
         <dl>
             {% for update in page.revisions %}
                 <dt><time datetime="{{ update.date | date: '%f' }}">{{ update.date | date_to_long_string }}</time></dt>
-                <dd>{{update.text}}</dd>
+                <dd>{{update.text | markdownify }}</dd>
             {% endfor %}
         </dl>
     </aside>

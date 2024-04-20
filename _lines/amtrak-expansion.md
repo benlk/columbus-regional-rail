@@ -9,6 +9,8 @@ revisions:
     date: 2023-12-08
   - text: "Revisions to Delaware and Cleveland Hopkins Airport stations, [thanks to /u/janna15](https://www.reddit.com/r/Columbus/comments/18dwzl0/comment/kcl2yu9/?utm_source=reddit&utm_medium=web2x&context=3). Added the Dublin station, [thanks to /u/TYouMissedCBus](https://www.reddit.com/r/Columbus/comments/18dwzl0/comment/kcjyxga/?utm_source=reddit&utm_medium=web2x&context=3)"
     date: 2023-12-08
+  - date: 2024-04-19
+    text: "Added Dallas-NYC and New Orleans-Detroit lines from [February 2024 announcements](https://columbusunderground.com/columbus-included-in-two-new-proposed-long-distance-amtrak-routes-bw1/). Added the "
 geojson: "amtrak"
 color: "#003759"
 icon: ""
@@ -27,7 +29,7 @@ The announcement also included an increase in trains on the Chicago-Cleveland-DC
 
 Click around the map for more details on these station locations, and on the route of the trains. This list isn't official; there's still years of planning and construction work yet to come. But it's my best guess, based on [existing track locations](https://ohiodot.maps.arcgis.com/apps/webappviewer/index.html?id=82f597df8411453cafb18d62c371bc47) and public statements by planners.
 
-New stations on the the 3C+D line are based on [an Amtrak handout about the 3C+D line](https://media.amtrak.com/wp-content/uploads/2021/05/3CD-Corridor-Fact-Sheet-05-17-Final.pdf)[^1]:
+New stations on the the 3C+D line are based on [an Amtrak handout about the 3C+D line](https://media.amtrak.com/wp-content/uploads/2021/05/3CD-Corridor-Fact-Sheet-05-17-Final.pdf)[^1], with support from the [ORDC Rail Map](https://ohiodot.maps.arcgis.com/apps/webappviewer/index.html?id=82f597df8411453cafb18d62c371bc47) and the Hilliard station study[^4]:
 
 - Sharonville
 - Dayton
@@ -37,7 +39,7 @@ New stations on the the 3C+D line are based on [an Amtrak handout about the 3C+D
 - Crestline
 - Cleveland Hopkins International Airport &mdash; not actually at the airport, but [at the Puritas light-rail station](https://www.axios.com/local/cleveland/2023/11/13/greyhound-station-bus-stop-puritas-rapid-downtown), a couple miles north-northeast of the airport.
 
-New stations for the Chicago-Pittsburgh route are based on the stops mentioned in [Senator Brown's announcement of Chicago-Fort Wayne-Columbus-Pittsburgh](https://www.brown.senate.gov/newsroom/press/release/sherrod-brown-announces-first-step-expanding-amtrak-ohio).[^3]
+New stations for the Chicago-Pittsburgh route are based on the stops mentioned in [Senator Brown's announcement of Chicago-Fort Wayne-Columbus-Pittsburgh](https://www.brown.senate.gov/newsroom/press/release/sherrod-brown-announces-first-step-expanding-amtrak-ohio)[^3].
 
 - Hobart, Indiana &mdash; has [a historic station](https://en.wikipedia.org/wiki/Hobart_station_(Indiana)) that could be reopened.
 - Gary, Indiana &mdash; is already served by Amtrak, but with the way the tracks are laid out, Gary will require either a new station for service on the Chicago-Pittsburgh line, or it will require laying new tracks to connect the existing station to the rail line that services Hobart and points east.
@@ -49,6 +51,7 @@ New stations for the Chicago-Pittsburgh route are based on the stops mentioned i
 - Kenton, Ohio
 - Marysville, Ohio
 - Dublin, Ohio &mdash; not in Amtrak's plans, [but the City of Dublin is moving ahead with plans](https://columbusunderground.com/dublin-planning-for-future-rail-station-bw1/).
+- Hilliard, Ohio &mdash; not in Amtrak's plans, [but the City of Hilliard is moving ahead with plans](https://web.archive.org/web/20240419230931/https://hilliardohio.gov/hilliards-proposed-passenger-rail-station-sites-offer-regional-benefits-advantages/). Two locations are identified; they're on opposite sides of the tracks from each other[^4].
 - Greater Columbus Convention Center, Ohio &mdash; [The designs for this station are already made](https://columbusunderground.com/study-amtrak-station-new-plaza-could-be-added-to-convention-center-bw1/), and recent construction at the Convention Center has reserved space for this station.
 - John Glenn Columbus International Airport, Ohio &mdash; I guess this is the most logical location for a multi-modal transportation center in Columbus. Certainly not [some gas station in Hilltop](https://news.wosu.org/2023-06-30/customers-unhappy-with-changes-at-new-west-columbus-greyhound-bus-terminal).
 - Newark, Ohio
@@ -61,6 +64,19 @@ New station locations for the Cleveland-Toledo-Detroit line are based on those m
 
 - Cleveland Hopkins International Airport
 - Detroit Airport
+
+New station locations for the Dallas-NYC line are based on the [findings of the Amtrak Long-Distance Rail Service Study](https://columbusunderground.com/columbus-included-in-two-new-proposed-long-distance-amtrak-routes-bw1/), as announced in February 2024:
+
+- Tulsa Union Depot: [Closed in 1979](https://en.wikipedia.org/wiki/Transit_Authority_of_River_City)
+- Terre Haute Station: [Closed in 1979](https://en.wikipedia.org/wiki/Terre_Haute_station_(Amtrak))
+
+New station locations for the New Orleans-Detroit line are based on the [findings of the Amtrak Long-Distance Rail Service Study](https://columbusunderground.com/columbus-included-in-two-new-proposed-long-distance-amtrak-routes-bw1/), as announced in February 2024:
+
+- Mobile, Alabama
+- Montgomery, Alabama
+- Nashville Union Station, Tennessee: Currently used as a hotel.
+- Bowling Green Historic Railpark and Train Museum: [Currently a museum](https://en.wikipedia.org/wiki/Historic_Railpark_and_Train_Museum_(Bowling_Green,_Kentucky)).
+- Louisville, Kentucky: [Intermittently in service](https://en.wikipedia.org/wiki/Union_Station_(Louisville)), but currently used as offices for the [Transit Authority of River City](https://en.wikipedia.org/wiki/Transit_Authority_of_River_City).
 
 ## Next steps
 
@@ -83,3 +99,4 @@ If you think I've got something wrong here, let me know. Either [open an issue o
 [^1]: The [May 17, 2021 Amtrak-provided list of stations](https://media.amtrak.com/wp-content/uploads/2021/05/3CD-Corridor-Fact-Sheet-05-17-Final.pdf) matches [the list given on December 6 by Brotherhood of Locomotive Engineers chairman John Easterly on Twitter](https://twitter.com/realJohnEsterly/status/1732252585313055170). These stops differ slightly from the [Amtrak Connects US webpage's list](https://www.amtrakconnectsus.com/maps/cleveland-columbus-cincinnati/), dropping Hamilton and adding Sharonville.
 [^2]: This line is called by various names; I've seen "Cleveland-Toledo-Detroit" in Ohio planning documents and "Cleveland-Detroit-Pontiac" in documents that I guess are directed to the Michigan audience. Michigan has much more rail service than Ohio.
 [^3]: The list of Chicago-Pittsburgh stops from [Senator Brown's press release](https://www.brown.senate.gov/newsroom/press/release/sherrod-brown-announces-first-step-expanding-amtrak-ohio) matches the list from [the Northern Indiana Passenger Rail Association map for Chicago-Fort Wayne-Columbus](https://niprarail.org/what/).
+[^4]: The Hilliard locations shown are based on the [City of Hilliard Passenger Rail Station Feasibility Study](https://web.archive.org/web/20240419225742/https://hilliardohio.gov/wp-content/uploads/2024/04/2024-0319-Hilliard-Rail-Station-Feasibility-Study.pdf) released on March 19, 2024. 
