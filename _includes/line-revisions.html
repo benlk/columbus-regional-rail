@@ -1,0 +1,10 @@
+
+{% assign update_size = page.revisions | size %}
+{% if update_size >= 1 %}
+<dl class="revisions">
+    {% for update in page.revisions %}
+        <dt><time datetime="{{ update.date | date: '%f' }}">{{ update.date | date_to_long_string }}</time></dt>
+        <dd>{{update.text | markdownify }}</dd>
+    {% endfor %}
+</dl>
+{% endif %}

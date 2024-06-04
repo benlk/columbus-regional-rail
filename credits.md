@@ -1,5 +1,5 @@
 ---
-title: credits
+title: Credits
 ---
 
 ## Maps

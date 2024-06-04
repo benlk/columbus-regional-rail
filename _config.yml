@@ -47,6 +47,8 @@ defaults:
       type: "lines"
     values:
       layout: "line"
+      maxZoom: 17
+      minZoom: 11
   - scope:
       path: "_data/geojson/*.json"
     values:

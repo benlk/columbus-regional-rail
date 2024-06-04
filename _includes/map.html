@@ -142,11 +142,13 @@ class GeoJSONConverter {
                 iconAnchor = [0,0];
                 break;
             case 'safege':
+            case 'amtrak':
+            case 'station':
             case 'tram':
             case 'apm':
                 innerContents = `<span class="stop-id">${feature.properties.id}</span>`;
                 className += ' hastext';
-                iconSize = [48, 32];
+                iconSize = [56, 32];
                 break;
         }
 
@@ -215,7 +217,14 @@ class GeoJSONConverter {
  * Initialize the map
  */
 function init () {
-    window.map = L.map('leaflet-map', {minZoom: 11, maxZoom:17}).setView([40, -83.00], 12);
+    window.map_config = window.map_config ?? {};
+    window.map = L.map(
+        'leaflet-map',
+        {
+            minZoom: window.map_config.minZoom ?? 11,
+            maxZoom: window.map_config.maxZoom ?? 17
+        }
+    ).setView([40, -83.00], 12);
 
     var stamen = L.maplibreGL({
         style: 'https://tiles.stadiamaps.com/styles/stamen_toner_lite.json',
