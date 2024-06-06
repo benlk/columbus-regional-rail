@@ -74,7 +74,7 @@ Additionally, this system should pursue fare integration with COTA, to allow pai
 
 The total construction cost of similar systems:
 
-- [AirTrain JFK], NYC, 8.1 miles, 9 stations, three routes, 20k daily ridership, about $2 billion
+- [AirTrain JFK](https://en.wikipedia.org/wiki/AirTrain_JFK), NYC, 8.1 miles, 9 stations, three routes, 20k daily ridership, about $2 billion
 - [LAX Automated People Mover](https://en.wikipedia.org/wiki/LAX_Automated_People_Mover), California, 2.25 miles, 6 stations, 1 route, part of a $5.5 billion terminal modernization program
 - Cairo, Egypt, paid Alstom [$2.7 billion for two automated monorail lines](https://www.alstom.com/monorail-story-greater-cairo) covering about 60 miles of track, with 30 years of operation and maintenance services included.
 - [Las Vegas Monorail](https://en.wikipedia.org/wiki/Las_Vegas_Monorail), Nevada, 3.9 miles, 7 stations, 1 route, $650 million in 1995
@@ -85,7 +85,3 @@ For maintenance costs:
 - Washington Dulles International Airport [paid Mitsubishi Heavy Industries' Crystal Mover Services $136 million for a 10-year contract](https://www.thefreelibrary.com/Washington+Dulles+International+Airport+renews+contract+with+Crystal...-a0392166934) in 2014.
 
 For comparison, ODOT is spending [$1.4 billion-with-a-b dollars on widening I-71 and I-70](https://www.transportation.ohio.gov/projects/mega-projects/mega-projects/downtown-ramp-up) in the areas around Downtown Columbus, and [$112 million to widen SR 161 between 270 and New Albany](https://www.transportation.ohio.gov/projects/projects/116322), to support the Intel development. [$48 million to convert a shoulder on I-71 to a smart lane between 5th Avenue and SR 161](https://www.transportation.ohio.gov/projects/projects/109164).
-
-### Construction
-
-{% include line-constructions.html %}

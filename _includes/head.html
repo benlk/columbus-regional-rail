@@ -28,6 +28,14 @@
         {% endfor %}
 	</script>
 	{% seo %}
+    <style>
+        :root {
+            --color-page: black;
+            {% if page.color %}
+            --color-page: {{page.color}};
+            {% endif %}
+        }
+    </style>
 </head>
 
 <body class="{{ layout.templatebodyclass }}">

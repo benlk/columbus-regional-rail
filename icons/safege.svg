@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   fill-rule="evenodd"
+   width="500"
+   height="500"
+   version="1.1"
+   id="svg78"
+   sodipodi:docname="safege.svg"
+   inkscape:version="1.2.2 (b0a8486541, 2022-12-01)"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <defs
+     id="defs82">
+    <inkscape:perspective
+       sodipodi:type="inkscape:persp3d"
+       inkscape:vp_x="0 : 250 : 1"
+       inkscape:vp_y="0 : 1000 : 0"
+       inkscape:vp_z="500 : 250 : 1"
+       inkscape:persp3d-origin="250 : 166.66667 : 1"
+       id="perspective396" />
+  </defs>
+  <sodipodi:namedview
+     id="namedview80"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:showpageshadow="2"
+     inkscape:pageopacity="0.0"
+     inkscape:pagecheckerboard="0"
+     inkscape:deskcolor="#d1d1d1"
+     showgrid="false"
+     inkscape:zoom="3.156"
+     inkscape:cx="353.92902"
+     inkscape:cy="224.3346"
+     inkscape:window-width="2514"
+     inkscape:window-height="1382"
+     inkscape:window-x="0"
+     inkscape:window-y="0"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="svg78" />
+  <path
+     d="m 385,410 c 0,20 -75,50 -135,50 -60,0 -135,-30 -135,-50 V 197.019 c 1.9e-4,-1.33265 0.26674,-2.65183 0.784,-3.88 l 36.639,-27.02 c 1.56155,-3.70819 5.19343,-6.11933 9.217,-6.119 H 217.5 V 63 h 65 v 97 h 55.86 c 4.02357,-3.3e-4 7.65545,2.41081 9.217,6.119 l 36.639,27.02 c 0.51726,1.22817 0.78381,2.54735 0.784,3.88 z m -35,-81 c 5.52285,0 10,-4.47715 10,-10 v -94 c 0,-5.52285 -4.47715,-10 -10,-10 H 150 c -5.52285,0 -10,4.47715 -10,10 v 94 c 0,5.52285 4.47715,10 10,10 z m 0,81 c 5.52285,0 10,-4.47715 10,-10 0,-5.52285 -4.47715,-10 -10,-10 h -45 c -5.52285,0 -10,4.47715 -10,10 0,5.52285 4.47715,10 10,10 z m -155,0 c 5.52285,0 10,-4.47715 10,-10 0,-5.52285 -4.47715,-10 -10,-10 h -45 c -5.52285,0 -10,4.47715 -10,10 0,5.52285 4.47715,10 10,10 z"
+     id="path76"
+     sodipodi:nodetypes="sssccccccccccccssssssssssssssssssssssss" />
+</svg>
