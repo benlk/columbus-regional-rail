@@ -105,7 +105,7 @@ class GeoJSONConverter {
         let marker = L.marker( latlng, options );
         window.FeatureGroup_all.addLayer( marker );
         return marker;
-    }
+    };
 
     /**
      * Return a simple icon for simple maps
@@ -149,6 +149,7 @@ class GeoJSONConverter {
                 innerContents = `<span class="stop-id">${feature.properties.id}</span>`;
                 className += ' hastext';
                 iconSize = [56, 32];
+                iconAnchor = [56, 32];
                 break;
         }
 
@@ -171,7 +172,13 @@ class GeoJSONConverter {
      * Given some colors, and the page context, determine which color to use for this object
      */
     chooseColor( feature_color, feature ) {
-        if ( feature.type && feature.type === 'construction ' ) {
+        console.log(
+            'choosing color for feature',
+            feature,
+            feature_color
+        );
+
+        if ( feature.properties.type && feature.properties.type === 'construction' ) {
             return 'orange';
         }
         if ( this.simple ) {
@@ -236,7 +243,11 @@ function init () {
 
     window.map.addLayer(stamen);
     window.line_geojson.forEach( (data) => add_geojson_to_map( data ) );
-    window.map.fitBounds( FeatureGroup_all.getBounds() );
+    if ( window.map_config.center) {
+        window.map.setView( window.map_config.center );
+    } else {
+        window.map.fitBounds( FeatureGroup_all.getBounds() );
+    }
 
     window.map.on(
         'popupopen',

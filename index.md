@@ -1,6 +1,7 @@
 ---
 title: Map of All Projects
 layout: default
+center: '[39.961,-82.999]'
 ---
 
 <script>
@@ -19,6 +20,9 @@ layout: default
             link: {{ link | absolute_url | jsonify }}
         } );
     {% endfor %}
+
+    window.map_config = new Object;
+    window.map_config.center = {{ page.center }};
 </script>
 <style type="text/css">
     #map-container {

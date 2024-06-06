@@ -1,8 +1,6 @@
 ---
 layout: default
 templatebodyclass: "default line"
-maxZoom: 17
-minZoom: 11
 ---
 {% assign geojson = '' %}
 
@@ -23,6 +21,7 @@ minZoom: 11
     window.map_config = new Object;
     window.map_config.maxZoom = {{ page.maxZoom }};
     window.map_config.minZoom = {{ page.minZoom }};
+    window.map_config.center  = {{ page.center | jsonify }};
 </script>
 
 <div class="scroll-container">
@@ -32,8 +31,6 @@ minZoom: 11
     <div class="scroll-container__scrollable">
 
         {{ page.content }}
-
-       
 
     </div>
 </div>
