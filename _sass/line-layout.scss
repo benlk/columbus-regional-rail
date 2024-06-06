@@ -1,6 +1,10 @@
 $column-width: 0.55em * (100-12.5);
 
 @mixin line-layout-beside {
+    h1 {
+        text-align: right;
+        padding-right: 0.5em;
+    }
     .scroll-container {
         left: -12.5vw;
         @media (max-width: 850px) {
@@ -57,6 +61,11 @@ $column-width: 0.55em * (100-12.5);
         // margin-top: min( 20em, 50vh );
         padding-left: 10px;
     }
+}
+
+.scroll-container {
+    border-top: 4px solid var( --color-page );
+    border-bottom: 4px solid var( --color-page );
 }
 
 /**
