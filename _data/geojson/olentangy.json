@@ -263,47 +263,59 @@
                     ],
                     [
                         -83.02198845742653,
-                        39.97192154568589
+                        39.97310787689236
                     ],
                     [
-                        -83.0209363797346,
-                        39.97023419642986
+                        -83.02279819090313,
+                        39.96996165119805
                     ],
                     [
-                        -83.02058078941988,
-                        39.96926673824828
+                        -83.02336304655933,
+                        39.968897995047
                     ],
                     [
-                        -83.01984799200703,
-                        39.96770975752568
+                        -83.02340457277202,
+                        39.968384038641204
                     ],
                     [
-                        -83.01902275204196,
-                        39.96672216130304
+                        -83.02313231058535,
+                        39.96734100654086
+                    ],
+                    [
+                        -83.02230707062029,
+                        39.966481668259064
+                    ],
+                    [
+                        -83.02012402528436,
+                        39.96610095788864
                     ],
                     [
                         -83.01778838431001,
                         39.96618805870901
                     ],
                     [
-                        -83.01249356577239,
-                        39.96598525916767
+                        -83.01365861741787,
+                        39.96632474082668
                     ],
                     [
-                        -83.00908327834,
-                        39.965827079731355
+                        -83.0125153651493,
+                        39.96545896766327
                     ],
                     [
-                        -83.00788731606828,
-                        39.965150137924354
+                        -83.01113241976086,
+                        39.96327076219865
                     ],
                     [
-                        -83.00794087920238,
-                        39.963170282081194
+                        -83.0097671131185,
+                        39.962049897677815
                     ],
                     [
-                        -83.00772307251391,
-                        39.96118150763891
+                        -83.00874650650971,
+                        39.96118917562987
+                    ],
+                    [
+                        -83.00842799640739,
+                        39.95954769480193
                     ],
                     [
                         -83.00817473296934,
@@ -450,9 +462,28 @@
         {
             "type": "Feature",
             "properties": {
-                "name": "Wilson Bridge Road",
+                "name": "Clubview Boulevard",
+                "description": "This location provides access to a market, a major east-west road in Dublin, and several small apartment complexes.",
+                "icon": "safege",
+                "type": "stop",
                 "simple": "true",
-                "id": "02",
+                "id": "02"
+            },
+            "geometry": {
+                "coordinates": [
+                    -83.03454887077525,
+                    40.12546075997855
+                ],
+                "type": "Point"
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "Wilson Bridge Road",
+                "description": "Access for northern Worthington as well as several parks. Potential for park-and-ride access via parking garages built in unused cloverleaf land.",
+                "simple": "true",
+                "id": "03",
                 "type": "stop",
                 "icon": "safege"
             },
@@ -468,10 +499,10 @@
             "type": "Feature",
             "properties": {
                 "name": "State Route 161",
-                "description": "This station is built in the middle of a highway interchange for efficient space usage, but provides easy walking distance to The Flats park and the Dow Nelson Sports Complex.",
+                "description": "This station is built in the middle of the SR 315 interchange for efficient space usage, and provides easy walking distance to The Flats park, Dublin&mdash;New Albany crosstown buses, and the Dow Nelson Sports Complex.",
                 "icon": "safege",
                 "simple": "true",
-                "id": "03",
+                "id": "04",
                 "type": "stop"
             },
             "geometry": {
@@ -486,8 +517,8 @@
             "type": "Feature",
             "properties": {
                 "name": "Bethel Road",
-                "description": "This station is built on the edge of the Olentangy and Bethel Park and Ride",
-                "id": "04",
+                "description": "This station is built on the edge of the existing Olentangy and Bethel Park and Ride",
+                "id": "05",
                 "simple": "true",
                 "type": "stop",
                 "icon": "safege"
@@ -508,7 +539,7 @@
                 "icon": "safege",
                 "type": "stop",
                 "simple": "true",
-                "id": "05"
+                "id": "06"
             },
             "geometry": {
                 "coordinates": [
@@ -526,7 +557,7 @@
                 "icon": "safege",
                 "type": "stop",
                 "simple": "true",
-                "id": "06"
+                "id": "07"
             },
             "geometry": {
                 "coordinates": [
@@ -544,7 +575,7 @@
                 "icon": "safege",
                 "type": "stop",
                 "simple": "true",
-                "id": "07"
+                "id": "08"
             },
             "geometry": {
                 "coordinates": [
@@ -562,7 +593,7 @@
                 "icon": "safege",
                 "type": "stop",
                 "simple": "true",
-                "id": "08"
+                "id": "09"
             },
             "geometry": {
                 "coordinates": [
@@ -580,7 +611,7 @@
                 "icon": "safege",
                 "type": "stop",
                 "simple": "true",
-                "id": "09"
+                "id": 10
             },
             "geometry": {
                 "coordinates": [
@@ -598,7 +629,7 @@
                 "icon": "safege",
                 "type": "stop",
                 "simple": "true",
-                "id": 10
+                "id": 12
             },
             "geometry": {
                 "coordinates": [
@@ -616,7 +647,7 @@
                 "icon": "safege",
                 "type": "stop",
                 "simple": "true",
-                "id": 11
+                "id": 13
             },
             "geometry": {
                 "coordinates": [
@@ -634,7 +665,7 @@
                 "icon": "safege",
                 "type": "stop",
                 "simple": "true",
-                "id": 12
+                "id": 14
             },
             "geometry": {
                 "coordinates": [
@@ -652,7 +683,7 @@
                 "description": "Huntington Park, KEMBA Live, and Nationwide Arena",
                 "icon": "safege",
                 "simple": "true",
-                "id": 13
+                "id": 15
             },
             "geometry": {
                 "coordinates": [
@@ -666,11 +697,11 @@
             "type": "Feature",
             "properties": {
                 "name": "Main Street",
-                "description": "Stop here for the Scioto Trail, COSI, Main Street, Town Street, Rich Street, and the Broas Street BRT.",
+                "description": "Stop here for the Scioto Trail, COSI, Main Street, Town Street, Rich Street, and the Broad Street BRT.",
                 "icon": "safege",
                 "type": "stop",
                 "simple": "true",
-                "id": 14
+                "id": 16
             },
             "geometry": {
                 "coordinates": [
@@ -684,16 +715,16 @@
             "type": "Feature",
             "properties": {
                 "name": "Scioto Audubon Metro Park",
-                "description": "Pedestrian bridges provide access to the park, with easy access from South Front Street",
+                "description": "The existing Whittier Street Bridge is widened to provide better pedestrian access from the park, South Front Street, and High Street.",
                 "icon": "safege",
                 "type": "stop",
                 "simple": "true",
-                "id": 15
+                "id": 17
             },
             "geometry": {
                 "coordinates": [
-                    -83.00205656314334,
-                    39.94732247254754
+                    -83.00051722341979,
+                    39.94424568341881
                 ],
                 "type": "Point"
             }
@@ -702,11 +733,11 @@
             "type": "Feature",
             "properties": {
                 "name": "Greenlawn Avenue",
-                "description": "",
+                "description": "Access to the north end of the Lou Berliner Sports Park, Merion Village, South Franklinton, and crosstown buses.",
                 "icon": "safege",
                 "type": "stop",
                 "simple": "true",
-                "id": 16
+                "id": 18
             },
             "geometry": {
                 "coordinates": [
@@ -720,11 +751,11 @@
             "type": "Feature",
             "properties": {
                 "name": "Frank Road",
-                "description": "",
+                "description": "Primarily a collector station from crosstown buses and park-and-ride commuters.",
                 "icon": "safege",
                 "type": "stop",
                 "simple": "true",
-                "id": 17
+                "id": 19
             },
             "geometry": {
                 "coordinates": [
@@ -738,11 +769,11 @@
             "type": "Feature",
             "properties": {
                 "name": "Great Southern Shopping Center",
-                "description": "The Shopping Center could also serve as a park and ride, or it could be redeveloped with large amounts of housing",
+                "description": "The Shopping Center could serve as a park and ride for drivers from 270, or the shopping center could be redeveloped with large amounts of housing. It's located near a new metro park.",
                 "icon": "safege",
                 "type": "stop",
                 "simple": "true",
-                "id": 18
+                "id": 20
             },
             "geometry": {
                 "coordinates": [
@@ -760,12 +791,105 @@
                 "icon": "safege",
                 "type": "stop",
                 "simple": "true",
-                "id": 19
+                "id": 21
             },
             "geometry": {
                 "coordinates": [
                     -83.00016997430613,
                     39.840269068303655
+                ],
+                "type": "Point"
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "Powell Road Park-and-RIde",
+                "description": "Build a park-and-ride for riders who insist on driving. But also build some nice dense apartments and shops.",
+                "icon": "construction",
+                "type": "construction",
+                "simple": "false",
+                "id": "c01"
+            },
+            "geometry": {
+                "coordinates": [
+                    -83.04508643113884,
+                    40.15714332344385
+                ],
+                "type": "Point"
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "Wilson Bridge Road Park-and-Ride",
+                "description": "Built in unused land in the middle of the interchange, this park-and-ride connects to the station via the Olentangy Trail.",
+                "icon": "construction",
+                "type": "construction",
+                "simple": "false",
+                "id": "c02"
+            },
+            "geometry": {
+                "coordinates": [
+                    -83.03446728658044,
+                    40.111335428552536
+                ],
+                "type": "Point"
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "Frank Road Park-and-Ride",
+                "description": "At the intersection of two freeways, let's build a large parking garage for drivers, complete with a coffee shop just outside the station.",
+                "icon": "construction",
+                "type": "construction",
+                "simple": "false",
+                "id": "c03",
+                "stroke": "orange"
+            },
+            "geometry": {
+                "coordinates": [
+                    -83.01135501818037,
+                    39.919502081582664
+                ],
+                "type": "Point"
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "Great Southern Park-and-Ride",
+                "description": "Drivers who use 270 or South High Street to commute can now park outside of town, and ride directly in.",
+                "icon": "construction",
+                "type": "construction",
+                "simple": "false",
+                "id": "c04",
+                "stroke": "orange"
+            },
+            "geometry": {
+                "coordinates": [
+                    -83.00435863525614,
+                    39.87955164872395
+                ],
+                "type": "Point"
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "Scioto Downs Park-and-Ride",
+                "description": "Use the racetrack's surface lots for commuters when there's no events going on.",
+                "icon": "construction",
+                "type": "construction",
+                "simple": "false",
+                "id": "c05",
+                "stroke": "orange"
+            },
+            "geometry": {
+                "coordinates": [
+                    -82.99982177622674,
+                    39.838480062342455
                 ],
                 "type": "Point"
             }
