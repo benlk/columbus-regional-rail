@@ -3,7 +3,7 @@ title: "Olentangy Suspended Monorail"
 slug: "SAFEGE"
 excerpt: "A suspended monorail line running along the Olentangy River, for events and commuters"
 date: 2023-12-03
-published: false
+published: true
 revisions:
   - text: "Initial publication"
     date: 2024-06-04
