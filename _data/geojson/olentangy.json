@@ -804,7 +804,7 @@
         {
             "type": "Feature",
             "properties": {
-                "name": "Powell Road Park-and-RIde",
+                "name": "Powell Road Park-and-Ride",
                 "description": "Build a park-and-ride for riders who insist on driving. But also build some nice dense apartments and shops.",
                 "icon": "construction",
                 "type": "construction",
@@ -823,7 +823,7 @@
             "type": "Feature",
             "properties": {
                 "name": "Wilson Bridge Road Park-and-Ride",
-                "description": "Built in unused land in the middle of the interchange, this park-and-ride connects to the station via the Olentangy Trail.",
+                "description": "Built in unused land in the middle of the 270/315 interchange, this park-and-ride connects to the station via the Olentangy Trail. Intended for 270 and 315 commuters, as well as local residents.",
                 "icon": "construction",
                 "type": "construction",
                 "simple": "false",
