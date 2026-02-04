@@ -9,6 +9,8 @@ revisions:
     date: 2023-03-12
   - text: "Initial publication."
     date: 2023-04-05
+  - text: "New satellite imagery shows that sidings on west side of freight tracks south of 5th Avenue have been removed, freeing this space for trolley use. Also added a Northwest Extension option, running up to Linworth."
+    date: 2026-02-04
 geojson: "orm"
 color: "#EE5555"
 icon: ""
@@ -37,25 +39,29 @@ The current railroad right-of-way along I-71 contains two tracks for Norfolk Sou
 
 The right-of-way itself is quite wide, with ample space for a fifth track. To avoid conflicts between the trolley service and the freight service, I propose bribing CSX with federal money.
 
-The museum's track stops at about [the spot where the CSX and NS tracks cross](https://www.google.com/maps/place/The+Ohio+Railway+Museum/@40.0832668,-83.0008388,419m/data=!3m1!1e3!4m6!3m5!1s0x88388cadfbacaa11:0x8375ea7aed66670a!8m2!3d40.0931672!4d-83.0033828!16s%2Fm%2F027_zcx?hl=en), near Poste Lake.
+The museum's track stops at about [the spot where the CSX and NS tracks cross](https://www.google.com/maps/place/The+Ohio+Railway+Museum/@40.0832668,-83.0008388,419m/data=!3m1!1e3!4m6!3m5!1s0x88388cadfbacaa11:0x8375ea7aed66670a!8m2!3d40.0931672!4d-83.0033828!16s%2Fm%2F027_zcx?hl=en), near Poste Lake. However, the [Franklin County Auditor's property map](https://property.franklincountyauditor.com/_web/maps/mapadv.aspx) shows the museum's land continues to the southern end of Indianola Park, almost to Lincoln Avenue.
 
-From that point, all the way south to 5th Avenue, there are no sidings on the west side of the tracks. If the passenger service runs on the west side of the CSX freight tracks in this section, no freight trains will need to cross over or run on the passenger traffic rails. This is an extremely important consideration in route planning because the Federal Railroad Administration is loathe to allow passenger and freight service on the same tracks, even if the trains are separated by time and switches, especially if the passenger service uses antique streetcars.
+From Poste Lake all the way south to 2nd Avenue, there are no sidings on the west side of the existing freight-rail tracks. If the passenger service runs on new tracks in this section, no freight trains will need to cross over or run on the passenger traffic rails. This is an extremely important consideration in route planning, because the Federal Railroad Administration is loathe to allow passenger and freight service on the same tracks, even if the trains are separated by time and switches, especially if the passenger service uses antique streetcars. Creating a new track for the trolley within the existing 160-foot-wide rail right-of-way would greatly simplify the approvals process or new passwenger rail. This would require new bridges at Morse Road, Cooke Road, East North Broadway, Hudson Street, E. 17th Avenue, E. 11th Avenue, E. 5th Avenue, and E. 2nd Avenue. It would also require some land buy-backs along the ROW to reverse past encroachments upon the corridor.
 
-From Worthington to 5th Avenue, the trolley would run on the west-most existing CSX track. The bribe to allow this would be in the form of a hefty helping of Amtrak money. In exchange for CSX giving up the west-most track to the museum, the feds and state would build a new track, with supporting bridges, running in the gap between the CSX and NS tracks. This new track would be built to high-speed-rail standards to support Amtrak service on the Cleveland-Columbus segment. In exchange for giving up one old track, CSX gets one new track built to modern standards, with bridges to support it.
+If building a new track is too expensive, the trolley could run on the west-most existing CSX track. The bribe to allow this would be in the form of a hefty helping of Amtrak money. In exchange for CSX giving up the west-most track to the museum, federal and state money could be used to build a new freight track, with supporting bridges, running in the gap between the existing CSX and NS tracks. This new track would be built to high-speed-rail standards to support Amtrak service on the Cleveland-Columbus segment. In exchange for giving up one old track, CSX gets one new track built to modern standards, with bridges to support it.
 
 (Or [the Feds could nationalize the tracks](https://www.youtube.com/watch?v=hCBI3lPt3o4&list=PLhycIWhOLttikNg2Z1aJvGPoqijpGs9qh&index=10), but that's a different matter.)
 
-South of 5th Avenue, warehouses complicate the situation. Maintaining freight access to the warehouses south of 5th may require expensive signal interlockings or restrictions on the frequency of trolley service past the warehouse. If this is an insurmountable barrier, then the trolley cannot run south to the Convention Center.
+South of 5th Avenue, warehouses historically complicated the situation. Maintaining freight access to the warehouses south of 5th would require expensive signal interlockings or restrictions on the frequency of trolley service past the warehouse. However, the Franklin County Auditor's 2025 aerial imagery shows that sidings on the west side of the tracks have been removed, giving a trolley on the west side of the tracks free access to the Convention Center. All that's needed through here would be a modification to some interstate highway bridges, or signallized interlockings to allow trolley use of the CSX tracks.
 
-Limiting the trolley's run length limits its usability for commuter service. A trolley from Worthington to the Ohio State Fairgrounds is, outside of taking Clintonville and Worthington residents to events at the Fairgrounds, little more than a historical amusement.
+There is enough space on the northwest side of the CSX tracks to allow a new track to be laid under the Convention Center without impacting Convention Center Drive, but street running could be considered for a short stretch here. A station platform on Convention Center Drive, connecting to the north side of the Convention Center, would connect Worthington with Downtown, but would also connect Downtown's hotels with the State Fairgrounds.
 
-Tearing down the warehouse to build dense housing is an honorable project, especially if it's transit-oriented, with a station for people who ride the train into Downtown.
+This car-free connection has the possibility of driving significant revenue to the Convention Center hotels and Arena District, as well as removing many commuter cars from the road each day.
 
-South of 2nd, there are no more sidings on the west side of the tracks until the tracks run under the Greater Columbus Convention Center.
+### Northwest Extension
 
-There is enough space on the northwest side of the CSX tracks to allow a new track to be laid without impacting Convention Center Drive. A station platform on Convention Center Drive, connecting to the Convention Center, would connect Worthington with Downtown, but would also connect Downtown's hotels with the State Fairgrounds. This car-free connection has the possibility of driving significant revenue to the Convention Center hotels, as well as removing many commuter cars from the road each day.
+Not shown on this map is a possible extension of the trolley liines along Convention Center Drive into the Arena District, where a stop at Neil Avenue could support Kemba Live, Huntington Park, and Nationwide Arena. This route would not require new bridges, if it stops before Neil Avenue. 
 
-### Alternative Route
+CSX's bridge over Neil Avenue is two tracks wide with only one track in place. Crossing Neil Avenue, the trolley track could continue westward along the north side of the rail ROW, with a stop at the White Castle headquarters or the Olentangy Trail to service the new Columbus Crew stadium, before taking new bridges over the Olentangy River and State Route 315 to service businesses and residences along the east side of the railroad tracks between Upper Arlington and the Olentangy River. Service along Olentangy River Road would require many new bridges, but could go as far north as S.R. 161 (Dublin-Granville Road) before encountring a siding on the east side of the tracks at S&L Lumber in Linworth.
+
+Extending to Linworth would double the length of the line, from approximately 9 miles to 18 miles. At this length, consistent operations would require passing sidings or double-tracking, greatly complicating the scheduling of the trolley, while also doubling its catchment area and potential ridership.
+
+### Street-Running Route south of the Fairgrounds
 
 Shown on this map in dotted lines is an alternative route, running along surface streets to Downtown. This route avoids the warehouse entanglements at 5th Avenue, in exchange for street running.
 
@@ -65,7 +71,7 @@ The proposed alternate path results in street running along Eleventh Avenue, wit
 
 The trolley would run in dedicated curb-protected tracks on High Street and on 4th Street in a one-way loop, providing protection to bike lanes along the route. On Broad Street, the trolley would make use of the LinkUS BRT stations and lanes, and would of course include a stop at the Statehouse.
 
-However, this alternative should only be considered if the 5th Avenue warehouse obstacle is insurmountable. Street running results in lower quality of service, is more expensive to build, and exposes the passengers to delays from bad drivers.
+However, this alternative should only be considered if the freeway bridge obstacles are insurmountable. Street running results in lower quality of service, is more expensive to build, and exposes the passengers to delays from bad drivers.
 
 {% include line-routes.html %}
 
