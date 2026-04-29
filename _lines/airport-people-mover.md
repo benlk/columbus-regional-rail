@@ -7,6 +7,8 @@ published: true
 revisions:
   - text: "Initial publication"
     date: 2023-04-05
+  - text: "Simplification: Consolidated stops at St. Clair Avenue and Leonard Avenue to Joyce Avenue. Consolidated airport stops to reflect new terminal location. Consolidated Arena District stops. Consolidated Alum Creek and 5th Avenue stops at 5th Avenue. Removed Ohio Dominican stop and consolidated airport hotel stops at North Cassady Avenue. Net reduction in stops by 1/2, for improved service."
+    date: 2026-04-29
 geojson: "apm"
 color: "#4298b5"
 icon: ""
